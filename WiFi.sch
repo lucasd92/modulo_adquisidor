@@ -18,6 +18,8 @@ $Comp
 L ESP8266:NodeMCU_1.0_(ESP-12E) U5
 U 1 1 5CD022F9
 P 6750 2050
+AR Path="/5CD022F9" Ref="U5"  Part="1" 
+AR Path="/5CD0198B/5CD022F9" Ref="U5"  Part="1" 
 F 0 "U5" H 6750 3137 60  0000 C CNN
 F 1 "NodeMCU_1.0_(ESP-12E)" H 6750 3031 60  0000 C CNN
 F 2 "Propios:NodeMCU1.0(12-E)" H 6150 1200 60  0001 C CNN
@@ -495,8 +497,8 @@ L power:Earth #PWR?
 U 1 1 5CE28761
 P 4200 3050
 AR Path="/5D681DDF/5CE28761" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CE28761" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4200 2800 50  0001 C CNN
+AR Path="/5CD0198B/5CE28761" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 4200 2800 50  0001 C CNN
 F 1 "Earth" H 4200 2900 50  0001 C CNN
 F 2 "" H 4200 3050 50  0001 C CNN
 F 3 "~" H 4200 3050 50  0001 C CNN
@@ -508,8 +510,8 @@ L power:+5P #PWR?
 U 1 1 5CE28769
 P 4200 2550
 AR Path="/5D681DDF/5CE28769" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CE28769" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4200 2400 50  0001 C CNN
+AR Path="/5CD0198B/5CE28769" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 4200 2400 50  0001 C CNN
 F 1 "+5P" H 4215 2723 50  0000 C CNN
 F 2 "" H 4200 2550 50  0001 C CNN
 F 3 "" H 4200 2550 50  0001 C CNN
@@ -524,8 +526,8 @@ AR Path="/5CE3EB16" Ref="C?"  Part="1"
 AR Path="/5D079A08/5CE3EB16" Ref="C?"  Part="1" 
 AR Path="/5D681DDF/5CE3EB16" Ref="C?"  Part="1" 
 AR Path="/5CF2977A/5CE3EB16" Ref="C?"  Part="1" 
-AR Path="/5CD0198B/5CE3EB16" Ref="C?"  Part="1" 
-F 0 "C?" H 4200 2900 50  0000 L CNN
+AR Path="/5CD0198B/5CE3EB16" Ref="C71"  Part="1" 
+F 0 "C71" H 4200 2900 50  0000 L CNN
 F 1 "100nF" H 4200 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4200 2800 50  0001 C CNN
@@ -547,8 +549,8 @@ AR Path="/5CE3C87B" Ref="C?"  Part="1"
 AR Path="/5D079A08/5CE3C87B" Ref="C?"  Part="1" 
 AR Path="/5D681DDF/5CE3C87B" Ref="C?"  Part="1" 
 AR Path="/5CF2977A/5CE3C87B" Ref="C?"  Part="1" 
-AR Path="/5CD0198B/5CE3C87B" Ref="C?"  Part="1" 
-F 0 "C?" H 3700 2900 50  0000 L CNN
+AR Path="/5CD0198B/5CE3C87B" Ref="C69"  Part="1" 
+F 0 "C69" H 3700 2900 50  0000 L CNN
 F 1 "100nF" H 3700 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3738 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 3700 2800 50  0001 C CNN
@@ -563,10 +565,10 @@ Connection ~ 4200 3000
 Wire Wire Line
 	4200 3000 4750 3000
 $Comp
-L Propios:ISO1412 U?
+L Propios:ISO1412 U12
 U 1 1 5CE67200
 P 1700 1300
-F 0 "U?" H 2125 1631 79  0000 C CNN
+F 0 "U12" H 2125 1631 79  0000 C CNN
 F 1 "ISO1412" H 2125 1496 79  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 2200 250 79  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/texas-instruments/ISO1412BDW/296-53077-ND/9860888" H 2900 100 79  0001 C CNN
@@ -579,8 +581,8 @@ U 1 1 5CE67562
 P 3700 3050
 AR Path="/5CE67562" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5CE67562" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CE67562" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3700 2800 50  0001 C CNN
+AR Path="/5CD0198B/5CE67562" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 3700 2800 50  0001 C CNN
 F 1 "GND" H 3705 2877 50  0000 C CNN
 F 2 "" H 3700 3050 50  0001 C CNN
 F 3 "" H 3700 3050 50  0001 C CNN
@@ -593,8 +595,8 @@ U 1 1 5CE67568
 P 3700 2550
 AR Path="/5CE67568" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5CE67568" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CE67568" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3700 2400 50  0001 C CNN
+AR Path="/5CD0198B/5CE67568" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 3700 2400 50  0001 C CNN
 F 1 "VDD" H 3717 2723 50  0000 C CNN
 F 2 "" H 3700 2550 50  0001 C CNN
 F 3 "" H 3700 2550 50  0001 C CNN
@@ -664,8 +666,8 @@ L power:Earth #PWR?
 U 1 1 5CED256C
 P 1250 3100
 AR Path="/5D681DDF/5CED256C" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CED256C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1250 2850 50  0001 C CNN
+AR Path="/5CD0198B/5CED256C" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 1250 2850 50  0001 C CNN
 F 1 "Earth" H 1250 2950 50  0001 C CNN
 F 2 "" H 1250 3100 50  0001 C CNN
 F 3 "~" H 1250 3100 50  0001 C CNN
@@ -675,10 +677,10 @@ $EndComp
 Text Label 1850 2600 2    50   ~ 0
 B
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 5CEF32B1
 P 3000 1500
-F 0 "F?" V 2940 1350 50  0000 C CNN
+F 0 "F1" V 2940 1350 50  0000 C CNN
 F 1 "USMF020" V 2950 1800 50  0000 C CNN
 F 2 "" V 2930 1500 50  0001 C CNN
 F 3 "~" H 3000 1500 50  0001 C CNN
@@ -686,10 +688,10 @@ F 3 "~" H 3000 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F2
 U 1 1 5CEFA11C
 P 3000 1600
-F 0 "F?" V 2950 1450 50  0000 C CNN
+F 0 "F2" V 2950 1450 50  0000 C CNN
 F 1 "USMF020" V 2950 1900 50  0000 C CNN
 F 2 "" V 2930 1600 50  0001 C CNN
 F 3 "~" H 3000 1600 50  0001 C CNN
@@ -697,10 +699,10 @@ F 3 "~" H 3000 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F3
 U 1 1 5CEFD72B
 P 3000 1700
-F 0 "F?" V 2950 1550 50  0000 C CNN
+F 0 "F3" V 2950 1550 50  0000 C CNN
 F 1 "USMF020" V 2950 2000 50  0000 C CNN
 F 2 "" V 2930 1700 50  0001 C CNN
 F 3 "~" H 3000 1700 50  0001 C CNN
@@ -708,10 +710,10 @@ F 3 "~" H 3000 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F4
 U 1 1 5CF00D3B
 P 3000 1800
-F 0 "F?" V 2950 1650 50  0000 C CNN
+F 0 "F4" V 2950 1650 50  0000 C CNN
 F 1 "USMF020" V 2950 2100 50  0000 C CNN
 F 2 "" V 2930 1800 50  0001 C CNN
 F 3 "~" H 3000 1800 50  0001 C CNN
@@ -740,8 +742,8 @@ U 1 1 5CF3773A
 P 900 2600
 AR Path="/5CF3773A" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5CF3773A" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5CF3773A" Ref="R?"  Part="1" 
-F 0 "R?" V 1000 2600 50  0000 L CNN
+AR Path="/5CD0198B/5CF3773A" Ref="R12"  Part="1" 
+F 0 "R12" V 1000 2600 50  0000 L CNN
 F 1 "120" V 800 2550 50  0000 L CNN
 F 2 "" V 830 2600 50  0001 C CNN
 F 3 "~" H 900 2600 50  0001 C CNN
@@ -749,10 +751,10 @@ F 3 "~" H 900 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP3
 U 1 1 5CF4E823
 P 1400 2600
-F 0 "JP?" H 1450 2750 50  0000 L CNN
+F 0 "JP3" H 1450 2750 50  0000 L CNN
 F 1 "Jumper" H 1300 2500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 2600 50  0001 C CNN
 F 3 "~" H 1400 2600 50  0001 C CNN
@@ -766,10 +768,10 @@ RS-485 Full-Duplex aislado
 Wire Wire Line
 	750  2600 700  2600
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D5
 U 1 1 5CF999BA
 P 700 2850
-F 0 "D?" V 550 2900 50  0000 L CNN
+F 0 "D5" V 550 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 950 2750 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 700 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 700 2850 50  0001 C CNN
@@ -777,10 +779,10 @@ F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/49
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D6
 U 1 1 5CF9DE67
 P 1750 2850
-F 0 "D?" V 1600 2900 50  0000 L CNN
+F 0 "D6" V 1600 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 2000 2450 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 1750 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 1750 2850 50  0001 C CNN
@@ -795,8 +797,8 @@ U 1 1 5CFFAA3C
 P 3450 2800
 AR Path="/5CFFAA3C" Ref="C?"  Part="1" 
 AR Path="/5D079A08/5CFFAA3C" Ref="C?"  Part="1" 
-AR Path="/5CD0198B/5CFFAA3C" Ref="C?"  Part="1" 
-F 0 "C?" H 3450 2900 50  0000 L CNN
+AR Path="/5CD0198B/5CFFAA3C" Ref="C68"  Part="1" 
+F 0 "C68" H 3450 2900 50  0000 L CNN
 F 1 "1Uf" H 3450 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KO8NNNC/1276-1019-1-ND/3889105" H 3450 2800 50  0001 C CNN
@@ -823,8 +825,8 @@ U 1 1 5D00BDBE
 P 4000 2800
 AR Path="/5D00BDBE" Ref="C?"  Part="1" 
 AR Path="/5D079A08/5D00BDBE" Ref="C?"  Part="1" 
-AR Path="/5CD0198B/5D00BDBE" Ref="C?"  Part="1" 
-F 0 "C?" H 4000 2900 50  0000 L CNN
+AR Path="/5CD0198B/5D00BDBE" Ref="C70"  Part="1" 
+F 0 "C70" H 4000 2900 50  0000 L CNN
 F 1 "1Uf" H 4000 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4038 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KO8NNNC/1276-1019-1-ND/3889105" H 4000 2800 50  0001 C CNN
@@ -845,8 +847,8 @@ U 1 1 5D02688C
 P 1500 1850
 AR Path="/5D02688C" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5D02688C" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5D02688C" Ref="R?"  Part="1" 
-F 0 "R?" H 1350 1950 50  0000 L CNN
+AR Path="/5CD0198B/5D02688C" Ref="R13"  Part="1" 
+F 0 "R13" H 1350 1950 50  0000 L CNN
 F 1 "5K6" H 1300 1850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1430 1850 50  0001 C CNN
 F 3 "~" H 1500 1850 50  0001 C CNN
@@ -867,8 +869,8 @@ U 1 1 5D035213
 P 3250 2000
 AR Path="/5D035213" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5D035213" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5D035213" Ref="R?"  Part="1" 
-F 0 "R?" V 3350 1950 50  0000 L CNN
+AR Path="/5CD0198B/5D035213" Ref="R52"  Part="1" 
+F 0 "R52" V 3350 1950 50  0000 L CNN
 F 1 "100 1/2W" V 3150 1950 50  0000 L CNN
 F 2 "" V 3180 2000 50  0001 C CNN
 F 3 "~" H 3250 2000 50  0001 C CNN
@@ -911,8 +913,8 @@ L power:Earth #PWR?
 U 1 1 5D1A5E78
 P 2600 3100
 AR Path="/5D681DDF/5D1A5E78" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5D1A5E78" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2600 2850 50  0001 C CNN
+AR Path="/5CD0198B/5D1A5E78" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 2600 2850 50  0001 C CNN
 F 1 "Earth" H 2600 2950 50  0001 C CNN
 F 2 "" H 2600 3100 50  0001 C CNN
 F 3 "~" H 2600 3100 50  0001 C CNN
@@ -927,8 +929,8 @@ U 1 1 5D1A5E7F
 P 2250 2600
 AR Path="/5D1A5E7F" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5D1A5E7F" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5D1A5E7F" Ref="R?"  Part="1" 
-F 0 "R?" V 2350 2600 50  0000 L CNN
+AR Path="/5CD0198B/5D1A5E7F" Ref="R51"  Part="1" 
+F 0 "R51" V 2350 2600 50  0000 L CNN
 F 1 "120" V 2150 2550 50  0000 L CNN
 F 2 "" V 2180 2600 50  0001 C CNN
 F 3 "~" H 2250 2600 50  0001 C CNN
@@ -936,10 +938,10 @@ F 3 "~" H 2250 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP4
 U 1 1 5D1A5E86
 P 2750 2600
-F 0 "JP?" H 2800 2750 50  0000 L CNN
+F 0 "JP4" H 2800 2750 50  0000 L CNN
 F 1 "Jumper" H 2650 2500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2750 2600 50  0001 C CNN
 F 3 "~" H 2750 2600 50  0001 C CNN
@@ -951,10 +953,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 2600 2050 2600
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D7
 U 1 1 5D1A5E8F
 P 2050 2850
-F 0 "D?" V 1900 2900 50  0000 L CNN
+F 0 "D7" V 1900 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 2300 2750 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 2050 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 2050 2850 50  0001 C CNN
@@ -962,10 +964,10 @@ F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/49
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D?
+L Device:D_TVS D8
 U 1 1 5D1A5E96
 P 3100 2850
-F 0 "D?" V 2950 2900 50  0000 L CNN
+F 0 "D8" V 2950 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 3350 2450 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 3100 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 3100 2850 50  0001 C CNN
@@ -994,10 +996,10 @@ Connection ~ 2600 3050
 Wire Wire Line
 	2600 3050 3100 3050
 $Comp
-L Propios:Modulo_A6_Mini U?
+L Propios:Modulo_A6_Mini U13
 U 1 1 5D0A4E76
 P 2700 5700
-F 0 "U?" H 3025 6715 50  0000 C CNN
+F 0 "U13" H 3025 6715 50  0000 C CNN
 F 1 "Modulo_A6_Mini" H 3025 6624 50  0000 C CNN
 F 2 "Propios:Modulo_A6_mini" H 3150 6500 50  0001 C CNN
 F 3 "https://www.makerfabs.com/desfile/files/A6_A7_A6C_datasheet-EN.pdf" H 3250 6600 50  0001 C CNN
@@ -1015,8 +1017,8 @@ L power:+5V #PWR?
 U 1 1 5CE6856D
 P 2100 4750
 AR Path="/5D681DDF/5CE6856D" Ref="#PWR?"  Part="1" 
-AR Path="/5CD0198B/5CE6856D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 4600 50  0001 C CNN
+AR Path="/5CD0198B/5CE6856D" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 2100 4600 50  0001 C CNN
 F 1 "+5V" H 2115 4923 50  0000 C CNN
 F 2 "" H 2100 4750 50  0001 C CNN
 F 3 "" H 2100 4750 50  0001 C CNN
@@ -1039,8 +1041,8 @@ U 1 1 5CE9CA95
 P 2100 5100
 AR Path="/5CE9CA95" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5CE9CA95" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5CE9CA95" Ref="R?"  Part="1" 
-F 0 "R?" H 2150 5150 50  0000 L CNN
+AR Path="/5CD0198B/5CE9CA95" Ref="R15"  Part="1" 
+F 0 "R15" H 2150 5150 50  0000 L CNN
 F 1 "0" H 2150 5050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2030 5100 50  0001 C CNN
 F 3 "~" H 2100 5100 50  0001 C CNN
@@ -1062,10 +1064,10 @@ SLEEP_A6
 Wire Wire Line
 	2600 5350 1950 5350
 $Comp
-L Connector:Screw_Terminal_01x05 J?
+L Connector:Screw_Terminal_01x05 J5
 U 1 1 5CF651E7
 P 3650 1700
-F 0 "J?" H 3729 1742 50  0000 L CNN
+F 0 "J5" H 3729 1742 50  0000 L CNN
 F 1 "RS-485" H 3729 1651 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 3650 1700 50  0001 C CNN
 F 3 "~" H 3650 1700 50  0001 C CNN

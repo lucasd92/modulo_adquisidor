@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name ESP8266)(type Legacy)(uri C:/Users/lucas.dordolo/Desktop/Adquisidor/PCB/Placa_base/ESP8266.lib)(options "")(descr ""))
-  (lib (name Propios)(type Legacy)(uri C:/Users/lucas.dordolo/Desktop/Adquisidor/PCB/Placa_base/Propios.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/ESP8266.lib)(options "")(descr ""))
+  (lib (name Propios)(type Legacy)(uri ${KIPRJMOD}/Propios.lib)(options "")(descr ""))
+  (lib (name Placa_base-rescue)(type Legacy)(uri ${KIPRJMOD}/Placa_base-rescue.lib)(options "")(descr ""))
 )

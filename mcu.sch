@@ -1794,10 +1794,10 @@ Wire Notes Line
 Text Notes 6150 3950 0    79   ~ 0
 Capacitores de desacoplamiento
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J?
+L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CDFE17F
 P 10050 1400
-F 0 "J?" H 10100 1817 50  0000 C CNN
+F 0 "J2" H 10100 1817 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 10100 1726 50  0000 C CNN
 F 2 "" H 10050 1400 50  0001 C CNN
 F 3 "~" H 10050 1400 50  0001 C CNN
