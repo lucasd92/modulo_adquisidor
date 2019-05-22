@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP8266)(type Legacy)(uri C:/Users/lucas.dordolo/Desktop/Adquisidor/PCB/Placa_base/ESP8266.lib)(options "")(descr ""))
+  (lib (name Propios)(type Legacy)(uri C:/Users/lucas.dordolo/Desktop/Adquisidor/PCB/Placa_base/Propios.lib)(options "")(descr ""))
+)

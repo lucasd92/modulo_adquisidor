@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+LIBS:Placa_base-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title "Adquisidor genérico - Placa Base"
+Date "2019-05-21"
+Rev "V0.2"
+Comp "Trenes Argentinos Operaciones"
+Comment1 ""
+Comment2 "Autor: Lucas Dórdolo"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 500  1000 0    50   ~ 0
+PDR_ON con pull down?? ver hoja de datos
+$Sheet
+S 4150 1200 900  5600
+U 5D079A08
+F0 "MCU" 50
+F1 "mcu.sch" 50
+F2 "PE0" I L 4150 1250 50 
+F3 "PE1" I L 4150 1350 50 
+F4 "PE2" I L 4150 1450 50 
+F5 "PE3" I L 4150 1550 50 
+F6 "PE4" I L 4150 1650 50 
+F7 "PE5" I L 4150 1750 50 
+F8 "PE6" I L 4150 1850 50 
+F9 "PE7" I L 4150 1950 50 
+F10 "PE8" I L 4150 2050 50 
+F11 "PE9" I L 4150 2150 50 
+F12 "PE10" I L 4150 2250 50 
+F13 "PE11" I L 4150 2350 50 
+F14 "PE12" I L 4150 2450 50 
+F15 "PE13" I L 4150 2550 50 
+F16 "PE14" I L 4150 2650 50 
+F17 "PE15" I L 4150 2750 50 
+F18 "PD0" I L 4150 2950 50 
+F19 "PD1" I L 4150 3050 50 
+F20 "PD2" I L 4150 3150 50 
+F21 "PD3" I L 4150 3250 50 
+F22 "PD4" I L 4150 3350 50 
+F23 "PD5" I L 4150 3450 50 
+F24 "PD6" I L 4150 3550 50 
+F25 "PD7" I L 4150 3650 50 
+F26 "PD8" I L 4150 3750 50 
+F27 "PD9" I L 4150 3850 50 
+F28 "PD10" I L 4150 3950 50 
+F29 "PD11" I L 4150 4050 50 
+F30 "PD12" I L 4150 4150 50 
+F31 "PD13" I L 4150 4250 50 
+F32 "PD14" I L 4150 4350 50 
+F33 "PD15" I L 4150 4450 50 
+F34 "PC0" I L 4150 4600 50 
+F35 "PC1" I L 4150 4700 50 
+F36 "PC2" I L 4150 4800 50 
+F37 "PC3" I L 4150 4900 50 
+F38 "PC4" I L 4150 5000 50 
+F39 "PC5" I L 4150 5100 50 
+F40 "PC6" I L 4150 5200 50 
+F41 "PC7" I L 4150 5300 50 
+F42 "PC8" I L 4150 5400 50 
+F43 "PC9" I L 4150 5500 50 
+F44 "PC10" I L 4150 5600 50 
+F45 "PC11" I L 4150 5700 50 
+F46 "PC12" I L 4150 5800 50 
+F47 "PC13" I L 4150 5900 50 
+F48 "PB0" I R 5050 1250 50 
+F49 "PB1" I R 5050 1350 50 
+F50 "PB2-BOOT1" I R 5050 1450 50 
+F51 "TDO-SWO" I R 5050 1550 50 
+F52 "NTRST" I R 5050 1650 50 
+F53 "PB5" I R 5050 1750 50 
+F54 "PB6" I R 5050 1850 50 
+F55 "PB7" I R 5050 1950 50 
+F56 "PB8" I R 5050 2050 50 
+F57 "PB9" I R 5050 2150 50 
+F58 "PB10" I R 5050 2250 50 
+F59 "PB11" I R 5050 2350 50 
+F60 "PB12" I R 5050 2450 50 
+F61 "PB13" I R 5050 2550 50 
+F62 "PB14" I R 5050 2650 50 
+F63 "PB15" I R 5050 2750 50 
+F64 "PA0" I R 5050 2950 50 
+F65 "PA1" I R 5050 3050 50 
+F66 "PA2" I R 5050 3150 50 
+F67 "PA3" I R 5050 3250 50 
+F68 "PA4" I R 5050 3350 50 
+F69 "PA5" I R 5050 3450 50 
+F70 "PA6" I R 5050 3550 50 
+F71 "PA7" I R 5050 3650 50 
+F72 "PA8" I R 5050 3750 50 
+F73 "PA9" I R 5050 3850 50 
+F74 "PA10" I R 5050 3950 50 
+F75 "PA11" I R 5050 4050 50 
+F76 "PA12" I R 5050 4150 50 
+F77 "TMS-SWDIO" I R 5050 4250 50 
+F78 "TCK-SWCLK" I R 5050 4350 50 
+F79 "TDI" I R 5050 4450 50 
+F80 "VBAT" I R 5050 4650 50 
+F81 "NRST" I R 5050 4750 50 
+F82 "BOOT0" I R 5050 4850 50 
+F83 "VREF+" I R 5050 4950 50 
+$EndSheet
+Text Notes 500  900  0    50   ~ 0
+Falta pull up en i2c y pines que se dejen vacantes.
+$Sheet
+S 1500 1250 1100 400 
+U 5D681DDF
+F0 "Alimentacion" 50
+F1 "Alimentacion.sch" 50
+$EndSheet
+$Sheet
+S 7450 3450 1250 2200
+U 5CD0198B
+F0 "WiFi" 50
+F1 "WiFi.sch" 50
+F2 "D0_ESP" I L 7450 3550 50 
+F3 "D1_ESP" I L 7450 3650 50 
+F4 "D2_ESP" I L 7450 3750 50 
+F5 "D3_ESP" I L 7450 3850 50 
+F6 "D4_ESP" I L 7450 3950 50 
+F7 "D5_ESP" I L 7450 4050 50 
+F8 "D6_ESP" I L 7450 4150 50 
+F9 "D7_ESP" I L 7450 4250 50 
+F10 "D8_ESP" I L 7450 4350 50 
+F11 "RX_ESP" I L 7450 4450 50 
+F12 "TX_ESP" I L 7450 4550 50 
+F13 "A0_ESP" I L 7450 4650 50 
+F14 "S3_ESP" I L 7450 4750 50 
+F15 "S2_ESP" I L 7450 4850 50 
+F16 "S1_ESP" I L 7450 5550 50 
+F17 "SC_ESP" I L 7450 5450 50 
+F18 "SO_ESP" I L 7450 5350 50 
+F19 "SK_ESP" I L 7450 5250 50 
+F20 "EN_ESP" I L 7450 5150 50 
+F21 "RST_ESP" I L 7450 5050 50 
+F22 "VIN_ESP" I L 7450 4950 50 
+F23 "RX_S800" I R 8700 3500 50 
+F24 "TX_S800" I R 8700 3600 50 
+F25 "DTR_S800" I R 8700 3700 50 
+F26 "RST_S800" I R 8700 3800 50 
+F27 "ISO1412_R" I R 8700 4250 50 
+F28 "ISO1412_RE" I R 8700 4350 50 
+F29 "ISO1412_DE" I R 8700 4450 50 
+F30 "ISO1412_D" I R 8700 4550 50 
+F31 "RX_A6" I R 8700 5150 50 
+F32 "TX_A6" I R 8700 5250 50 
+F33 "PW_ON_A6" I R 8700 5350 50 
+F34 "SLEEP_A6" I R 8700 5450 50 
+$EndSheet
+$Sheet
+S 1500 4750 950  650 
+U 5CD541CC
+F0 "analogico" 50
+F1 "analogico.sch" 50
+F2 "AIn1" I L 1500 4850 50 
+F3 "AOut1" I R 2450 4850 50 
+F4 "AIn2" I L 1500 5000 50 
+F5 "AOut2" I R 2450 5000 50 
+F6 "AIn3" I L 1500 5150 50 
+F7 "AOut3" I R 2450 5150 50 
+F8 "AIn4" I L 1500 5300 50 
+F9 "AOut4" I R 2450 5300 50 
+$EndSheet
+Text Notes 500  800  0    50   ~ 0
+Definir frec de corte y capacitores circuito analógico
+Wire Wire Line
+	5050 3850 5650 3850
+Text Label 5650 3850 2    50   ~ 0
+PA9
+Wire Wire Line
+	5050 3950 5650 3950
+Text Label 5650 3950 2    50   ~ 0
+PA10
+Wire Wire Line
+	5050 4050 5650 4050
+Text Label 5650 4050 2    50   ~ 0
+PA11
+Wire Wire Line
+	5050 4150 5650 4150
+Text Label 5650 4150 2    50   ~ 0
+PA12
+Wire Wire Line
+	8700 3700 9300 3700
+Wire Wire Line
+	5050 4750 5650 4750
+Text Label 5650 4750 2    50   ~ 0
+NRST
+Wire Wire Line
+	5050 4850 5650 4850
+Text Label 5650 4850 2    50   ~ 0
+BOOT0
+Wire Wire Line
+	7450 3650 6850 3650
+Text Label 6850 3650 0    50   ~ 0
+NRST
+Wire Wire Line
+	7450 3750 6850 3750
+Text Label 6850 3750 0    50   ~ 0
+BOOT0
+Wire Wire Line
+	7450 4450 6850 4450
+Text Label 6850 4450 0    50   ~ 0
+PA9
+Wire Wire Line
+	7450 4550 6850 4550
+Text Label 6850 4550 0    50   ~ 0
+PA10
+Wire Wire Line
+	1500 2800 900  2800
+Text Label 900  2800 0    50   ~ 0
+PD8
+Wire Wire Line
+	1500 2900 900  2900
+Text Label 900  2900 0    50   ~ 0
+PD9
+Wire Wire Line
+	1500 3000 900  3000
+Text Label 900  3000 0    50   ~ 0
+PD10
+Wire Wire Line
+	1500 3100 900  3100
+Text Label 900  3100 0    50   ~ 0
+PD11
+Wire Wire Line
+	1500 3200 900  3200
+Text Label 900  3200 0    50   ~ 0
+PD12
+Wire Wire Line
+	1500 3300 900  3300
+Text Label 900  3300 0    50   ~ 0
+PD13
+Wire Wire Line
+	1500 3400 900  3400
+Text Label 900  3400 0    50   ~ 0
+PD14
+Wire Wire Line
+	1350 3650 750  3650
+Text Label 750  3650 0    50   ~ 0
+PD15
+Wire Wire Line
+	4150 3750 3550 3750
+Text Label 3550 3750 0    50   ~ 0
+PD8
+Wire Wire Line
+	4150 3850 3550 3850
+Text Label 3550 3850 0    50   ~ 0
+PD9
+Wire Wire Line
+	4150 3950 3550 3950
+Text Label 3550 3950 0    50   ~ 0
+PD10
+Wire Wire Line
+	4150 4050 3550 4050
+Text Label 3550 4050 0    50   ~ 0
+PD11
+Wire Wire Line
+	4150 4150 3550 4150
+Text Label 3550 4150 0    50   ~ 0
+PD12
+Wire Wire Line
+	4150 4250 3550 4250
+Text Label 3550 4250 0    50   ~ 0
+PD13
+Wire Wire Line
+	4150 4350 3550 4350
+Text Label 3550 4350 0    50   ~ 0
+PD14
+Wire Wire Line
+	4150 4450 3550 4450
+Text Label 3550 4450 0    50   ~ 0
+PD15
+Wire Wire Line
+	2800 3000 3400 3000
+Text Label 3400 3000 2    50   ~ 0
+PB13
+Wire Wire Line
+	2800 2900 3400 2900
+Text Label 3400 2900 2    50   ~ 0
+PB14
+Wire Wire Line
+	2800 2800 3400 2800
+Text Label 3400 2800 2    50   ~ 0
+PB15
+Wire Wire Line
+	5050 2550 5650 2550
+Text Label 5650 2550 2    50   ~ 0
+PB13
+Wire Wire Line
+	5050 2650 5650 2650
+Text Label 5650 2650 2    50   ~ 0
+PB14
+Wire Wire Line
+	5050 2750 5650 2750
+Text Label 5650 2750 2    50   ~ 0
+PB15
+Wire Wire Line
+	4150 5600 3550 5600
+Text Label 3550 5600 0    50   ~ 0
+PC10
+Wire Wire Line
+	4150 5700 3550 5700
+Text Label 3550 5700 0    50   ~ 0
+PC11
+Wire Wire Line
+	8700 3500 9300 3500
+Text Label 9300 3500 2    50   ~ 0
+PC10
+Text Notes 9200 3350 0    50   ~ 0
+USART3/4
+Text Notes 6700 4300 0    50   ~ 0
+USART1 (BOOT)
+Wire Wire Line
+	8700 3600 9300 3600
+Text Label 9300 3600 2    50   ~ 0
+PC11
+Wire Wire Line
+	8700 3800 9300 3800
+Text Label 9300 3700 2    50   ~ 0
+PC12
+Text Label 9300 3800 2    50   ~ 0
+PD0
+Wire Wire Line
+	4150 5800 3550 5800
+Text Label 3550 5800 0    50   ~ 0
+PC12
+Wire Wire Line
+	4150 2950 3550 2950
+Text Label 3550 2950 0    50   ~ 0
+PD0
+Wire Wire Line
+	5050 3350 5650 3350
+Text Label 5650 3350 2    50   ~ 0
+PA4
+Wire Wire Line
+	5050 3450 5650 3450
+Text Label 5650 3450 2    50   ~ 0
+PA5
+Wire Wire Line
+	5050 3550 5650 3550
+Text Label 5650 3550 2    50   ~ 0
+PA6
+Wire Wire Line
+	5050 3650 5650 3650
+Text Label 5650 3650 2    50   ~ 0
+PA7
+Wire Wire Line
+	2450 4850 3050 4850
+Text Label 3050 4850 2    50   ~ 0
+PA4
+Wire Wire Line
+	2450 5000 3050 5000
+Text Label 3050 5000 2    50   ~ 0
+PA5
+Wire Wire Line
+	2450 5150 3050 5150
+Text Label 3050 5150 2    50   ~ 0
+PA6
+Wire Wire Line
+	2450 5300 3050 5300
+Text Label 3050 5300 2    50   ~ 0
+PA7
+Text Notes 6250 3550 0    50   ~ 0
+Pines para  programación OTA
+Text Notes 7950 1250 0    50   ~ 0
+A definir:\n-Conexión OTA correcta.\n-Sensor Hall\n-Frec. corte filtro.\n-ADC adicionales?
+Text Notes 500  1100 0    50   ~ 0
+Poner LEDs en alimentación y salidas
+Wire Notes Line
+	500  500  2800 500 
+Wire Notes Line
+	2800 500  2800 1150
+Wire Notes Line
+	2800 1150 500  1150
+Wire Notes Line
+	500  1150 500  500 
+Text Notes 1050 650  0    79   ~ 0
+Notas personales
+Text Notes 7950 750  0    79   ~ 0
+Puntos a definir/ revisar
+Wire Notes Line
+	7600 550  7600 1500
+Wire Notes Line
+	7600 1500 10250 1500
+Wire Notes Line
+	10250 1500 10250 550 
+Wire Notes Line
+	10250 550  7600 550 
+Wire Wire Line
+	7450 5050 6850 5050
+Text Label 6850 5050 0    50   ~ 0
+PA11
+$Sheet
+S 1500 2700 1300 1450
+U 5CF2977A
+F0 "DIO" 50
+F1 "DIO.sch" 50
+F2 "mcu_out1" I L 1500 2800 50 
+F3 "mcu_out2" I L 1500 2900 50 
+F4 "mcu_out3" I L 1500 3000 50 
+F5 "mcu_out4" I L 1500 3100 50 
+F6 "mcu_out5" I L 1500 3200 50 
+F7 "mcu_out6" I L 1500 3300 50 
+F8 "CD4021-SEROUT" I R 2800 2800 50 
+F9 "CD4021-CLK" I R 2800 2900 50 
+F10 "CD4021-PAR-SER" I R 2800 3000 50 
+F11 "sd_clk" I R 2800 3150 50 
+F12 "sd_dat0" I R 2800 3250 50 
+F13 "sd_det" I R 2800 3350 50 
+F14 "sd_cmd" I R 2800 3450 50 
+F15 "sd_cd" I R 2800 3550 50 
+F16 "mcu_out_en" I L 1500 3400 50 
+F17 "SW1" I R 2800 3700 50 
+F18 "SW2" I R 2800 3800 50 
+F19 "LED4" I L 1500 3550 50 
+F20 "LED1" I L 1500 3850 50 
+F21 "LED3" I L 1500 3650 50 
+F22 "LED2" I L 1500 3750 50 
+$EndSheet
+$EndSCHEMATC
