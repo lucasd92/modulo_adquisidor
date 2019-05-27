@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-21"
-Rev "V0.2"
+Date "2019-05-27"
+Rev "V0.13"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -412,7 +412,7 @@ U 1 1 5CD697A5
 P 4050 5000
 F 0 "D3" H 4050 5216 50  0000 C CNN
 F 1 "B340" H 4050 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 4050 4825 50  0001 C CNN
+F 2 "Diode_SMD:D_SMC_Handsoldering" H 4050 4825 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 5000 50  0001 C CNN
 	1    4050 5000
 	-1   0    0    1   
@@ -603,8 +603,6 @@ F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/MPZ1608S601ATA00/
 $EndComp
 Wire Wire Line
 	6100 3000 6100 3100
-Text Notes 950  1000 0    50   ~ 0
-Faltan LEDS!!
 $Comp
 L Propios:DC-DC_Step-Down U3
 U 1 1 5CF0B357
@@ -660,7 +658,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2250 4850 2250
 Wire Wire Line
-	4050 2000 3850 2000
+	4050 2000 3950 2000
 $Comp
 L power:+5V #PWR033
 U 1 1 5CF18C58
@@ -698,7 +696,7 @@ U 1 1 5CF22A4B
 P 2950 2100
 F 0 "J3" H 2870 1775 50  0000 C CNN
 F 1 "Entrada 24V" H 2870 1866 50  0000 C CNN
-F 2 "" H 2950 2100 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 2950 2100 50  0001 C CNN
 F 3 "~" H 2950 2100 50  0001 C CNN
 	1    2950 2100
 	-1   0    0    1   
@@ -820,18 +818,16 @@ Connection ~ 8200 5650
 $Comp
 L power:Earth #PWR076
 U 1 1 5CE12877
-P 9800 5700
-F 0 "#PWR076" H 9800 5450 50  0001 C CNN
-F 1 "Earth" H 9800 5550 50  0001 C CNN
-F 2 "" H 9800 5700 50  0001 C CNN
-F 3 "~" H 9800 5700 50  0001 C CNN
-	1    9800 5700
+P 9800 6050
+F 0 "#PWR076" H 9800 5800 50  0001 C CNN
+F 1 "Earth" H 9800 5900 50  0001 C CNN
+F 2 "" H 9800 6050 50  0001 C CNN
+F 3 "~" H 9800 6050 50  0001 C CNN
+	1    9800 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9700 5550 9800 5550
-Wire Wire Line
-	9800 5550 9800 5700
 $Comp
 L power:+5P #PWR073
 U 1 1 5CE15802
@@ -863,22 +859,117 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG07
 U 1 1 5CE1B6DB
-P 10450 5500
-F 0 "#FLG07" H 10450 5575 50  0001 C CNN
-F 1 "PWR_FLAG" H 10450 5674 50  0000 C CNN
-F 2 "" H 10450 5500 50  0001 C CNN
-F 3 "~" H 10450 5500 50  0001 C CNN
-	1    10450 5500
+P 10650 5950
+F 0 "#FLG07" H 10650 6025 50  0001 C CNN
+F 1 "PWR_FLAG" H 10650 6124 50  0000 C CNN
+F 2 "" H 10650 5950 50  0001 C CNN
+F 3 "~" H 10650 5950 50  0001 C CNN
+	1    10650 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 5550 10450 5500
-Wire Wire Line
-	9800 5550 10450 5550
-Connection ~ 9800 5550
+	10650 6000 10650 5950
 Wire Wire Line
 	10200 5350 9800 5350
 Connection ~ 9800 5350
 Text Notes 8700 4950 0    79   ~ 0
 5V- 5V aislados
+$Comp
+L Device:LED D?
+U 1 1 5D0349B1
+P 5500 2200
+AR Path="/5CF2977A/5D0349B1" Ref="D?"  Part="1" 
+AR Path="/5D681DDF/5D0349B1" Ref="D13"  Part="1" 
+F 0 "D13" H 5491 2416 50  0000 C CNN
+F 1 "LED" H 5491 2325 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 2200 50  0001 C CNN
+F 3 "~" H 5500 2200 50  0001 C CNN
+	1    5500 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0349B8
+P 5500 2550
+AR Path="/5D0349B8" Ref="R?"  Part="1" 
+AR Path="/5D079A08/5D0349B8" Ref="R?"  Part="1" 
+AR Path="/5CD0198B/5D0349B8" Ref="R?"  Part="1" 
+AR Path="/5CF2977A/5D0349B8" Ref="R?"  Part="1" 
+AR Path="/5D681DDF/5D0349B8" Ref="R23"  Part="1" 
+F 0 "R23" H 5350 2650 50  0000 L CNN
+F 1 "1k" H 5300 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 2550 50  0001 C CNN
+F 3 "~" H 5500 2550 50  0001 C CNN
+	1    5500 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2400 5500 2350
+Wire Wire Line
+	5500 2050 5500 2000
+Connection ~ 5500 2000
+$Comp
+L power:GND #PWR0103
+U 1 1 5D04E2A7
+P 5500 2750
+F 0 "#PWR0103" H 5500 2500 50  0001 C CNN
+F 1 "GND" H 5505 2577 50  0000 C CNN
+F 2 "" H 5500 2750 50  0001 C CNN
+F 3 "" H 5500 2750 50  0001 C CNN
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2750 5500 2700
+$Comp
+L Device:LED D?
+U 1 1 5D05565C
+P 10200 5500
+AR Path="/5CF2977A/5D05565C" Ref="D?"  Part="1" 
+AR Path="/5D681DDF/5D05565C" Ref="D14"  Part="1" 
+F 0 "D14" H 10191 5716 50  0000 C CNN
+F 1 "LED" H 10191 5625 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10200 5500 50  0001 C CNN
+F 3 "~" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D055663
+P 10200 5850
+AR Path="/5D055663" Ref="R?"  Part="1" 
+AR Path="/5D079A08/5D055663" Ref="R?"  Part="1" 
+AR Path="/5CD0198B/5D055663" Ref="R?"  Part="1" 
+AR Path="/5CF2977A/5D055663" Ref="R?"  Part="1" 
+AR Path="/5D681DDF/5D055663" Ref="R24"  Part="1" 
+F 0 "R24" H 10050 5950 50  0000 L CNN
+F 1 "1k" H 10000 5850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10130 5850 50  0001 C CNN
+F 3 "~" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 5700 10200 5650
+Connection ~ 10200 5350
+Connection ~ 10200 6000
+Wire Wire Line
+	10200 6000 10650 6000
+Wire Wire Line
+	9800 5550 9800 6000
+Wire Wire Line
+	9800 6000 10200 6000
+Connection ~ 9800 6000
+Wire Wire Line
+	9800 6000 9800 6050
+Text HLabel 3050 1600 0    50   Input ~ 0
+V_in
+Wire Wire Line
+	3950 1600 3950 2000
+Connection ~ 3950 2000
+Wire Wire Line
+	3950 2000 3850 2000
+Wire Wire Line
+	3050 1600 3950 1600
 $EndSCHEMATC

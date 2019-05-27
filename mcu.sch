@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-21"
-Rev "V0.2"
+Date "2019-05-27"
+Rev "V0.13"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -1442,7 +1442,7 @@ AR Path="/5CDA5E70" Ref="Y?"  Part="1"
 AR Path="/5D079A08/5CDA5E70" Ref="Y2"  Part="1" 
 F 0 "Y2" H 10300 5500 50  0000 C CNN
 F 1 "32.768KHz" H 10150 5300 50  0000 C CNN
-F 2 "" H 10150 5450 50  0001 C CNN
+F 2 "Propios:Cristal 32KHz" H 10150 5450 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/ecs-inc/ECS-.327-6-34QS-TR/XC2158CT-ND/6050766" H 10150 5450 50  0001 C CNN
 	1    10150 5450
 	1    0    0    -1  
@@ -1798,8 +1798,8 @@ L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CDFE17F
 P 10050 1400
 F 0 "J2" H 10100 1817 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 10100 1726 50  0000 C CNN
-F 2 "" H 10050 1400 50  0001 C CNN
+F 1 "JTAG/SWD" H 10100 1726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 10050 1400 50  0001 C CNN
 F 3 "~" H 10050 1400 50  0001 C CNN
 	1    10050 1400
 	1    0    0    -1  

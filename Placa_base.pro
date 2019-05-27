@@ -1,4 +1,4 @@
-update=10/5/2019 07:35:28
+update=27/5/2019 15:49:41
 version=1
 last_client=kicad
 [general]
@@ -34,10 +34,10 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/lucas.dordolo/Desktop/
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
-LabSize=79
+LabSize=50
 ERC_TestSimilarLabels=1
