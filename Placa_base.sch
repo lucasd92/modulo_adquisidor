@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -66,37 +66,37 @@ F45 "PC13" I L 4550 2050 50
 F46 "PB0" I L 4550 4050 50 
 F47 "PB1" I L 4550 4150 50 
 F48 "PB2-BOOT1" I L 4550 4250 50 
-F50 "NTRST" I R 6950 2150 50 
-F51 "PB5" I R 6950 2050 50 
-F52 "PB6" I R 6950 1950 50 
-F53 "PB7" I R 6950 1850 50 
-F54 "PB8" I R 6950 1650 50 
-F55 "PB9" I R 6950 1550 50 
-F56 "PB10" I L 4550 5250 50 
-F57 "PB11" I L 4550 5350 50 
-F58 "PB12" I R 6950 5900 50 
-F59 "PB13" I R 6950 5800 50 
-F60 "PB14" I R 6950 5700 50 
-F61 "PB15" I R 6950 5600 50 
-F62 "PA0" I L 4550 2850 50 
-F63 "PA1" I L 4550 2950 50 
-F64 "PA2" I L 4550 3050 50 
-F65 "PA3" I L 4550 3350 50 
-F66 "PA4" I L 4550 3450 50 
-F67 "PA5" I L 4550 3550 50 
-F68 "PA6" I L 4550 3650 50 
-F69 "PA7" I L 4550 3750 50 
-F70 "PA8" I R 6950 4300 50 
-F71 "PA9" I R 6950 4200 50 
-F72 "PA10" I R 6950 4100 50 
-F73 "PA11" I R 6950 4000 50 
-F74 "PA12" I R 6950 3900 50 
-F78 "VBAT" I L 4550 1950 50 
-F79 "NRST" I L 4550 2250 50 
-F80 "BOOT0" I R 6950 1750 50 
-F81 "VREF+" I L 4550 2750 50 
-F82 "PE0" I R 6950 1350 50 
-F83 "PE1" I R 6950 1450 50 
+F49 "NTRST" I R 6950 2150 50 
+F50 "PB5" I R 6950 2050 50 
+F51 "PB6" I R 6950 1950 50 
+F52 "PB7" I R 6950 1850 50 
+F53 "PB8" I R 6950 1650 50 
+F54 "PB9" I R 6950 1550 50 
+F55 "PB10" I L 4550 5250 50 
+F56 "PB11" I L 4550 5350 50 
+F57 "PB12" I R 6950 5900 50 
+F58 "PB13" I R 6950 5800 50 
+F59 "PB14" I R 6950 5700 50 
+F60 "PB15" I R 6950 5600 50 
+F61 "PA0" I L 4550 2850 50 
+F62 "PA1" I L 4550 2950 50 
+F63 "PA2" I L 4550 3050 50 
+F64 "PA3" I L 4550 3350 50 
+F65 "PA4" I L 4550 3450 50 
+F66 "PA5" I L 4550 3550 50 
+F67 "PA6" I L 4550 3650 50 
+F68 "PA7" I L 4550 3750 50 
+F69 "PA8" I R 6950 4300 50 
+F70 "PA9" I R 6950 4200 50 
+F71 "PA10" I R 6950 4100 50 
+F72 "PA11" I R 6950 4000 50 
+F73 "PA12" I R 6950 3900 50 
+F74 "VBAT" I L 4550 1950 50 
+F75 "NRST" I L 4550 2250 50 
+F76 "BOOT0" I R 6950 1750 50 
+F77 "VREF+" I L 4550 2750 50 
+F78 "PE0" I R 6950 1350 50 
+F79 "PE1" I R 6950 1450 50 
 $EndSheet
 Text Notes 500  900  0    50   ~ 0
 Falta pull up en i2c y pines que se dejen vacantes.
@@ -471,9 +471,9 @@ Wire Wire Line
 Text Label 7550 3050 2    50   ~ 0
 PD0
 Wire Wire Line
-	6950 2950 7550 2950
-Text Label 7550 2950 2    50   ~ 0
-PD1
+	6950 3900 7550 3900
+Text Label 7550 3900 2    50   ~ 0
+PA12
 Wire Wire Line
 	2900 2900 3500 2900
 Text Label 3500 2900 2    50   ~ 0
@@ -481,7 +481,7 @@ PD0
 Wire Wire Line
 	2900 2700 3500 2700
 Text Label 3500 2700 2    50   ~ 0
-PD1
+PA12
 Wire Wire Line
 	6950 4700 7550 4700
 Text Label 7550 4700 2    50   ~ 0
@@ -492,39 +492,39 @@ Text Label 7550 4600 2    50   ~ 0
 PC7
 Wire Wire Line
 	2900 2250 3500 2250
-Text Label 3500 2250 2    50   ~ 0
+Text Label 3500 2350 2    50   ~ 0
 PC6
 Wire Wire Line
 	2900 2350 3500 2350
-Text Label 3500 2350 2    50   ~ 0
-PC7
-Wire Wire Line
-	1600 2750 1000 2750
 Text Label 1000 2750 0    50   ~ 0
-PD9
+PC7
 Wire Wire Line
 	1600 2650 1000 2650
 Text Label 1000 2650 0    50   ~ 0
-PD10
+PD9
 Wire Wire Line
 	1600 2550 1000 2550
 Text Label 1000 2550 0    50   ~ 0
-PD11
+PD10
 Wire Wire Line
 	1600 2450 1000 2450
 Text Label 1000 2450 0    50   ~ 0
-PD12
+PD11
 Wire Wire Line
 	1600 2350 1000 2350
 Text Label 1000 2350 0    50   ~ 0
-PD13
+PD12
 Wire Wire Line
 	1600 2250 1000 2250
 Text Label 1000 2250 0    50   ~ 0
-PD14
+PD13
 Wire Wire Line
 	1600 2150 1000 2150
 Text Label 1000 2150 0    50   ~ 0
+PD14
+Wire Wire Line
+	1600 2750 1000 2750
+Text Label 3500 2250 2    50   ~ 0
 PD15
 Wire Wire Line
 	2900 2150 3500 2150
@@ -603,21 +603,13 @@ CAN_RX
 Text Notes 7900 1600 0    50   ~ 0
 CAN1_Master
 Wire Wire Line
-	6950 1450 7550 1450
-Text Label 7550 1450 2    50   ~ 0
-PE1
-Wire Wire Line
-	6950 1350 7550 1350
-Text Label 7550 1350 2    50   ~ 0
-PE0
-Wire Wire Line
 	2900 3150 3500 3150
 Text Label 3500 3150 2    50   ~ 0
-PE1
+PC11
 Wire Wire Line
 	2900 3050 3500 3050
 Text Label 3500 3050 2    50   ~ 0
-PE0
+PC10
 Wire Wire Line
 	4550 3850 3950 3850
 Text Label 3950 3850 0    50   ~ 0
@@ -742,43 +734,106 @@ Wire Wire Line
 Text Label 10850 1500 2    50   ~ 0
 PC4
 Wire Wire Line
-	10250 2100 10850 2100
-Text Label 10850 2100 2    50   ~ 0
-PC5
-Wire Wire Line
 	10250 1600 10850 1600
 Text Label 10850 1600 2    50   ~ 0
-PB0
-Wire Wire Line
-	10250 2200 10850 2200
-Text Label 10850 2200 2    50   ~ 0
-PB1
+PC5
 Wire Wire Line
 	10250 1700 10850 1700
 Text Label 10850 1700 2    50   ~ 0
-PE7
-Wire Wire Line
-	10250 2300 10850 2300
-Text Label 10850 2300 2    50   ~ 0
-PE8
+PB0
 Wire Wire Line
 	10250 1800 10850 1800
 Text Label 10850 1800 2    50   ~ 0
+PB1
+Wire Wire Line
+	10250 1900 10850 1900
+Text Label 10850 1900 2    50   ~ 0
+PE7
+Wire Wire Line
+	10250 2000 10850 2000
+Text Label 10850 2000 2    50   ~ 0
+PE8
+Wire Wire Line
+	10250 2500 10850 2500
+Text Label 10850 2500 2    50   ~ 0
 PE9
 Wire Wire Line
 	10250 2400 10850 2400
 Text Label 10850 2400 2    50   ~ 0
 PE10
 Wire Wire Line
-	10250 1900 10850 1900
-Text Label 10850 1900 2    50   ~ 0
+	10250 2300 10850 2300
+Text Label 10850 2300 2    50   ~ 0
 PE11
 Wire Wire Line
-	10250 2500 10850 2500
-Text Label 10850 2500 2    50   ~ 0
+	10250 2200 10850 2200
+Text Label 10850 2200 2    50   ~ 0
 PE12
 Wire Wire Line
-	10250 2000 10850 2000
-Text Label 10850 2000 2    50   ~ 0
+	10250 2100 10850 2100
+Text Label 10850 2100 2    50   ~ 0
 PE13
+Wire Wire Line
+	6950 3250 7550 3250
+Text Label 7550 3250 2    50   ~ 0
+PC11
+Wire Wire Line
+	6950 3350 7550 3350
+Text Label 7550 3350 2    50   ~ 0
+PC10
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CF42517
+P 1900 6950
+F 0 "H1" H 2000 6996 50  0000 L CNN
+F 1 "MountingHole" H 2000 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1900 6950 50  0001 C CNN
+F 3 "~" H 1900 6950 50  0001 C CNN
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CF4B2D2
+P 3050 6950
+F 0 "H2" H 3150 6996 50  0000 L CNN
+F 1 "MountingHole" H 3150 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 3050 6950 50  0001 C CNN
+F 3 "~" H 3050 6950 50  0001 C CNN
+	1    3050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CF53E98
+P 4200 6950
+F 0 "H3" H 4300 6996 50  0000 L CNN
+F 1 "MountingHole" H 4300 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4200 6950 50  0001 C CNN
+F 3 "~" H 4200 6950 50  0001 C CNN
+	1    4200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CF5CA7D
+P 5200 6950
+F 0 "H4" H 5300 6996 50  0000 L CNN
+F 1 "MountingHole" H 5300 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5200 6950 50  0001 C CNN
+F 3 "~" H 5200 6950 50  0001 C CNN
+	1    5200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5CF83044
+P 1800 6350
+F 0 "H5" H 1900 6396 50  0000 L CNN
+F 1 "Logo_TA" H 1900 6305 50  0000 L CNN
+F 2 "Propios:ta2" H 1800 6350 50  0001 C CNN
+F 3 "~" H 1800 6350 50  0001 C CNN
+	1    1800 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

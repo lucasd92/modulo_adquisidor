@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -50,13 +50,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J15
 U 1 1 5D4DA694
-P 5400 4300
-F 0 "J15" H 5450 4817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 5450 4726 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 5400 4300 50  0001 C CNN
-F 3 "~" H 5400 4300 50  0001 C CNN
-	1    5400 4300
-	1    0    0    -1  
+P 5500 4300
+F 0 "J15" H 5550 4817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 5550 4726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5500 4300 50  0001 C CNN
+F 3 "~" H 5500 4300 50  0001 C CNN
+	1    5500 4300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J11
@@ -79,11 +79,11 @@ Text HLabel 4600 1200 0    50   Input ~ 0
 SCL_1
 Wire Wire Line
 	4600 1750 5150 1750
-Text HLabel 4600 1750 0    50   Input ~ 0
+Text HLabel 4600 1850 0    50   Input ~ 0
 SDA_3
 Wire Wire Line
 	4600 1850 5150 1850
-Text HLabel 4600 1850 0    50   Input ~ 0
+Text HLabel 4600 1750 0    50   Input ~ 0
 SCL_3
 Wire Wire Line
 	4600 2400 5150 2400
@@ -95,11 +95,11 @@ Text HLabel 4600 2500 0    50   Input ~ 0
 CAN_RX_1
 Wire Wire Line
 	4600 3100 5150 3100
-Text HLabel 4600 3100 0    50   Input ~ 0
+Text HLabel 4600 3200 0    50   Input ~ 0
 SPI1_NSS
 Wire Wire Line
 	4600 3200 5150 3200
-Text HLabel 4600 3200 0    50   Input ~ 0
+Text HLabel 4600 3100 0    50   Input ~ 0
 SPI1_CK
 Wire Wire Line
 	6200 3100 5650 3100
@@ -110,48 +110,48 @@ Wire Wire Line
 Text HLabel 6200 3200 2    50   Input ~ 0
 SPI1_MOSI
 Wire Wire Line
-	4650 4000 5200 4000
-Text HLabel 4650 4000 0    50   Input ~ 0
-PIN1
-Wire Wire Line
-	4650 4100 5200 4100
-Text HLabel 4650 4100 0    50   Input ~ 0
-PIN3
-Wire Wire Line
 	4650 4200 5200 4200
 Text HLabel 4650 4200 0    50   Input ~ 0
-PIN5
+PIN1
 Wire Wire Line
 	4650 4300 5200 4300
 Text HLabel 4650 4300 0    50   Input ~ 0
-PIN7
+PIN3
 Wire Wire Line
 	4650 4400 5200 4400
 Text HLabel 4650 4400 0    50   Input ~ 0
-PIN9
+PIN5
 Wire Wire Line
 	4650 4500 5200 4500
 Text HLabel 4650 4500 0    50   Input ~ 0
+PIN7
+Wire Wire Line
+	4650 4600 5200 4600
+Text HLabel 4650 4600 0    50   Input ~ 0
+PIN9
+Wire Wire Line
+	4650 4700 5200 4700
+Text HLabel 4650 4700 0    50   Input ~ 0
 PIN11
-Wire Wire Line
-	6250 4000 5700 4000
-Text HLabel 6250 4000 2    50   Input ~ 0
-PIN2
-Wire Wire Line
-	6250 4100 5700 4100
-Text HLabel 6250 4100 2    50   Input ~ 0
-PIN4
-Wire Wire Line
-	6250 4200 5700 4200
-Text HLabel 6250 4200 2    50   Input ~ 0
-PIN6
 Wire Wire Line
 	6250 4300 5700 4300
 Text HLabel 6250 4300 2    50   Input ~ 0
-PIN8
+PIN2
 Wire Wire Line
 	6250 4400 5700 4400
 Text HLabel 6250 4400 2    50   Input ~ 0
+PIN4
+Wire Wire Line
+	6250 4500 5700 4500
+Text HLabel 6250 4500 2    50   Input ~ 0
+PIN6
+Wire Wire Line
+	6250 4600 5700 4600
+Text HLabel 6250 4600 2    50   Input ~ 0
+PIN8
+Wire Wire Line
+	6250 4700 5700 4700
+Text HLabel 6250 4700 2    50   Input ~ 0
 PIN10
 Wire Wire Line
 	5650 1100 6200 1100
@@ -174,25 +174,24 @@ Text Label 6200 1750 2    50   ~ 0
 Text Label 6200 1850 2    50   ~ 0
 GND
 Wire Wire Line
-	5700 4600 6250 4600
+	5700 4000 6250 4000
 Wire Wire Line
-	5700 4700 6250 4700
-Text Label 6250 4600 2    50   ~ 0
+	5700 4100 6250 4100
+Text Label 6250 4000 2    50   ~ 0
 3v3
-Text Label 6250 4700 2    50   ~ 0
+Text Label 6250 4100 2    50   ~ 0
 GND
 Text Label 6200 3300 2    50   ~ 0
 3v3
 Text Label 4600 3300 0    50   ~ 0
 GND
-NoConn ~ 5700 4500
 Wire Wire Line
-	5200 4600 4650 4600
+	5200 4000 4650 4000
 Wire Wire Line
-	5200 4700 4650 4700
-Text Label 4650 4600 0    50   ~ 0
+	5200 4100 4650 4100
+Text Label 4650 4000 0    50   ~ 0
 3v3
-Text Label 4650 4700 0    50   ~ 0
+Text Label 4650 4100 0    50   ~ 0
 GND
 Wire Wire Line
 	5650 2400 6200 2400
@@ -244,4 +243,5 @@ Text Label 3100 950  2    50   ~ 0
 3v3
 Text Label 3100 1300 2    50   ~ 0
 GND
+NoConn ~ 5700 4200
 $EndSCHEMATC

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -146,9 +146,9 @@ Wire Wire Line
 Wire Wire Line
 	9400 5450 9750 5450
 Text Label 9400 5350 0    50   ~ 0
-RX_S800
+RX_SIM800
 Text Label 9400 5450 0    50   ~ 0
-TX_S800
+TX_SIM800
 Text Notes 8700 6200 0    50   ~ 0
 El pin reset puede conectarse directamente al mcu en 3v3
 $Comp
@@ -215,9 +215,9 @@ Connection ~ 7000 4900
 Wire Wire Line
 	7000 4900 6900 4900
 Text Label 7600 4900 2    50   ~ 0
-RX_S800
+RX_SIM800
 Text Label 7600 5200 2    50   ~ 0
-TX_S800
+TX_SIM800
 Text Notes 5950 4700 0    50   ~ 0
 Divisor resistivo recomendado como interfaz con micros de 3v3
 Text HLabel 10100 1150 2    50   Input ~ 0
@@ -732,7 +732,7 @@ Connection ~ 1250 3050
 Wire Wire Line
 	1250 3050 1750 3050
 Text Label 1950 2600 0    50   ~ 0
-X
+Z
 Wire Wire Line
 	3050 2600 3100 2600
 $Comp
@@ -1107,8 +1107,6 @@ F 3 "" H 8300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 5300 8300 5350
-Wire Wire Line
 	8300 6050 8300 6100
 Wire Wire Line
 	8300 5650 8300 5700
@@ -1117,17 +1115,6 @@ Wire Wire Line
 Connection ~ 8300 5700
 Wire Wire Line
 	8300 5700 8300 5750
-$Comp
-L power:+4V #PWR056
-U 1 1 5D1D55BD
-P 8300 5300
-F 0 "#PWR056" H 8300 5150 50  0001 C CNN
-F 1 "+4V" H 8315 5473 50  0000 C CNN
-F 2 "" H 8300 5300 50  0001 C CNN
-F 3 "" H 8300 5300 50  0001 C CNN
-	1    8300 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8600 5700 8600 5250
 Wire Wire Line
@@ -1393,7 +1380,7 @@ F 3 "~" H 6750 5550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text Label 7600 5550 2    50   ~ 0
-DTR_S800
+DTR_SIM800
 Wire Wire Line
 	6900 5550 7300 5550
 Wire Wire Line
@@ -1404,7 +1391,7 @@ Connection ~ 7300 5550
 Wire Wire Line
 	11000 5150 10650 5150
 Text Label 11000 5150 2    50   ~ 0
-DTR_S800
+DTR_SIM800
 $Comp
 L Device:R R?
 U 1 1 5CFC969B
@@ -1567,4 +1554,11 @@ Wire Wire Line
 	6900 5200 7600 5200
 Wire Wire Line
 	7300 5550 7600 5550
+Wire Wire Line
+	5450 3250 5450 3300
+Wire Wire Line
+	9400 5150 8300 5150
+Wire Wire Line
+	8300 5150 8300 5350
+Connection ~ 9400 5150
 $EndSCHEMATC

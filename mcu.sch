@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -926,19 +926,6 @@ Wire Wire Line
 	4800 7500 5100 7500
 $Comp
 L Device:R R?
-U 1 1 5D090DC1
-P 5100 6950
-AR Path="/5D090DC1" Ref="R?"  Part="1" 
-AR Path="/5D079A08/5D090DC1" Ref="R11"  Part="1" 
-F 0 "R11" H 5150 7100 50  0000 L CNN
-F 1 "0" H 5150 7000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5030 6950 50  0001 C CNN
-F 3 "~" H 5100 6950 50  0001 C CNN
-	1    5100 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 5D090DC8
 P 4500 6950
 AR Path="/5D090DC8" Ref="R?"  Part="1" 
@@ -951,9 +938,6 @@ F 3 "~" H 4500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4500 7100
-Connection ~ 5100 7100
-Wire Wire Line
-	5100 6800 5100 6600
 Wire Wire Line
 	5100 6600 4100 6600
 Wire Wire Line
@@ -1499,40 +1483,8 @@ $EndComp
 Connection ~ 10150 5850
 Wire Wire Line
 	10150 5850 10450 5850
-$Comp
-L Device:R R?
-U 1 1 5CDA5E8F
-P 10450 5300
-AR Path="/5CDA5E8F" Ref="R?"  Part="1" 
-AR Path="/5D079A08/5CDA5E8F" Ref="R8"  Part="1" 
-F 0 "R8" H 10500 5450 50  0000 L CNN
-F 1 "0" H 10500 5350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10380 5300 50  0001 C CNN
-F 3 "~" H 10450 5300 50  0001 C CNN
-	1    10450 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CDA5E95
-P 9850 5300
-AR Path="/5CDA5E95" Ref="R?"  Part="1" 
-AR Path="/5D079A08/5CDA5E95" Ref="R7"  Part="1" 
-F 0 "R7" H 9900 5450 50  0000 L CNN
-F 1 "CALCULAR" H 9900 5350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9780 5300 50  0001 C CNN
-F 3 "~" H 9850 5300 50  0001 C CNN
-	1    9850 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9850 5450
-Connection ~ 10450 5450
-Wire Wire Line
-	10450 5150 10450 4950
 Wire Wire Line
 	10450 4950 9450 4950
-Wire Wire Line
-	9850 5150 9850 5100
 Wire Wire Line
 	9850 5100 9450 5100
 Text Label 9450 4950 0    50   ~ 0
@@ -1813,4 +1765,13 @@ Wire Wire Line
 NoConn ~ 9850 1500
 Text Notes 9700 1800 0    50   ~ 0
 Cortex debug connector
+Wire Wire Line
+	10450 4950 10450 5450
+Connection ~ 10450 5450
+Wire Wire Line
+	9850 5100 9850 5450
+Connection ~ 9850 5450
+Wire Wire Line
+	5100 6600 5100 7100
+Connection ~ 5100 7100
 $EndSCHEMATC

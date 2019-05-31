@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"

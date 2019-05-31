@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-28"
-Rev "V0.14"
+Date "2019-05-31"
+Rev "V0.16"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -236,13 +236,13 @@ Wire Wire Line
 	5900 2000 5900 1750
 $Comp
 L Amplifier_Operational:LMV324 U10
-U 1 1 5CE02FF6
+U 2 1 5CE02FF6
 P 5600 1750
 F 0 "U10" H 5450 2100 50  0000 C CNN
 F 1 "MCP6L04T-E/ST" H 5500 2000 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5550 1850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6L04T-E-ST/MCP6L04T-E-STCT-ND/2060123" H 5650 1950 50  0001 C CNN
-	1    5600 1750
+	2    5600 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -474,23 +474,23 @@ Text Notes 3800 3000 0    50   ~ 0
 $Comp
 L Diode:BAV99 D13
 U 1 1 5D65F601
-P 4950 1500
-F 0 "D13" V 4900 1250 50  0000 C CNN
-F 1 "BAV99" V 5000 1300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1350 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 1600 50  0001 C CNN
-	1    4950 1500
+P 4950 1850
+F 0 "D13" V 4900 1600 50  0000 C CNN
+F 1 "BAV99" V 5000 1650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1700 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 1950 50  0001 C CNN
+	1    4950 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Diode:BAV99 D13
 U 2 1 5D65F67A
-P 4950 1850
-F 0 "D13" V 4850 1650 50  0000 C CNN
-F 1 "BAV99" V 4950 1700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1700 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 1950 50  0001 C CNN
-	2    4950 1850
+P 4950 1500
+F 0 "D13" V 4850 1300 50  0000 C CNN
+F 1 "BAV99" V 4950 1350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1350 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 1600 50  0001 C CNN
+	2    4950 1500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -536,13 +536,13 @@ Wire Wire Line
 	5900 3600 5900 3350
 $Comp
 L Amplifier_Operational:LMV324 U10
-U 2 1 5D6784D7
+U 1 1 5D6784D7
 P 5600 3350
 F 0 "U10" H 5450 3700 50  0000 C CNN
 F 1 "MCP6L04T-E/ST" H 5500 3600 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5550 3450 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6L04T-E-ST/MCP6L04T-E-STCT-ND/2060123" H 5650 3550 50  0001 C CNN
-	2    5600 3350
+	1    5600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -602,23 +602,23 @@ fc = 1KHz
 $Comp
 L Diode:BAV99 D18
 U 1 1 5D6784FA
-P 4950 3100
-F 0 "D18" V 4900 2850 50  0000 C CNN
-F 1 "BAV99" V 5000 2900 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 2950 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 3200 50  0001 C CNN
-	1    4950 3100
+P 4950 3450
+F 0 "D18" V 4900 3200 50  0000 C CNN
+F 1 "BAV99" V 5000 3250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3300 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 3550 50  0001 C CNN
+	1    4950 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L Diode:BAV99 D18
 U 2 1 5D678501
-P 4950 3450
-F 0 "D18" V 4850 3250 50  0000 C CNN
-F 1 "BAV99" V 4950 3300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3300 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 3550 50  0001 C CNN
-	2    4950 3450
+P 4950 3100
+F 0 "D18" V 4850 2900 50  0000 C CNN
+F 1 "BAV99" V 4950 2950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 2950 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 3200 50  0001 C CNN
+	2    4950 3100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -705,13 +705,13 @@ Wire Wire Line
 	5900 5000 5900 4750
 $Comp
 L Amplifier_Operational:LMV324 U10
-U 3 1 5D680BB0
+U 4 1 5D680BB0
 P 5600 4750
 F 0 "U10" H 5450 5100 50  0000 C CNN
 F 1 "MCP6L04T-E/ST" H 5500 5000 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5550 4850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6L04T-E-ST/MCP6L04T-E-STCT-ND/2060123" H 5650 4950 50  0001 C CNN
-	3    5600 4750
+	4    5600 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -784,23 +784,23 @@ Text Notes 3600 4600 0    50   ~ 0
 $Comp
 L Diode:BAV99 D19
 U 1 1 5D680BF6
-P 4950 4500
-F 0 "D19" V 4900 4250 50  0000 C CNN
-F 1 "BAV99" V 5000 4300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4350 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 4600 50  0001 C CNN
-	1    4950 4500
+P 4950 4850
+F 0 "D19" V 4900 4600 50  0000 C CNN
+F 1 "BAV99" V 5000 4650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4700 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 4950 50  0001 C CNN
+	1    4950 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L Diode:BAV99 D19
 U 2 1 5D680BFD
-P 4950 4850
-F 0 "D19" V 4850 4650 50  0000 C CNN
-F 1 "BAV99" V 4950 4700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4700 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 4950 50  0001 C CNN
-	2    4950 4850
+P 4950 4500
+F 0 "D19" V 4850 4300 50  0000 C CNN
+F 1 "BAV99" V 4950 4350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 4350 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 4600 50  0001 C CNN
+	2    4950 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1163,13 +1163,13 @@ Wire Wire Line
 	5900 6850 5900 6600
 $Comp
 L Amplifier_Operational:LMV324 U10
-U 4 1 5D781CE7
+U 3 1 5D781CE7
 P 5600 6600
 F 0 "U10" H 5450 6950 50  0000 C CNN
 F 1 "MCP6L04T-E/ST" H 5500 6850 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5550 6700 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6L04T-E-ST/MCP6L04T-E-STCT-ND/2060123" H 5650 6800 50  0001 C CNN
-	4    5600 6600
+	3    5600 6600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1242,23 +1242,23 @@ Text Notes 3600 6450 0    50   ~ 0
 $Comp
 L Diode:BAV99 D20
 U 1 1 5D781D12
-P 4950 6350
-F 0 "D20" V 4900 6100 50  0000 C CNN
-F 1 "BAV99" V 5000 6150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 6200 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 6450 50  0001 C CNN
-	1    4950 6350
+P 4950 6700
+F 0 "D20" V 4900 6450 50  0000 C CNN
+F 1 "BAV99" V 5000 6500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 6550 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 6800 50  0001 C CNN
+	1    4950 6700
 	0    1    1    0   
 $EndComp
 $Comp
 L Diode:BAV99 D20
 U 2 1 5D781D19
-P 4950 6700
-F 0 "D20" V 4850 6500 50  0000 C CNN
-F 1 "BAV99" V 4950 6550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 6550 50  0001 C CNN
-F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 6800 50  0001 C CNN
-	2    4950 6700
+P 4950 6350
+F 0 "D20" V 4850 6150 50  0000 C CNN
+F 1 "BAV99" V 4950 6200 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 6200 50  0001 C CNN
+F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 4950 6450 50  0001 C CNN
+	2    4950 6350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
