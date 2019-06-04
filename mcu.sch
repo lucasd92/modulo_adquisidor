@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-31"
-Rev "V0.16"
+Date "2019-06-04"
+Rev "V0.17"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -777,13 +777,9 @@ $EndComp
 Wire Wire Line
 	6500 5600 6500 5650
 Wire Wire Line
-	6500 5650 6650 5650
-Wire Wire Line
 	6800 5650 6800 5600
 Wire Wire Line
 	7500 5600 7500 5650
-Wire Wire Line
-	7500 5650 7650 5650
 Wire Wire Line
 	7800 5650 7800 5600
 Wire Wire Line
@@ -820,38 +816,6 @@ $EndComp
 Connection ~ 7650 5250
 Wire Wire Line
 	7650 5250 7500 5250
-$Comp
-L power:GND #PWR?
-U 1 1 5D090D8C
-P 6650 5650
-AR Path="/5D090D8C" Ref="#PWR?"  Part="1" 
-AR Path="/5D079A08/5D090D8C" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 6650 5400 50  0001 C CNN
-F 1 "GND" H 6655 5477 50  0000 C CNN
-F 2 "" H 6650 5650 50  0001 C CNN
-F 3 "" H 6650 5650 50  0001 C CNN
-	1    6650 5650
-	1    0    0    -1  
-$EndComp
-Connection ~ 6650 5650
-Wire Wire Line
-	6650 5650 6800 5650
-$Comp
-L power:GND #PWR?
-U 1 1 5D090D94
-P 7650 5650
-AR Path="/5D090D94" Ref="#PWR?"  Part="1" 
-AR Path="/5D079A08/5D090D94" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 7650 5400 50  0001 C CNN
-F 1 "GND" H 7655 5477 50  0000 C CNN
-F 2 "" H 7650 5650 50  0001 C CNN
-F 3 "" H 7650 5650 50  0001 C CNN
-	1    7650 5650
-	1    0    0    -1  
-$EndComp
-Connection ~ 7650 5650
-Wire Wire Line
-	7650 5650 7800 5650
 Wire Wire Line
 	6050 5250 6250 5250
 Connection ~ 6500 5250
@@ -1259,52 +1223,44 @@ Si se conecta la batería, no debe\n soldarse esta resistencia
 $Comp
 L power:GND #PWR?
 U 1 1 5D1903A2
-P 9650 1850
+P 10750 1850
 AR Path="/5D1903A2" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D1903A2" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 9650 1600 50  0001 C CNN
-F 1 "GND" H 9655 1677 50  0000 C CNN
-F 2 "" H 9650 1850 50  0001 C CNN
-F 3 "" H 9650 1850 50  0001 C CNN
-	1    9650 1850
+F 0 "#PWR06" H 10750 1600 50  0001 C CNN
+F 1 "GND" H 10755 1677 50  0000 C CNN
+F 2 "" H 10750 1850 50  0001 C CNN
+F 3 "" H 10750 1850 50  0001 C CNN
+	1    10750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR?
 U 1 1 5D1BA2FB
-P 9650 1150
+P 10550 1150
 AR Path="/5D1BA2FB" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D1BA2FB" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 9650 1000 50  0001 C CNN
-F 1 "VDD" H 9667 1323 50  0000 C CNN
-F 2 "" H 9650 1150 50  0001 C CNN
-F 3 "" H 9650 1150 50  0001 C CNN
-	1    9650 1150
+F 0 "#PWR05" H 10550 1000 50  0001 C CNN
+F 1 "VDD" H 10567 1323 50  0000 C CNN
+F 2 "" H 10550 1150 50  0001 C CNN
+F 3 "" H 10550 1150 50  0001 C CNN
+	1    10550 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1150 9650 1200
+	10150 1500 10600 1500
 Wire Wire Line
-	9650 1200 9850 1200
+	10150 1300 10600 1300
 Wire Wire Line
-	10350 1500 10800 1500
+	10150 1700 10600 1700
 Wire Wire Line
-	10350 1200 10800 1200
-Wire Wire Line
-	10350 1300 10800 1300
-Wire Wire Line
-	10350 1400 10800 1400
-Wire Wire Line
-	10350 1600 10800 1600
-Text Label 10800 1500 2    50   ~ 0
-TDI
-Text Label 10800 1200 2    50   ~ 0
+	10150 1600 10600 1600
+Text Label 10600 1500 2    50   ~ 0
 TMS-SWDIO
-Text Label 10800 1300 2    50   ~ 0
+Text Label 10600 1300 2    50   ~ 0
 TCK-SWCLK
-Text Label 10800 1400 2    50   ~ 0
+Text Label 10600 1700 2    50   ~ 0
 TDO-SWO
-Text Label 10800 1600 2    50   ~ 0
+Text Label 10600 1600 2    50   ~ 0
 NRST
 $Comp
 L Device:R R?
@@ -1375,10 +1331,6 @@ Wire Wire Line
 	3150 6350 3150 6450
 Wire Wire Line
 	3150 6450 3250 6450
-Wire Wire Line
-	3350 6450 3550 6450
-Wire Wire Line
-	3550 6450 3550 6350
 Connection ~ 3350 6450
 Wire Wire Line
 	3250 6350 3250 6450
@@ -1497,8 +1449,6 @@ Wire Notes Line
 	10950 6300 10950 3450
 Wire Notes Line
 	10950 3450 8750 3450
-Text Notes 9350 850  0    50   ~ 0
-Tiene integradas pull-up/down para JTAG
 Text HLabel 1900 2850 0    50   Input ~ 0
 PE0
 Text HLabel 1900 2950 0    50   Input ~ 0
@@ -1731,40 +1681,14 @@ Text Notes 4350 6500 0    79   ~ 0
 Circuito reloj
 Text Notes 6500 650  0    79   ~ 0
 Circuito de booteo
-Text Notes 9850 650  0    79   ~ 0
-JTAG/SWD
+Text Notes 9900 800  0    79   ~ 0
+Debug SWD
 Wire Notes Line
 	8750 3450 8750 6300
 Text Notes 6150 3950 0    79   ~ 0
 Capacitores de desacoplamiento
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
-U 1 1 5CDFE17F
-P 10050 1400
-F 0 "J1" H 10100 1817 50  0000 C CNN
-F 1 "JTAG/SWD" H 10100 1726 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 10050 1400 50  0001 C CNN
-F 3 "~" H 10050 1400 50  0001 C CNN
-	1    10050 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 1300 9650 1300
-Wire Wire Line
-	9650 1300 9650 1400
-Wire Wire Line
-	9850 1400 9650 1400
-Connection ~ 9650 1400
-Wire Wire Line
-	9650 1400 9650 1600
-Wire Wire Line
-	9650 1600 9850 1600
-Connection ~ 9650 1600
-Wire Wire Line
-	9650 1600 9650 1850
-NoConn ~ 9850 1500
-Text Notes 9700 1800 0    50   ~ 0
-Cortex debug connector
+Text Notes 9600 1850 0    50   ~ 0
+Discovery SWD connector
 Wire Wire Line
 	10450 4950 10450 5450
 Connection ~ 10450 5450
@@ -1774,4 +1698,69 @@ Connection ~ 9850 5450
 Wire Wire Line
 	5100 6600 5100 7100
 Connection ~ 5100 7100
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5CF843F1
+P 9950 1400
+F 0 "J1" H 10050 1900 50  0000 C CNN
+F 1 "SWD/STLINK" H 10050 1750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9950 1400 50  0001 C CNN
+F 3 "~" H 9950 1400 50  0001 C CNN
+	1    9950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 1200 10550 1200
+Wire Wire Line
+	10550 1200 10550 1150
+Wire Wire Line
+	10750 1850 10750 1400
+Wire Wire Line
+	10150 1400 10750 1400
+$Comp
+L power:GNDA #PWR0113
+U 1 1 5D0A9718
+P 3550 6550
+F 0 "#PWR0113" H 3550 6300 50  0001 C CNN
+F 1 "GNDA" H 3555 6377 50  0000 C CNN
+F 2 "" H 3550 6550 50  0001 C CNN
+F 3 "" H 3550 6550 50  0001 C CNN
+	1    3550 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6350 3550 6550
+Wire Wire Line
+	6500 5650 6550 5650
+Wire Wire Line
+	7500 5650 7800 5650
+$Comp
+L power:GNDA #PWR0114
+U 1 1 5D0F795C
+P 6550 5700
+F 0 "#PWR0114" H 6550 5450 50  0001 C CNN
+F 1 "GNDA" H 6555 5527 50  0000 C CNN
+F 2 "" H 6550 5700 50  0001 C CNN
+F 3 "" H 6550 5700 50  0001 C CNN
+	1    6550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0115
+U 1 1 5D1070C8
+P 7800 5700
+F 0 "#PWR0115" H 7800 5450 50  0001 C CNN
+F 1 "GNDA" H 7805 5527 50  0000 C CNN
+F 2 "" H 7800 5700 50  0001 C CNN
+F 3 "" H 7800 5700 50  0001 C CNN
+	1    7800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5700 7800 5650
+Wire Wire Line
+	6550 5700 6550 5650
+Connection ~ 6550 5650
+Wire Wire Line
+	6550 5650 6800 5650
 $EndSCHEMATC

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-31"
-Rev "V0.16"
+Date "2019-06-04"
+Rev "V0.17"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -98,8 +98,6 @@ F77 "VREF+" I L 4550 2750 50
 F78 "PE0" I R 6950 1350 50 
 F79 "PE1" I R 6950 1450 50 
 $EndSheet
-Text Notes 500  900  0    50   ~ 0
-Falta pull up en i2c y pines que se dejen vacantes.
 $Sheet
 S 1500 4150 1100 400 
 U 5D681DDF
@@ -271,16 +269,6 @@ Text Label 3050 5300 2    50   ~ 0
 PC3
 Text Notes 8350 3850 0    50   ~ 0
 Pines para  programación OTA
-Wire Notes Line
-	500  500  2800 500 
-Wire Notes Line
-	2800 500  2800 1150
-Wire Notes Line
-	2800 1150 500  1150
-Wire Notes Line
-	500  1150 500  500 
-Text Notes 1050 650  0    79   ~ 0
-Notas personales
 Text Notes 7950 750  0    79   ~ 0
 Puntos a definir/ revisar
 Wire Notes Line
@@ -782,50 +770,6 @@ Wire Wire Line
 Text Label 7550 3350 2    50   ~ 0
 PC10
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5CF42517
-P 1900 6950
-F 0 "H1" H 2000 6996 50  0000 L CNN
-F 1 "MountingHole" H 2000 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 1900 6950 50  0001 C CNN
-F 3 "~" H 1900 6950 50  0001 C CNN
-	1    1900 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5CF4B2D2
-P 3050 6950
-F 0 "H2" H 3150 6996 50  0000 L CNN
-F 1 "MountingHole" H 3150 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 3050 6950 50  0001 C CNN
-F 3 "~" H 3050 6950 50  0001 C CNN
-	1    3050 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5CF53E98
-P 4200 6950
-F 0 "H3" H 4300 6996 50  0000 L CNN
-F 1 "MountingHole" H 4300 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4200 6950 50  0001 C CNN
-F 3 "~" H 4200 6950 50  0001 C CNN
-	1    4200 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5CF5CA7D
-P 5200 6950
-F 0 "H4" H 5300 6996 50  0000 L CNN
-F 1 "MountingHole" H 5300 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5200 6950 50  0001 C CNN
-F 3 "~" H 5200 6950 50  0001 C CNN
-	1    5200 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H5
 U 1 1 5CF83044
 P 1800 6350
@@ -836,4 +780,56 @@ F 3 "~" H 1800 6350 50  0001 C CNN
 	1    1800 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D267FE5
+P 1800 6900
+F 0 "H1" H 1900 6951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 6860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 1800 6900 50  0001 C CNN
+F 3 "~" H 1800 6900 50  0001 C CNN
+	1    1800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D2680DA
+P 2950 6900
+F 0 "H2" H 3050 6951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3050 6860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 2950 6900 50  0001 C CNN
+F 3 "~" H 2950 6900 50  0001 C CNN
+	1    2950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D270D6D
+P 4100 6900
+F 0 "H3" H 4200 6951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 6860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 4100 6900 50  0001 C CNN
+F 3 "~" H 4100 6900 50  0001 C CNN
+	1    4100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D279941
+P 5150 6900
+F 0 "H4" H 5250 6951 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5250 6860 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5150 6900 50  0001 C CNN
+F 3 "~" H 5150 6900 50  0001 C CNN
+	1    5150 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7000 2950 7000
+Wire Wire Line
+	2950 7000 4100 7000
+Connection ~ 2950 7000
+Wire Wire Line
+	4100 7000 5150 7000
+Connection ~ 4100 7000
 $EndSCHEMATC

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-31"
-Rev "V0.16"
+Date "2019-06-04"
+Rev "V0.17"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -332,17 +332,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 3850 7600 3800
 Connection ~ 7300 3850
-$Comp
-L power:GND #PWR033
-U 1 1 5CD30DAF
-P 6850 3900
-F 0 "#PWR033" H 6850 3650 50  0001 C CNN
-F 1 "GND" H 6855 3727 50  0000 C CNN
-F 2 "" H 6850 3900 50  0001 C CNN
-F 3 "" H 6850 3900 50  0001 C CNN
-	1    6850 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 3900 6850 3850
 Wire Wire Line
@@ -972,4 +961,67 @@ Wire Wire Line
 	3950 2000 3850 2000
 Wire Wire Line
 	3050 1600 3950 1600
+$Comp
+L power:GNDA #PWR?
+U 1 1 5CFC8DAA
+P 8600 3750
+AR Path="/5D079A08/5CFC8DAA" Ref="#PWR?"  Part="1" 
+AR Path="/5CD541CC/5CFC8DAA" Ref="#PWR?"  Part="1" 
+AR Path="/5D681DDF/5CFC8DAA" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 8600 3500 50  0001 C CNN
+F 1 "GNDA" H 8605 3577 50  0000 C CNN
+F 2 "" H 8600 3750 50  0001 C CNN
+F 3 "" H 8600 3750 50  0001 C CNN
+	1    8600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFC8DB0
+P 8900 3750
+AR Path="/5CFC8DB0" Ref="#PWR?"  Part="1" 
+AR Path="/5D079A08/5CFC8DB0" Ref="#PWR?"  Part="1" 
+AR Path="/5CF2977A/5CFC8DB0" Ref="#PWR?"  Part="1" 
+AR Path="/5D681DDF/5CFC8DB0" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 8900 3500 50  0001 C CNN
+F 1 "GND" H 8905 3577 50  0000 C CNN
+F 2 "" H 8900 3750 50  0001 C CNN
+F 3 "" H 8900 3750 50  0001 C CNN
+	1    8900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CFC8DB6
+P 8750 3600
+AR Path="/5CFC8DB6" Ref="R?"  Part="1" 
+AR Path="/5D079A08/5CFC8DB6" Ref="R?"  Part="1" 
+AR Path="/5CD0198B/5CFC8DB6" Ref="R?"  Part="1" 
+AR Path="/5CD541CC/5CFC8DB6" Ref="R?"  Part="1" 
+AR Path="/5D681DDF/5CFC8DB6" Ref="R7"  Part="1" 
+F 0 "R7" H 8850 3650 50  0000 L CNN
+F 1 "0" H 8850 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 3600 50  0001 C CNN
+F 3 "~" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 3600 8900 3750
+Wire Wire Line
+	8600 3600 8600 3750
+$Comp
+L power:GNDA #PWR?
+U 1 1 5CFD05DB
+P 6850 3900
+AR Path="/5D079A08/5CFD05DB" Ref="#PWR?"  Part="1" 
+AR Path="/5CD541CC/5CFD05DB" Ref="#PWR?"  Part="1" 
+AR Path="/5D681DDF/5CFD05DB" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 6850 3650 50  0001 C CNN
+F 1 "GNDA" H 6855 3727 50  0000 C CNN
+F 2 "" H 6850 3900 50  0001 C CNN
+F 3 "" H 6850 3900 50  0001 C CNN
+	1    6850 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

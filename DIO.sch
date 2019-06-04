@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-05-31"
-Rev "V0.16"
+Date "2019-06-04"
+Rev "V0.17"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -118,7 +118,7 @@ AR Path="/5D079A08/5CDAFF35" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CDAFF35" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDAFF35" Ref="R63"  Part="1" 
 F 0 "R63" H 8150 1150 50  0000 L CNN
-F 1 "5K6" H 8100 1050 50  0000 L CNN
+F 1 "56K" H 8100 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 1050 50  0001 C CNN
 F 3 "~" H 8300 1050 50  0001 C CNN
 	1    8300 1050
@@ -133,7 +133,7 @@ AR Path="/5D079A08/5CDB0491" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CDB0491" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDB0491" Ref="R62"  Part="1" 
 F 0 "R62" H 7850 1150 50  0000 L CNN
-F 1 "5K6" H 7800 1050 50  0000 L CNN
+F 1 "56K" H 7800 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7930 1050 50  0001 C CNN
 F 3 "~" H 8000 1050 50  0001 C CNN
 	1    8000 1050
@@ -148,7 +148,7 @@ AR Path="/5D079A08/5CDB096F" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CDB096F" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDB096F" Ref="R61"  Part="1" 
 F 0 "R61" H 7550 1150 50  0000 L CNN
-F 1 "5K6" H 7500 1050 50  0000 L CNN
+F 1 "56K" H 7500 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 1050 50  0001 C CNN
 F 3 "~" H 7700 1050 50  0001 C CNN
 	1    7700 1050
