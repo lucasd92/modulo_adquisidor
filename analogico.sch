@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-06-04"
-Rev "V0.17"
+Date "2019-06-10"
+Rev "V0.18"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -702,7 +702,7 @@ AR Path="/5CD541CC/5D68F1DD" Ref="R53"  Part="1"
 F 0 "R53" V 3150 5150 50  0000 L CNN
 F 1 "220" V 3350 5150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 5250 50  0001 C CNN
-F 3 "~" H 3250 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RQ73C1J237RBTD/A140584CT-ND/9482071" H 3250 5250 50  0001 C CNN
 	1    3250 5250
 	-1   0    0    1   
 $EndComp
@@ -1094,7 +1094,7 @@ AR Path="/5CD541CC/5D781D31" Ref="R60"  Part="1"
 F 0 "R60" V 3150 7000 50  0000 L CNN
 F 1 "220" V 3350 7000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 7100 50  0001 C CNN
-F 3 "~" H 3250 7100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RQ73C1J237RBTD/A140584CT-ND/9482071" H 3250 7100 50  0001 C CNN
 	1    3250 7100
 	-1   0    0    1   
 $EndComp

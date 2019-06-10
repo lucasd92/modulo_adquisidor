@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-06-04"
-Rev "V0.17"
+Date "2019-06-10"
+Rev "V0.18"
 Comp "Trenes Argentinos Operaciones"
 Comment1 ""
 Comment2 "Autor: Lucas Dórdolo"
@@ -832,4 +832,17 @@ Connection ~ 2950 7000
 Wire Wire Line
 	4100 7000 5150 7000
 Connection ~ 4100 7000
+$Comp
+L power:GND #PWR0139
+U 1 1 5D010B97
+P 4100 7000
+AR Path="/5D010B97" Ref="#PWR0139"  Part="1" 
+AR Path="/5D079A08/5D010B97" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0139" H 4100 6750 50  0001 C CNN
+F 1 "GND" H 4105 6827 50  0000 C CNN
+F 2 "" H 4100 7000 50  0001 C CNN
+F 3 "" H 4100 7000 50  0001 C CNN
+	1    4100 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
