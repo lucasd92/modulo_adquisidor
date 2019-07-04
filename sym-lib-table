@@ -3,4 +3,5 @@
   (lib (name Propios)(type Legacy)(uri ${KIPRJMOD}/Propios.lib)(options "")(descr ""))
   (lib (name Placa_base-rescue)(type Legacy)(uri ${KIPRJMOD}/Placa_base-rescue.lib)(options "")(descr ""))
   (lib (name ta)(type Legacy)(uri C:/Users/lucas.dordolo/Desktop/Adquisidor/PCB/Placa_base/modulo_adquisidor/ta.lib)(options "")(descr ""))
+  (lib (name stm32f407vetx)(type Legacy)(uri ${KIPRJMOD}/stm32f407vetx.lib)(options "")(descr ""))
 )

@@ -1,0 +1,30 @@
+Santiago Germino - 4/7/2019:
+
+    En el esquematico:
+        1) Se solucionaron los 23 Warnings y 2 errores al correr el ERC:
+
+            1.1) Pines del micro flotantes (sin NO-CONNECT).
+            1.2) Hierarchical labels con direccion incorrecta en general.
+                 Por ejemplo: PA9 input al sheet del micro pero tambien es input al sheet de WiFi
+                              V_in es input del sheet "Alimentacion" y tambien input del sheet "analogico"
+            1.3) Incorrecto uso de PWR_FLAG en fuentes.
+            1.4) Se agrego PWR_FLAG en VBAT y en otros lugares donde la tension proviene de conectores.
+            1.5) Cambio de pines de "passive" a "power input/output" segun corresponda en conversores DC/DC y aisladores.
+            1.6) En la libreria KiCad esta mal el simbolo del mcu. VCAP_1/2 y VREF+ son "power output" (dan tension). Se creo una nueva lib propia.
+
+        2) Dudas (No modificado, a resolver en 0.20):
+        
+            2.1) El puerto de expansion I2C no tiene pullups. Esto es intencional?
+            2.2) Revisar el pin 3 de los jumpers del "Curcuito de booteo" de BOOT0 y BOOT1. Para que sirve ese pin? Por que queda flotando?
+                 Se le coloco un NO_CONNECT solo para pasar el ERC.
+            2.3) Haria falta agregar un puerto UART TTL para debug. Existe un proyecto de CubeMX para esta placa?
+
+    Que faltaria:
+        - Hierarchical labels: se resolvio lo minimo necesario para pasar el ERC sin warnings/errores.
+            Pero se recomienda lo suguiente:
+                * Para evitar errores de diseño seria necesario respetar (dejar explicita) la direccion de la señal entre sheets.
+                * Tambien seria bueno exponer hacia afuera de un sheet solo los pines que se utilizan para interconectar con otros sheets.
+                * Y nombrar los hierarchicals y labels como la señal que se exporta, no con el nombre de pin generico.
+        - Corroborar circuitos del esquematico. No revise OTA ni correcto mapeo y ruteo de pines.
+        - Retoques al PCB (lo haria en una proxima actualizacion).
+

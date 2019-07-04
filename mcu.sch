@@ -6,16 +6,16 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-06-10"
-Rev "V0.18"
+Date "2019-07-04"
+Rev "V0.19"
 Comp "Trenes Argentinos Operaciones"
-Comment1 ""
+Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F4:STM32F407VGTx U?
+L stm32f407vetx:STM32F407VGTx U?
 U 1 1 5D0882C8
 P 3350 3550
 AR Path="/5D0882C8" Ref="U?"  Part="1" 
@@ -240,7 +240,7 @@ Text Label 4400 2950 0    50   ~ 0
 PB1
 Wire Wire Line
 	4250 2950 4800 2950
-Text Label 4300 3050 0    50   ~ 0
+Text Label 4800 3050 2    50   ~ 0
 PB2-BOOT1
 Wire Wire Line
 	4250 3050 4800 3050
@@ -272,7 +272,7 @@ Text Label 4400 3750 0    50   ~ 0
 PB9
 Wire Wire Line
 	4250 3750 4800 3750
-Text Label 4800 2650 2    50   ~ 0
+Text Label 4400 2650 0    50   ~ 0
 TDI
 Wire Wire Line
 	4250 2650 4800 2650
@@ -348,8 +348,6 @@ Wire Wire Line
 	2450 4150 1900 4150
 Wire Wire Line
 	2450 4250 1900 4250
-Wire Wire Line
-	2450 2850 1900 2850
 Wire Wire Line
 	2450 2950 1900 2950
 Wire Wire Line
@@ -468,7 +466,7 @@ Wire Wire Line
 	3050 850  3050 750 
 Wire Wire Line
 	3050 750  1900 750 
-Text Label 2150 750  0    50   ~ 0
+Text Label 1900 750  0    50   ~ 0
 VBAT
 Wire Wire Line
 	2450 1150 1900 1150
@@ -492,7 +490,7 @@ Wire Wire Line
 	1150 1650 2450 1650
 Wire Wire Line
 	2450 1750 1900 1750
-Text Label 2150 1750 0    50   ~ 0
+Text Label 1900 1750 0    50   ~ 0
 VREF+
 $Comp
 L Device:R R?
@@ -1323,7 +1321,7 @@ Wire Wire Line
 Text Notes 5550 6700 0    50   ~ 0
 NO SOLDAR!!\nse usa para producir reset\n si la tensión baja de 1,74V\n
 Wire Wire Line
-	6700 7100 6150 7100
+	6700 7100 6050 7100
 Connection ~ 6700 7100
 Wire Wire Line
 	6700 7100 6700 7150
@@ -1449,162 +1447,154 @@ Wire Notes Line
 	10950 6300 10950 3450
 Wire Notes Line
 	10950 3450 8750 3450
-Text HLabel 1900 2850 0    50   Input ~ 0
+Text HLabel 1900 2850 0    50   BiDi ~ 0
 PE0
-Text HLabel 1900 2950 0    50   Input ~ 0
+Text HLabel 1900 2950 0    50   BiDi ~ 0
 PE1
-Text HLabel 1900 3050 0    50   Input ~ 0
+Text HLabel 1900 3050 0    50   BiDi ~ 0
 PE2
-Text HLabel 1900 3150 0    50   Input ~ 0
+Text HLabel 1900 3150 0    50   BiDi ~ 0
 PE3
-Text HLabel 1900 3250 0    50   Input ~ 0
+Text HLabel 1900 3250 0    50   BiDi ~ 0
 PE4
-Text HLabel 1900 3350 0    50   Input ~ 0
+Text HLabel 1900 3350 0    50   BiDi ~ 0
 PE5
-Text HLabel 1900 3450 0    50   Input ~ 0
+Text HLabel 1900 3450 0    50   BiDi ~ 0
 PE6
-Text HLabel 1900 3550 0    50   Input ~ 0
+Text HLabel 1900 3550 0    50   BiDi ~ 0
 PE7
-Text HLabel 1900 3650 0    50   Input ~ 0
+Text HLabel 1900 3650 0    50   BiDi ~ 0
 PE8
-Text HLabel 1900 3750 0    50   Input ~ 0
+Text HLabel 1900 3750 0    50   BiDi ~ 0
 PE9
-Text HLabel 1900 3850 0    50   Input ~ 0
+Text HLabel 1900 3850 0    50   BiDi ~ 0
 PE10
-Text HLabel 1900 3950 0    50   Input ~ 0
+Text HLabel 1900 3950 0    50   BiDi ~ 0
 PE11
-Text HLabel 1900 4050 0    50   Input ~ 0
+Text HLabel 1900 4050 0    50   BiDi ~ 0
 PE12
-Text HLabel 1900 4150 0    50   Input ~ 0
+Text HLabel 1900 4150 0    50   BiDi ~ 0
 PE13
-Text HLabel 1900 4250 0    50   Input ~ 0
+Text HLabel 1900 4250 0    50   BiDi ~ 0
 PE14
-Text HLabel 1900 4350 0    50   Input ~ 0
+Text HLabel 1900 4350 0    50   BiDi ~ 0
 PE15
-Text HLabel 1900 4550 0    50   Input ~ 0
+Text HLabel 1900 4550 0    50   BiDi ~ 0
 PD0
-Text HLabel 1900 4650 0    50   Input ~ 0
+Text HLabel 1900 4650 0    50   BiDi ~ 0
 PD1
-Text HLabel 1900 4750 0    50   Input ~ 0
+Text HLabel 1900 4750 0    50   BiDi ~ 0
 PD2
-Text HLabel 1900 4850 0    50   Input ~ 0
+Text HLabel 1900 4850 0    50   BiDi ~ 0
 PD3
-Text HLabel 1900 4950 0    50   Input ~ 0
+Text HLabel 1900 4950 0    50   BiDi ~ 0
 PD4
-Text HLabel 1900 5050 0    50   Input ~ 0
+Text HLabel 1900 5050 0    50   BiDi ~ 0
 PD5
-Text HLabel 1900 5150 0    50   Input ~ 0
+Text HLabel 1900 5150 0    50   BiDi ~ 0
 PD6
-Text HLabel 1900 5250 0    50   Input ~ 0
+Text HLabel 1900 5250 0    50   BiDi ~ 0
 PD7
-Text HLabel 1900 5350 0    50   Input ~ 0
+Text HLabel 1900 5350 0    50   BiDi ~ 0
 PD8
-Text HLabel 1900 5450 0    50   Input ~ 0
+Text HLabel 1900 5450 0    50   BiDi ~ 0
 PD9
-Text HLabel 1900 5550 0    50   Input ~ 0
+Text HLabel 1900 5550 0    50   BiDi ~ 0
 PD10
-Text HLabel 1900 5650 0    50   Input ~ 0
+Text HLabel 1900 5650 0    50   BiDi ~ 0
 PD11
-Text HLabel 1900 5750 0    50   Input ~ 0
+Text HLabel 1900 5750 0    50   BiDi ~ 0
 PD12
-Text HLabel 1900 5850 0    50   Input ~ 0
+Text HLabel 1900 5850 0    50   BiDi ~ 0
 PD13
-Text HLabel 1900 5950 0    50   Input ~ 0
+Text HLabel 1900 5950 0    50   BiDi ~ 0
 PD14
-Text HLabel 1900 6050 0    50   Input ~ 0
+Text HLabel 1900 6050 0    50   BiDi ~ 0
 PD15
-Text HLabel 4800 4550 2    50   Input ~ 0
+Text HLabel 4800 4550 2    50   BiDi ~ 0
 PC0
-Text HLabel 4800 4650 2    50   Input ~ 0
+Text HLabel 4800 4650 2    50   BiDi ~ 0
 PC1
-Text HLabel 4800 4750 2    50   Input ~ 0
+Text HLabel 4800 4750 2    50   BiDi ~ 0
 PC2
-Text HLabel 4800 4850 2    50   Input ~ 0
+Text HLabel 4800 4850 2    50   BiDi ~ 0
 PC3
-Text HLabel 4800 4950 2    50   Input ~ 0
+Text HLabel 4800 4950 2    50   BiDi ~ 0
 PC4
-Text HLabel 4800 5050 2    50   Input ~ 0
+Text HLabel 4800 5050 2    50   BiDi ~ 0
 PC5
-Text HLabel 4800 5150 2    50   Input ~ 0
+Text HLabel 4800 5150 2    50   BiDi ~ 0
 PC6
-Text HLabel 4800 5250 2    50   Input ~ 0
+Text HLabel 4800 5250 2    50   BiDi ~ 0
 PC7
-Text HLabel 4800 5350 2    50   Input ~ 0
+Text HLabel 4800 5350 2    50   BiDi ~ 0
 PC8
-Text HLabel 4800 5450 2    50   Input ~ 0
+Text HLabel 4800 5450 2    50   BiDi ~ 0
 PC9
-Text HLabel 4800 5550 2    50   Input ~ 0
+Text HLabel 4800 5550 2    50   BiDi ~ 0
 PC10
-Text HLabel 4800 5650 2    50   Input ~ 0
+Text HLabel 4800 5650 2    50   BiDi ~ 0
 PC11
-Text HLabel 4800 5750 2    50   Input ~ 0
+Text HLabel 4800 5750 2    50   BiDi ~ 0
 PC12
-Text HLabel 4800 5850 2    50   Input ~ 0
+Text HLabel 4800 5850 2    50   BiDi ~ 0
 PC13
-Text HLabel 4800 2850 2    50   Input ~ 0
+Text HLabel 4800 2850 2    50   BiDi ~ 0
 PB0
-Text HLabel 4800 2950 2    50   Input ~ 0
+Text HLabel 4800 2950 2    50   BiDi ~ 0
 PB1
-Text HLabel 4800 3050 2    50   Input ~ 0
-PB2-BOOT1
-Text HLabel 4800 3250 2    50   Input ~ 0
-NTRST
-Text HLabel 4800 3350 2    50   Input ~ 0
+Text HLabel 4800 3350 2    50   BiDi ~ 0
 PB5
-Text HLabel 4800 3450 2    50   Input ~ 0
+Text HLabel 4800 3450 2    50   BiDi ~ 0
 PB6
-Text HLabel 4800 3550 2    50   Input ~ 0
+Text HLabel 4800 3550 2    50   BiDi ~ 0
 PB7
-Text HLabel 4800 3650 2    50   Input ~ 0
+Text HLabel 4800 3650 2    50   BiDi ~ 0
 PB8
-Text HLabel 4800 3750 2    50   Input ~ 0
+Text HLabel 4800 3750 2    50   BiDi ~ 0
 PB9
-Text HLabel 4800 3850 2    50   Input ~ 0
+Text HLabel 4800 3850 2    50   BiDi ~ 0
 PB10
-Text HLabel 4800 3950 2    50   Input ~ 0
+Text HLabel 4800 3950 2    50   BiDi ~ 0
 PB11
-Text HLabel 4800 4050 2    50   Input ~ 0
+Text HLabel 4800 4050 2    50   BiDi ~ 0
 PB12
-Text HLabel 4800 4150 2    50   Input ~ 0
+Text HLabel 4800 4150 2    50   BiDi ~ 0
 PB13
-Text HLabel 4800 4250 2    50   Input ~ 0
+Text HLabel 4800 4250 2    50   BiDi ~ 0
 PB14
-Text HLabel 4800 4350 2    50   Input ~ 0
+Text HLabel 4800 4350 2    50   BiDi ~ 0
 PB15
-Text HLabel 4800 1150 2    50   Input ~ 0
+Text HLabel 4800 1150 2    50   BiDi ~ 0
 PA0
-Text HLabel 4800 1250 2    50   Input ~ 0
+Text HLabel 4800 1250 2    50   BiDi ~ 0
 PA1
-Text HLabel 4800 1350 2    50   Input ~ 0
+Text HLabel 4800 1350 2    50   BiDi ~ 0
 PA2
-Text HLabel 4800 1450 2    50   Input ~ 0
+Text HLabel 4800 1450 2    50   BiDi ~ 0
 PA3
-Text HLabel 4800 1550 2    50   Input ~ 0
+Text HLabel 4800 1550 2    50   BiDi ~ 0
 PA4
-Text HLabel 4800 1650 2    50   Input ~ 0
+Text HLabel 4800 1650 2    50   BiDi ~ 0
 PA5
-Text HLabel 4800 1750 2    50   Input ~ 0
+Text HLabel 4800 1750 2    50   BiDi ~ 0
 PA6
-Text HLabel 4800 1850 2    50   Input ~ 0
+Text HLabel 4800 1850 2    50   BiDi ~ 0
 PA7
-Text HLabel 4800 1950 2    50   Input ~ 0
+Text HLabel 4800 1950 2    50   BiDi ~ 0
 PA8
-Text HLabel 4800 2050 2    50   Input ~ 0
+Text HLabel 4800 2050 2    50   BiDi ~ 0
 PA9
-Text HLabel 4800 2150 2    50   Input ~ 0
+Text HLabel 4800 2150 2    50   BiDi ~ 0
 PA10
-Text HLabel 4800 2250 2    50   Input ~ 0
+Text HLabel 4800 2250 2    50   BiDi ~ 0
 PA11
-Text HLabel 4800 2350 2    50   Input ~ 0
+Text HLabel 4800 2350 2    50   BiDi ~ 0
 PA12
-Text HLabel 1900 750  0    50   Input ~ 0
-VBAT
 Text HLabel 1900 1150 0    50   Input ~ 0
 NRST
 Text HLabel 1900 1350 0    50   Input ~ 0
 BOOT0
-Text HLabel 1900 1750 0    50   Input ~ 0
-VREF+
 Text Notes 6000 2950 0    50   ~ 0
 Con el bootloader en la memoria del sistema \npuede iniciar en USART1(PA9/PA10) o 3 (PB10/11-PC10/11) 
 Text Notes 6900 2700 0    50   ~ 0
@@ -1763,4 +1753,36 @@ Wire Wire Line
 Connection ~ 6550 5650
 Wire Wire Line
 	6550 5650 6800 5650
+Wire Wire Line
+	2450 2850 1900 2850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D36D53F
+P 9550 4000
+F 0 "#FLG0101" H 9550 4075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9550 4174 50  0000 C CNN
+F 2 "" H 9550 4000 50  0001 C CNN
+F 3 "~" H 9550 4000 50  0001 C CNN
+	1    9550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4000 9550 4100
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D3E21B9
+P 6050 7050
+F 0 "#FLG0102" H 6050 7125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6050 7224 50  0000 C CNN
+F 2 "" H 6050 7050 50  0001 C CNN
+F 3 "~" H 6050 7050 50  0001 C CNN
+	1    6050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7050 6050 7100
+NoConn ~ 4800 2650
+NoConn ~ 4800 3250
+NoConn ~ 7400 2350
+NoConn ~ 6550 2350
 $EndSCHEMATC

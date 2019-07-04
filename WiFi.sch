@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-06-10"
-Rev "V0.18"
+Date "2019-07-04"
+Rev "V0.19"
 Comp "Trenes Argentinos Operaciones"
-Comment1 ""
+Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
 Comment3 ""
 Comment4 ""
@@ -220,11 +220,11 @@ Text Label 7600 5200 2    50   ~ 0
 TX_SIM800
 Text Notes 5950 4700 0    50   ~ 0
 Divisor resistivo recomendado como interfaz con micros de 3v3
-Text HLabel 10100 1150 2    50   Input ~ 0
+Text HLabel 10100 1150 2    50   Output ~ 0
 D1_ESP
 Text HLabel 7950 2450 2    50   Input ~ 0
 RX_ESP
-Text HLabel 7950 2550 2    50   Input ~ 0
+Text HLabel 7950 2550 2    50   Output ~ 0
 TX_ESP
 Text HLabel 5050 3450 0    50   Input ~ 0
 RST_ESP
@@ -289,7 +289,7 @@ Wire Wire Line
 	9550 1150 9550 1250
 Text Notes 9550 1050 0    50   ~ 0
 Invierto lógica para que no me\n reinicie el STM32 al iniciarse en bajo.
-Text HLabel 10100 2300 2    50   Input ~ 0
+Text HLabel 10100 2300 2    50   Output ~ 0
 D2_ESP
 $Comp
 L Transistor_BJT:MMBT3904 Q2

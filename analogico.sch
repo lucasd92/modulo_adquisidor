@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-06-10"
-Rev "V0.18"
+Date "2019-07-04"
+Rev "V0.19"
 Comp "Trenes Argentinos Operaciones"
-Comment1 ""
+Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
 Comment3 ""
 Comment4 ""
@@ -1611,4 +1611,17 @@ F 3 "" H 6350 3750 50  0001 C CNN
 	1    6350 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5D2A8752
+P 3200 3125
+F 0 "#FLG0106" H 3200 3200 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3299 50  0000 C CNN
+F 2 "" H 3200 3125 50  0001 C CNN
+F 3 "~" H 3200 3125 50  0001 C CNN
+	1    3200 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3125 3200 3200
 $EndSCHEMATC
