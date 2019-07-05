@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-04"
-Rev "V0.19"
+Date "2019-07-05"
+Rev "V0.191"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -85,7 +85,7 @@ Text HLabel 1550 4000 0    50   Input ~ 0
 CD4021-SEROUT
 Text HLabel 1350 1600 0    50   Input ~ 0
 CD4021-CLK
-Text HLabel 1350 1500 0    50   Input ~ 0
+Text HLabel 1350 1500 0    50   Output ~ 0
 CD4021-PAR-SER
 Text Notes 2100 800  0    79   ~ 0
 Salidas digitales
@@ -256,11 +256,11 @@ Text HLabel 7150 1950 0    79   Input ~ 0
 sd_clk
 Text HLabel 7150 2150 0    79   Input ~ 0
 sd_dat0
-Text HLabel 7150 2350 0    79   Input ~ 0
+Text HLabel 7150 2350 0    79   Output ~ 0
 sd_det
 Text HLabel 7150 1750 0    79   Input ~ 0
 sd_cmd
-Text HLabel 7150 1650 0    79   Input ~ 0
+Text HLabel 7150 1650 0    79   Output ~ 0
 sd_cd
 Text Notes 8200 3300 0    50   ~ 0
 La SD tiene un pull-up en CD, para que el micro\n pueda detectar cuando se conecta.
@@ -781,9 +781,9 @@ Wire Wire Line
 	5850 4450 6150 4450
 Wire Wire Line
 	5550 4450 5350 4450
-Text HLabel 5350 4450 0    50   Input ~ 0
+Text HLabel 5350 4450 0    50   Output ~ 0
 SW1
-Text HLabel 5350 6150 0    50   Input ~ 0
+Text HLabel 5350 6150 0    50   Output ~ 0
 SW2
 $Comp
 L Device:R R?

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-04"
-Rev "V0.19"
+Date "2019-07-05"
+Rev "V0.191"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -230,7 +230,7 @@ Text HLabel 5050 3450 0    50   Input ~ 0
 RST_ESP
 Text HLabel 6400 4900 0    50   Input ~ 0
 RX_S800
-Text HLabel 6400 5200 0    50   Input ~ 0
+Text HLabel 6400 5200 0    50   Output ~ 0
 TX_S800
 Text Notes 6150 3050 0    50   ~ 0
 GPIO4/5 (scl/sda) arrancan en bajo y no tienen otro uso
@@ -501,7 +501,7 @@ Text Label 1150 2000 0    50   ~ 0
 GND
 Text Label 1150 1400 0    50   ~ 0
 GND
-Text HLabel 1150 1500 0    50   Input ~ 0
+Text HLabel 1150 1500 0    50   Output ~ 0
 ISO1412_R
 Text HLabel 1150 1600 0    50   Input ~ 0
 ISO1412_RE
@@ -837,7 +837,7 @@ Text Notes 2400 7000 0    50   ~ 0
 Se conecta Vcc a 5V 2A\nPwr es boton de encendido (2seg en alto)\nreset con pull up?  en bajo consume 70mA\nINT pone en bajo consumo\n
 Text HLabel 3700 6150 2    50   Input ~ 0
 RX_A6
-Text HLabel 3700 6250 2    50   Input ~ 0
+Text HLabel 3700 6250 2    50   Output ~ 0
 TX_A6
 $Comp
 L power:+5V #PWR?
