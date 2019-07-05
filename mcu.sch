@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-04"
-Rev "V0.19"
+Date "2019-07-05"
+Rev "V0.191"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -1447,149 +1447,127 @@ Wire Notes Line
 	10950 6300 10950 3450
 Wire Notes Line
 	10950 3450 8750 3450
-Text HLabel 1900 2850 0    50   BiDi ~ 0
-PE0
-Text HLabel 1900 2950 0    50   BiDi ~ 0
-PE1
-Text HLabel 1900 3050 0    50   BiDi ~ 0
-PE2
-Text HLabel 1900 3150 0    50   BiDi ~ 0
-PE3
-Text HLabel 1900 3250 0    50   BiDi ~ 0
-PE4
-Text HLabel 1900 3350 0    50   BiDi ~ 0
-PE5
-Text HLabel 1900 3450 0    50   BiDi ~ 0
-PE6
-Text HLabel 1900 3550 0    50   BiDi ~ 0
+Text HLabel 1900 3550 0    50   Output ~ 0
 PE7
-Text HLabel 1900 3650 0    50   BiDi ~ 0
+Text HLabel 1900 3650 0    50   Output ~ 0
 PE8
-Text HLabel 1900 3750 0    50   BiDi ~ 0
+Text HLabel 1900 3750 0    50   Output ~ 0
 PE9
-Text HLabel 1900 3850 0    50   BiDi ~ 0
+Text HLabel 1900 3850 0    50   Output ~ 0
 PE10
-Text HLabel 1900 3950 0    50   BiDi ~ 0
+Text HLabel 1900 3950 0    50   Output ~ 0
 PE11
-Text HLabel 1900 4050 0    50   BiDi ~ 0
+Text HLabel 1900 4050 0    50   Output ~ 0
 PE12
-Text HLabel 1900 4150 0    50   BiDi ~ 0
+Text HLabel 1900 4150 0    50   Output ~ 0
 PE13
-Text HLabel 1900 4250 0    50   BiDi ~ 0
+Text HLabel 1900 4250 0    50   Output ~ 0
 PE14
-Text HLabel 1900 4350 0    50   BiDi ~ 0
+Text HLabel 1900 4350 0    50   Output ~ 0
 PE15
-Text HLabel 1900 4550 0    50   BiDi ~ 0
+Text HLabel 1900 4550 0    50   Input ~ 0
 PD0
-Text HLabel 1900 4650 0    50   BiDi ~ 0
-PD1
-Text HLabel 1900 4750 0    50   BiDi ~ 0
+Text HLabel 1900 4750 0    50   Output ~ 0
 PD2
-Text HLabel 1900 4850 0    50   BiDi ~ 0
+Text HLabel 1900 4850 0    50   Output ~ 0
 PD3
-Text HLabel 1900 4950 0    50   BiDi ~ 0
+Text HLabel 1900 4950 0    50   Output ~ 0
 PD4
-Text HLabel 1900 5050 0    50   BiDi ~ 0
+Text HLabel 1900 5050 0    50   Output ~ 0
 PD5
-Text HLabel 1900 5150 0    50   BiDi ~ 0
+Text HLabel 1900 5150 0    50   Input ~ 0
 PD6
-Text HLabel 1900 5250 0    50   BiDi ~ 0
-PD7
-Text HLabel 1900 5350 0    50   BiDi ~ 0
+Text HLabel 1900 5350 0    50   Input ~ 0
 PD8
-Text HLabel 1900 5450 0    50   BiDi ~ 0
+Text HLabel 1900 5450 0    50   Output ~ 0
 PD9
-Text HLabel 1900 5550 0    50   BiDi ~ 0
+Text HLabel 1900 5550 0    50   Output ~ 0
 PD10
-Text HLabel 1900 5650 0    50   BiDi ~ 0
+Text HLabel 1900 5650 0    50   Output ~ 0
 PD11
-Text HLabel 1900 5750 0    50   BiDi ~ 0
+Text HLabel 1900 5750 0    50   Output ~ 0
 PD12
-Text HLabel 1900 5850 0    50   BiDi ~ 0
+Text HLabel 1900 5850 0    50   Output ~ 0
 PD13
-Text HLabel 1900 5950 0    50   BiDi ~ 0
+Text HLabel 1900 5950 0    50   Output ~ 0
 PD14
-Text HLabel 1900 6050 0    50   BiDi ~ 0
+Text HLabel 1900 6050 0    50   Output ~ 0
 PD15
-Text HLabel 4800 4550 2    50   BiDi ~ 0
+Text HLabel 4800 4550 2    50   Input ~ 0
 PC0
-Text HLabel 4800 4650 2    50   BiDi ~ 0
+Text HLabel 4800 4650 2    50   Input ~ 0
 PC1
-Text HLabel 4800 4750 2    50   BiDi ~ 0
+Text HLabel 4800 4750 2    50   Input ~ 0
 PC2
-Text HLabel 4800 4850 2    50   BiDi ~ 0
+Text HLabel 4800 4850 2    50   Input ~ 0
 PC3
-Text HLabel 4800 4950 2    50   BiDi ~ 0
+Text HLabel 4800 4950 2    50   Output ~ 0
 PC4
-Text HLabel 4800 5050 2    50   BiDi ~ 0
+Text HLabel 4800 5050 2    50   Output ~ 0
 PC5
-Text HLabel 4800 5150 2    50   BiDi ~ 0
+Text HLabel 4800 5150 2    50   Output ~ 0
 PC6
-Text HLabel 4800 5250 2    50   BiDi ~ 0
+Text HLabel 4800 5250 2    50   Output ~ 0
 PC7
-Text HLabel 4800 5350 2    50   BiDi ~ 0
+Text HLabel 4800 5350 2    50   Output ~ 0
 PC8
-Text HLabel 4800 5450 2    50   BiDi ~ 0
+Text HLabel 4800 5450 2    50   Output ~ 0
 PC9
-Text HLabel 4800 5550 2    50   BiDi ~ 0
+Text HLabel 4800 5550 2    50   Input ~ 0
 PC10
-Text HLabel 4800 5650 2    50   BiDi ~ 0
+Text HLabel 4800 5650 2    50   Input ~ 0
 PC11
-Text HLabel 4800 5750 2    50   BiDi ~ 0
+Text HLabel 4800 5750 2    50   Output ~ 0
 PC12
-Text HLabel 4800 5850 2    50   BiDi ~ 0
-PC13
-Text HLabel 4800 2850 2    50   BiDi ~ 0
+Text HLabel 4800 2850 2    50   Output ~ 0
 PB0
-Text HLabel 4800 2950 2    50   BiDi ~ 0
+Text HLabel 4800 2950 2    50   Output ~ 0
 PB1
-Text HLabel 4800 3350 2    50   BiDi ~ 0
-PB5
-Text HLabel 4800 3450 2    50   BiDi ~ 0
+Text HLabel 4800 3450 2    50   Output ~ 0
 PB6
-Text HLabel 4800 3550 2    50   BiDi ~ 0
+Text HLabel 4800 3550 2    50   Output ~ 0
 PB7
-Text HLabel 4800 3650 2    50   BiDi ~ 0
+Text HLabel 4800 3650 2    50   Input ~ 0
 PB8
-Text HLabel 4800 3750 2    50   BiDi ~ 0
+Text HLabel 4800 3750 2    50   Output ~ 0
 PB9
-Text HLabel 4800 3850 2    50   BiDi ~ 0
+Text HLabel 4800 3850 2    50   Output ~ 0
 PB10
-Text HLabel 4800 3950 2    50   BiDi ~ 0
+Text HLabel 4800 3950 2    50   Input ~ 0
 PB11
-Text HLabel 4800 4050 2    50   BiDi ~ 0
+Text HLabel 4800 4050 2    50   Output ~ 0
 PB12
-Text HLabel 4800 4150 2    50   BiDi ~ 0
+Text HLabel 4800 4150 2    50   Output ~ 0
 PB13
-Text HLabel 4800 4250 2    50   BiDi ~ 0
+Text HLabel 4800 4250 2    50   Output ~ 0
 PB14
-Text HLabel 4800 4350 2    50   BiDi ~ 0
+Text HLabel 4800 4350 2    50   Output ~ 0
 PB15
-Text HLabel 4800 1150 2    50   BiDi ~ 0
+Text HLabel 4800 1150 2    50   Output ~ 0
 PA0
-Text HLabel 4800 1250 2    50   BiDi ~ 0
+Text HLabel 4800 1250 2    50   Input ~ 0
 PA1
-Text HLabel 4800 1350 2    50   BiDi ~ 0
+Text HLabel 4800 1350 2    50   Output ~ 0
 PA2
-Text HLabel 4800 1450 2    50   BiDi ~ 0
+Text HLabel 4800 1450 2    50   Output ~ 0
 PA3
-Text HLabel 4800 1550 2    50   BiDi ~ 0
+Text HLabel 4800 1550 2    50   Output ~ 0
 PA4
-Text HLabel 4800 1650 2    50   BiDi ~ 0
+Text HLabel 4800 1650 2    50   Output ~ 0
 PA5
-Text HLabel 4800 1750 2    50   BiDi ~ 0
+Text HLabel 4800 1750 2    50   Input ~ 0
 PA6
-Text HLabel 4800 1850 2    50   BiDi ~ 0
+Text HLabel 4800 1850 2    50   Output ~ 0
 PA7
-Text HLabel 4800 1950 2    50   BiDi ~ 0
+Text HLabel 4800 1950 2    50   Output ~ 0
 PA8
-Text HLabel 4800 2050 2    50   BiDi ~ 0
+Text HLabel 4800 2050 2    50   Output ~ 0
 PA9
-Text HLabel 4800 2150 2    50   BiDi ~ 0
+Text HLabel 4800 2150 2    50   Input ~ 0
 PA10
-Text HLabel 4800 2250 2    50   BiDi ~ 0
+Text HLabel 4800 2250 2    50   Output ~ 0
 PA11
-Text HLabel 4800 2350 2    50   BiDi ~ 0
+Text HLabel 4800 2350 2    50   Input ~ 0
 PA12
 Text HLabel 1900 1150 0    50   Input ~ 0
 NRST
@@ -1785,4 +1763,15 @@ NoConn ~ 4800 2650
 NoConn ~ 4800 3250
 NoConn ~ 7400 2350
 NoConn ~ 6550 2350
+NoConn ~ 1900 3050
+NoConn ~ 1900 3150
+NoConn ~ 1900 3250
+NoConn ~ 1900 3350
+NoConn ~ 1900 3450
+NoConn ~ 4800 5850
+NoConn ~ 1900 2850
+NoConn ~ 1900 2950
+NoConn ~ 1900 5250
+NoConn ~ 1900 4650
+NoConn ~ 4800 3350
 $EndSCHEMATC

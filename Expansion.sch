@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-04"
-Rev "V0.19"
+Date "2019-07-05"
+Rev "V0.191"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -79,7 +79,7 @@ Text HLabel 4600 1200 0    50   Input ~ 0
 SCL_1
 Wire Wire Line
 	4600 1750 5150 1750
-Text HLabel 4600 1850 0    50   BiDi ~ 0
+Text HLabel 4600 1850 0    50   Input ~ 0
 SDA_3
 Wire Wire Line
 	4600 1850 5150 1850

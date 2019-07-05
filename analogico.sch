@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-04"
-Rev "V0.19"
+Date "2019-07-05"
+Rev "V0.191"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -70,7 +70,7 @@ Wire Wire Line
 Connection ~ 9500 2400
 Wire Wire Line
 	9500 2400 9500 2350
-Text HLabel 6550 1750 2    50   Input ~ 0
+Text HLabel 6550 1750 2    50   Output ~ 0
 AOut1
 $Comp
 L Device:R R?
@@ -91,9 +91,9 @@ Wire Wire Line
 	5300 1850 5300 2000
 Wire Wire Line
 	5300 2000 5900 2000
-Text HLabel 6550 4750 2    50   Input ~ 0
+Text HLabel 6550 4750 2    50   Output ~ 0
 AOut3
-Text HLabel 6550 6600 2    50   Input ~ 0
+Text HLabel 6550 6600 2    50   Output ~ 0
 AOut4
 Text Notes 3800 650  0    79   ~ 0
 Entradas analógicas, acondicionamiento y filtrado
@@ -438,7 +438,7 @@ F 3 "" H 4950 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 1300 4950 1350
-Text HLabel 6550 3350 2    50   Input ~ 0
+Text HLabel 6550 3350 2    50   Output ~ 0
 AOut2
 Wire Wire Line
 	5300 3450 5300 3600
