@@ -747,17 +747,6 @@ Wire Wire Line
 Text Label 7550 3350 2    50   ~ 0
 SW1
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 5CF83044
-P 1800 6350
-F 0 "H5" H 1900 6396 50  0000 L CNN
-F 1 "Logo_TA" H 1900 6305 50  0000 L CNN
-F 2 "Propios:ta2" H 1800 6350 50  0001 C CNN
-F 3 "~" H 1800 6350 50  0001 C CNN
-	1    1800 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5D267FE5
 P 1800 6900
@@ -900,4 +889,15 @@ Text Label 3950 2550 0    50   ~ 0
 An_In3
 Text Label 3950 2650 0    50   ~ 0
 An_In4
+$Comp
+L Propios:TrenesArgentinosLogo G1
+U 1 1 5D209231
+P 2575 6325
+F 0 "G1" H 2572 6575 60  0000 C CNN
+F 1 "TrenesArgentinosLogo" H 2575 6485 60  0001 C CNN
+F 2 "Propios:TrenesArgentinosLogoNeg" H 2575 6325 50  0001 C CNN
+F 3 "" H 2575 6325 50  0001 C CNN
+	1    2575 6325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
