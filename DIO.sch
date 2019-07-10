@@ -99,12 +99,12 @@ Wire Wire Line
 	2350 4100 2350 4200
 Connection ~ 2350 4200
 $Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J8
+L Propios:Micro_SD_Card_Det_Hirose_DM3AT J8
 U 1 1 5CDAD0B1
 P 9450 1950
 F 0 "J8" H 9400 2767 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 9400 2676 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 11500 2650 50  0001 C CNN
+F 2 "Propios:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 11500 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/hirose-electric-co-ltd/DM3AT-SF-PEJM5/HR1964CT-ND/2533566" H 9450 2050 50  0001 C CNN
 	1    9450 1950
 	1    0    0    -1  
@@ -117,8 +117,8 @@ AR Path="/5CDAFF35" Ref="R?"  Part="1"
 AR Path="/5D079A08/5CDAFF35" Ref="R?"  Part="1" 
 AR Path="/5CD0198B/5CDAFF35" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDAFF35" Ref="R63"  Part="1" 
-F 0 "R63" H 8150 1150 50  0000 L CNN
-F 1 "56K" H 8100 1050 50  0000 L CNN
+F 0 "R63" V 8375 975 50  0000 L CNN
+F 1 "56K" V 8300 975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 1050 50  0001 C CNN
 F 3 "~" H 8300 1050 50  0001 C CNN
 	1    8300 1050
@@ -132,8 +132,8 @@ AR Path="/5CDB0491" Ref="R?"  Part="1"
 AR Path="/5D079A08/5CDB0491" Ref="R?"  Part="1" 
 AR Path="/5CD0198B/5CDB0491" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDB0491" Ref="R62"  Part="1" 
-F 0 "R62" H 7850 1150 50  0000 L CNN
-F 1 "56K" H 7800 1050 50  0000 L CNN
+F 0 "R62" V 8075 975 50  0000 L CNN
+F 1 "56K" V 8000 975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7930 1050 50  0001 C CNN
 F 3 "~" H 8000 1050 50  0001 C CNN
 	1    8000 1050
@@ -147,8 +147,8 @@ AR Path="/5CDB096F" Ref="R?"  Part="1"
 AR Path="/5D079A08/5CDB096F" Ref="R?"  Part="1" 
 AR Path="/5CD0198B/5CDB096F" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDB096F" Ref="R61"  Part="1" 
-F 0 "R61" H 7550 1150 50  0000 L CNN
-F 1 "56K" H 7500 1050 50  0000 L CNN
+F 0 "R61" V 7775 975 50  0000 L CNN
+F 1 "56K" V 7700 975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 1050 50  0001 C CNN
 F 3 "~" H 7700 1050 50  0001 C CNN
 	1    7700 1050
@@ -187,12 +187,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR096
 U 1 1 5CDB3C47
-P 8400 2900
-F 0 "#PWR096" H 8400 2650 50  0001 C CNN
-F 1 "GND" H 8405 2727 50  0000 C CNN
-F 2 "" H 8400 2900 50  0001 C CNN
-F 3 "" H 8400 2900 50  0001 C CNN
-	1    8400 2900
+P 8400 3050
+F 0 "#PWR096" H 8400 2800 50  0001 C CNN
+F 1 "GND" H 8405 2877 50  0000 C CNN
+F 2 "" H 8400 3050 50  0001 C CNN
+F 3 "" H 8400 3050 50  0001 C CNN
+	1    8400 3050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -203,31 +203,31 @@ Wire Wire Line
 	8400 2050 8400 2450
 Connection ~ 8400 2450
 Wire Wire Line
-	8400 2450 8400 2800
+	8400 2450 8400 2950
 $Comp
 L Device:R R?
 U 1 1 5CDB6544
-P 9450 2800
+P 9450 2950
 AR Path="/5CDB6544" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5CDB6544" Ref="R?"  Part="1" 
 AR Path="/5CD0198B/5CDB6544" Ref="R?"  Part="1" 
 AR Path="/5CF2977A/5CDB6544" Ref="R64"  Part="1" 
-F 0 "R64" H 9300 2900 50  0000 L CNN
-F 1 "0" H 9250 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9380 2800 50  0001 C CNN
-F 3 "~" H 9450 2800 50  0001 C CNN
-	1    9450 2800
+F 0 "R64" V 9525 2875 50  0000 L CNN
+F 1 "0" V 9450 2925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9380 2950 50  0001 C CNN
+F 3 "~" H 9450 2950 50  0001 C CNN
+	1    9450 2950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9300 2800 8400 2800
-Connection ~ 8400 2800
+	9300 2950 8400 2950
+Connection ~ 8400 2950
 Wire Wire Line
-	8400 2800 8400 2900
+	8400 2950 8400 3050
 Wire Wire Line
-	9600 2800 10250 2800
+	9600 2950 10250 2950
 Wire Wire Line
-	10250 2800 10250 2450
+	10250 2950 10250 2700
 $Comp
 L power:VDD #PWR090
 U 1 1 5CDB8ED8
@@ -262,9 +262,9 @@ Text HLabel 7150 1750 0    79   Input ~ 0
 sd_cmd
 Text HLabel 7150 1650 0    79   Output ~ 0
 sd_cd
-Text Notes 8200 3300 0    50   ~ 0
+Text Notes 8325 3475 0    50   ~ 0
 La SD tiene un pull-up en CD, para que el micro\n pueda detectar cuando se conecta.
-Text Notes 8200 3450 0    50   ~ 0
+Text Notes 8325 3625 0    50   ~ 0
 DET_A y DET_B son un interruptor normal abierto.
 $Comp
 L Device:C C?
@@ -1107,4 +1107,7 @@ Wire Wire Line
 	7500 4600 7350 4600
 Wire Wire Line
 	7900 4950 7900 5000
+NoConn ~ 10250 2600
+NoConn ~ 10250 2500
+NoConn ~ 10250 2400
 $EndSCHEMATC
