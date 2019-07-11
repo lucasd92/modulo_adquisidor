@@ -1,0 +1,48 @@
+Santiago Germino, 9/7/2019:
+
+Que se modifico:
+
+    1)  Masivo cambio de conexion de pistas en capacitores y resistencias:
+            Las conexiones deberian hacerse perpendiculares al pad para mantener
+            balance termico al soldar y evitar que los componentes se desplacen 
+            del pad.
+    2)  Ancho de pistas. Estaba sobredimensionado y las conexiones a los
+        capacitores y resistencias no cumplian la premisa del punto 1.
+    3)  Anillo de circunvalacion de masa de la placa sugerido. Ahora mas ancho y
+        proximo a los bordes.
+    4)  Agujeros de montaje. No estaban ubicados en grilla metrica. Se modifican
+        para que exista una distancia exacta entre ellos (191 x 91 mm)
+    5)  Masiva modificacion en el ruteo de 5V y VCC, con el objetivo de eliminar
+        vias y limpiar el plano de masa.
+    6)  Nuevo ruteo de pistas de señal para no escapar hacia el plano de masa.
+    7)  Plano de masa casi totalmente libre de ruteo de pistas.
+    8)  Se acerco I2C3 lo mas posible al micro. I2C es un bus de placa, el largo
+        de pista reduce su capacidad.
+    9)  El conector de 485 se reubico para colocar leyenda del conector con
+        buena visiblidad.
+    10) Se arreglaron los pines no ruteados del conector SD.
+    11) Se arreglo parte del silkscreen (logo de Trenes Argentinos, se agrego
+        CONICET-GICSAFe, etc).
+    12) Se modifico la ubicacion de muchos capacitores de desacople para 
+        acercarlos lo mas posible al pin correspondiente.
+    13) Se agrego una via a GND lo mas cerca posible del pad de cada capacitor
+        de desacople.
+
+Que falta:
+
+    A) No se cambio el 100% de las conexiones segun el punto 1). Por favor 
+       revisar faltantes, en especial en los circuitos analogicos.
+    B) No se agrego ningun pullup en I2C.
+        Que utilidad tiene tener dos puertos I2C considerando que no se 
+        exponen en conectores de expansion placa a placa y el bus I2C es
+        muy sensible a la impedancia y al ruido?
+    C) CAN1. Sugeriria agregar transceiver.
+    D) Los pads elegidos son de tipo "HandSolder". Se espera soldar todos
+       los componentes de los prototipos con punta de soldador? Tener en cuenta
+       que estos pads son muy dificiles y muy ineficientes para soldar por
+       reflow. Sugiero reveer esto y considerar soldar prototipos con pasta de
+       soldar, stencil y pistola de calor u horno casero.
+    E) Revision del esquematico.
+    F) Revisar el diseño actual, en particular el ruteo de la parte analogica.
+
+
