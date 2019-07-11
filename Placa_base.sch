@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-05"
-Rev "V0.191"
+Date "2019-07-11"
+Rev "V0.192"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -49,7 +49,7 @@ F28 "PC3" I L 4550 2650 50
 F29 "PC4" O L 4550 3850 50 
 F30 "PC5" O L 4550 3950 50 
 F31 "PC6" O R 6950 4700 50 
-F32 "PC7" O R 6950 4600 50 
+F32 "PC7" I R 6950 4600 50 
 F33 "PC8" O R 6950 4500 50 
 F34 "PC9" O R 6950 4400 50 
 F35 "PC10" I R 6950 3350 50 
@@ -457,12 +457,8 @@ Text Label 7550 4600 2    50   ~ 0
 PC7
 Wire Wire Line
 	2650 1600 3250 1600
-Text Label 3250 1700 2    50   ~ 0
-PC6
 Wire Wire Line
 	2650 1700 3250 1700
-Text Label 750  2100 0    50   ~ 0
-PC7
 Wire Wire Line
 	1350 2000 750  2000
 Text Label 750  2000 0    50   ~ 0
@@ -539,12 +535,6 @@ Text Notes 7600 1950 0    50   ~ 0
 SCL
 Text Notes 7800 1900 0    50   ~ 0
 I2C1
-Text Notes 7600 4300 0    50   ~ 0
-SCL
-Text Notes 7600 4400 0    50   ~ 0
-SDA
-Text Notes 7800 4300 0    50   ~ 0
-I2C3
 Wire Wire Line
 	6950 4400 7550 4400
 Wire Wire Line
@@ -634,25 +624,25 @@ F0 "Expansion" 50
 F1 "Expansion.sch" 50
 F2 "SDA_1" I L 9150 1500 50 
 F3 "SCL_1" I L 9150 1600 50 
-F4 "SDA_3" I L 9150 2000 50 
-F5 "SCL_3" I L 9150 1900 50 
-F6 "CAN_TX_1" I L 9150 2200 50 
-F7 "CAN_RX_1" O L 9150 2300 50 
-F8 "SPI1_NSS" I L 9150 2550 50 
-F9 "SPI1_CK" I L 9150 2650 50 
-F10 "SPI1_MISO" O L 9150 2750 50 
-F11 "SPI1_MOSI" I L 9150 2850 50 
-F12 "PIN1" I R 10250 1500 50 
-F13 "PIN3" I R 10250 1600 50 
-F14 "PIN5" I R 10250 1700 50 
-F15 "PIN7" I R 10250 1800 50 
-F16 "PIN9" I R 10250 1900 50 
-F17 "PIN11" I R 10250 2000 50 
-F18 "PIN2" I R 10250 2100 50 
-F19 "PIN4" I R 10250 2200 50 
-F20 "PIN6" I R 10250 2300 50 
-F21 "PIN8" I R 10250 2400 50 
-F22 "PIN10" I R 10250 2500 50 
+F4 "CAN_TX_1" I L 9150 2200 50 
+F5 "CAN_RX_1" O L 9150 2300 50 
+F6 "SPI1_NSS" I L 9150 2550 50 
+F7 "SPI1_CK" I L 9150 2650 50 
+F8 "SPI1_MISO" O L 9150 2750 50 
+F9 "SPI1_MOSI" I L 9150 2850 50 
+F10 "PIN1" I R 10250 1500 50 
+F11 "PIN3" I R 10250 1600 50 
+F12 "PIN5" I R 10250 1700 50 
+F13 "PIN7" I R 10250 1800 50 
+F14 "PIN9" I R 10250 1900 50 
+F15 "PIN11" I R 10250 2000 50 
+F16 "PIN2" I R 10250 2100 50 
+F17 "PIN4" I R 10250 2200 50 
+F18 "PIN6" I R 10250 2300 50 
+F19 "PIN8" I R 10250 2400 50 
+F20 "PIN10" I R 10250 2500 50 
+F21 "USART6_RX" O L 9150 1900 50 
+F22 "USART6_TX" I L 9150 2000 50 
 $EndSheet
 Wire Wire Line
 	9150 1600 8550 1600
@@ -674,9 +664,9 @@ Wire Wire Line
 	9150 2000 8550 2000
 Wire Wire Line
 	9150 1900 8550 1900
-Text Label 8550 1900 0    50   ~ 0
+Text Label 750  2100 0    50   ~ 0
 PA8
-Text Label 8550 2000 0    50   ~ 0
+Text Label 3250 1700 2    50   ~ 0
 PC9
 Wire Wire Line
 	9150 2550 8550 2550
@@ -838,15 +828,11 @@ An_In
 Wire Notes Line style solid
 	7600 5900 7750 5900
 Wire Notes Line style solid
-	7750 5900 7750 5550
-Wire Notes Line style solid
 	7750 5550 7600 5550
 Text Notes 8000 5750 2    50   ~ 0
 LEDs
 Wire Notes Line style solid
-	7600 4550 7750 4550
-Wire Notes Line style solid
-	7750 4550 7750 5500
+	7600 4750 7750 4750
 Wire Notes Line style solid
 	7750 5500 7600 5500
 Text Notes 7800 5050 0    50   ~ 0
@@ -900,4 +886,26 @@ F 3 "" H 2575 6325 50  0001 C CNN
 	1    2575 6325
 	1    0    0    -1  
 $EndComp
+Wire Notes Line style solid
+	7750 5900 7750 5550
+Wire Notes Line style solid
+	7750 5500 7750 4750
+Text Notes 7600 4600 0    50   ~ 0
+RX
+Text Notes 7600 4700 0    50   ~ 0
+TX
+Text Notes 7800 4650 0    50   ~ 0
+UART6
+Text Notes 7750 4400 0    50   ~ 0
+Módulos\nI/O
+Wire Notes Line style solid
+	7600 4400 7700 4400
+Wire Notes Line style solid
+	7700 4400 7700 4250
+Wire Notes Line style solid
+	7700 4250 7600 4250
+Text Label 8550 2000 0    50   ~ 0
+PC6
+Text Label 8550 1900 0    50   ~ 0
+PC7
 $EndSCHEMATC

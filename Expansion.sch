@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-05"
-Rev "V0.191"
+Date "2019-07-11"
+Rev "V0.192"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -19,7 +19,7 @@ L Connector_Generic:Conn_02x02_Odd_Even J12
 U 1 1 5D4DA4CA
 P 5350 1750
 F 0 "J12" H 5400 1967 50  0000 C CNN
-F 1 "I2C3" H 5400 1876 50  0000 C CNN
+F 1 "USART6" H 5400 1876 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5350 1750 50  0001 C CNN
 F 3 "~" H 5350 1750 50  0001 C CNN
 	1    5350 1750
@@ -79,12 +79,12 @@ Text HLabel 4600 1200 0    50   Input ~ 0
 SCL_1
 Wire Wire Line
 	4600 1750 5150 1750
-Text HLabel 4600 1850 0    50   Input ~ 0
-SDA_3
+Text HLabel 4600 1750 0    50   Output ~ 0
+USART6_RX
 Wire Wire Line
 	4600 1850 5150 1850
-Text HLabel 4600 1750 0    50   Input ~ 0
-SCL_3
+Text HLabel 4600 1850 0    50   Input ~ 0
+USART6_TX
 Wire Wire Line
 	4600 2400 5150 2400
 Text HLabel 4600 2400 0    50   Input ~ 0
