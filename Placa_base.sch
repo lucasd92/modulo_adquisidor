@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-11"
-Rev "V0.192"
+Date "2019-07-12"
+Rev "V0.193"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -127,19 +127,19 @@ $EndSheet
 Wire Wire Line
 	6950 4200 7550 4200
 Text Label 7550 4200 2    50   ~ 0
-PA9
+USART1_TX
 Wire Wire Line
 	6950 4100 7550 4100
 Text Label 7550 4100 2    50   ~ 0
-PA10
+USART1_RX
 Wire Wire Line
 	6950 4000 7550 4000
 Text Label 7550 4000 2    50   ~ 0
-PA11
+Reset_ESP
 Wire Wire Line
 	6950 4500 7550 4500
 Text Label 7550 4500 2    50   ~ 0
-PC8
+uSD_D0
 Wire Wire Line
 	4550 2250 3950 2250
 Text Label 3950 2250 0    50   ~ 0
@@ -159,43 +159,43 @@ BOOT0
 Wire Wire Line
 	9050 4300 8450 4300
 Text Label 8450 4300 0    50   ~ 0
-PA9
+USART1_TX
 Wire Wire Line
 	9050 4400 8450 4400
 Text Label 8450 4400 0    50   ~ 0
-PA10
+USART1_RX
 Wire Wire Line
 	6950 5500 7550 5500
 Text Label 7550 5500 2    50   ~ 0
-PD8
+IN_Read
 Wire Wire Line
 	6950 5400 7550 5400
 Text Label 7550 5400 2    50   ~ 0
-PD9
+OUT_6
 Wire Wire Line
 	6950 5300 7550 5300
 Text Label 7550 5300 2    50   ~ 0
-PD10
+OUT_5
 Wire Wire Line
 	6950 5200 7550 5200
 Text Label 7550 5200 2    50   ~ 0
-PD11
+OUT_4
 Wire Wire Line
 	6950 5100 7550 5100
 Text Label 7550 5100 2    50   ~ 0
-PD12
+OUT_3
 Wire Wire Line
 	6950 5000 7550 5000
 Text Label 7550 5000 2    50   ~ 0
-PD13
+OUT_2
 Wire Wire Line
 	6950 4900 7550 4900
 Text Label 7550 4900 2    50   ~ 0
-PD14
+OUT_1
 Wire Wire Line
 	6950 4800 7550 4800
 Text Label 7550 4800 2    50   ~ 0
-PD15
+IN_CLK
 Wire Wire Line
 	6950 5800 7550 5800
 Text Label 7550 5800 2    50   ~ 0
@@ -215,27 +215,27 @@ USART1 (BOOT)
 Wire Wire Line
 	6950 3150 7550 3150
 Text Label 7550 3150 2    50   ~ 0
-PC12
+uSD_CK
 Wire Wire Line
 	6950 2850 7550 2850
 Text Label 7550 2850 2    50   ~ 0
-PD2
+uSD_Cmd
 Wire Wire Line
 	4550 3450 3950 3450
 Text Label 3950 3450 0    50   ~ 0
-PA4
+SPI1_NSS
 Wire Wire Line
 	4550 3550 3950 3550
 Text Label 3950 3550 0    50   ~ 0
-PA5
+SPI1_CK
 Wire Wire Line
 	4550 3650 3950 3650
 Text Label 3950 3650 0    50   ~ 0
-PA6
+SPI1_MISO
 Wire Wire Line
 	4550 3750 3950 3750
 Text Label 3950 3750 0    50   ~ 0
-PA7
+SPI1_MOSI
 Wire Wire Line
 	2450 4850 3050 4850
 Text Label 3050 4850 2    50   ~ 0
@@ -261,7 +261,7 @@ Wire Notes Line
 Wire Wire Line
 	9050 4500 8450 4500
 Text Label 8450 4500 0    50   ~ 0
-PA11
+Reset_ESP
 $Sheet
 S 1350 1400 1300 1450
 U 5CF2977A
@@ -318,97 +318,97 @@ Wire Notes Line
 Wire Wire Line
 	4550 5250 3950 5250
 Text Label 3950 5250 0    50   ~ 0
-PB10
+RS-485_D
 Wire Wire Line
 	4550 5350 3950 5350
 Text Label 3950 5350 0    50   ~ 0
-PB11
+RS-485_R
 Text Label 10900 5100 2    50   ~ 0
-PB10
+RS-485_D
 Text Label 10900 4800 2    50   ~ 0
-PB11
+RS-485_R
 Wire Wire Line
 	4550 5050 3950 5050
 Text Label 3950 5050 0    50   ~ 0
-PE14
+RS-485_RE
 Wire Wire Line
 	4550 5150 3950 5150
 Text Label 3950 5150 0    50   ~ 0
-PE15
+RS-485_DE
 Wire Wire Line
 	10300 4900 10900 4900
 Text Label 10900 4900 2    50   ~ 0
-PE14
+RS-485_RE
 Wire Wire Line
 	10300 5000 10900 5000
 Text Label 10900 5000 2    50   ~ 0
-PE15
+RS-485_DE
 Wire Wire Line
 	6950 2550 7550 2550
 Text Label 7550 2550 2    50   ~ 0
-PD5
+USART2_TX
 Wire Wire Line
 	6950 2450 7550 2450
 Text Label 7550 2450 2    50   ~ 0
-PD6
+USART2_RX
 Wire Wire Line
 	9050 4800 8450 4800
 Text Label 8450 4800 0    50   ~ 0
-PD5
+USART2_TX
 Wire Wire Line
 	9050 4900 8450 4900
 Text Label 8450 4900 0    50   ~ 0
-PD6
+USART2_RX
 Wire Wire Line
 	6950 2750 7550 2750
 Text Label 7550 2750 2    50   ~ 0
-PD3
+A6_INT
 Wire Wire Line
 	6950 2650 7550 2650
 Text Label 7550 2650 2    50   ~ 0
-PD4
+A6_ON
 Wire Wire Line
 	9050 5100 8450 5100
 Text Label 8450 5100 0    50   ~ 0
-PD3
+A6_INT
 Wire Wire Line
 	9050 5000 8450 5000
 Text Label 8450 5000 0    50   ~ 0
-PD4
+A6_ON
 Text Notes 8500 4700 0    50   ~ 0
 USART2
 Wire Wire Line
 	4550 2850 3950 2850
 Text Label 3950 2850 0    50   ~ 0
-PA0
+USART4_TX
 Wire Wire Line
 	4550 2950 3950 2950
 Text Label 3950 2950 0    50   ~ 0
-PA1
+USART4_RX
 Wire Wire Line
 	10300 4100 10900 4100
 Text Label 10900 4100 2    50   ~ 0
-PA0
+USART4_TX
 Wire Wire Line
 	10300 4200 10900 4200
 Text Label 10900 4200 2    50   ~ 0
-PA1
+USART4_RX
 Wire Wire Line
 	4550 3050 3950 3050
 Text Label 3950 3050 0    50   ~ 0
-PA2
+S800_DTR
 Wire Wire Line
 	4550 3350 3950 3350
 Text Label 3950 3350 0    50   ~ 0
-PA3
+S800_ON
 Wire Wire Line
 	10300 4300 10900 4300
 Text Label 10900 4300 2    50   ~ 0
-PA2
+S800_DTR
 Wire Wire Line
 	10300 4400 10900 4400
 Text Label 10900 4400 2    50   ~ 0
-PA3
+S800_ON
 Text Notes 10500 4000 0    50   ~ 0
 USART4
 Wire Wire Line
@@ -422,39 +422,39 @@ Wire Wire Line
 Wire Wire Line
 	2650 2150 3250 2150
 Text Label 3250 2150 2    50   ~ 0
-PD2
+uSD_Cmd
 Wire Wire Line
 	2650 1850 3250 1850
 Text Label 3250 1850 2    50   ~ 0
-PC12
+uSD_CK
 Wire Wire Line
 	2650 1950 3250 1950
 Text Label 3250 1950 2    50   ~ 0
-PC8
+uSD_D0
 Wire Wire Line
 	6950 3050 7550 3050
 Text Label 7550 3050 2    50   ~ 0
-PD0
+uSD_CD
 Wire Wire Line
 	6950 3900 7550 3900
 Text Label 7550 3900 2    50   ~ 0
-PA12
+uSD_Det
 Wire Wire Line
 	2650 2250 3250 2250
 Text Label 3250 2250 2    50   ~ 0
-PD0
+uSD_CD
 Wire Wire Line
 	2650 2050 3250 2050
 Text Label 3250 2050 2    50   ~ 0
-PA12
+uSD_Det
 Wire Wire Line
 	6950 4700 7550 4700
 Text Label 7550 4700 2    50   ~ 0
-PC6
+USART6_TX
 Wire Wire Line
 	6950 4600 7550 4600
 Text Label 7550 4600 2    50   ~ 0
-PC7
+USART6_RX
 Wire Wire Line
 	2650 1600 3250 1600
 Wire Wire Line
@@ -462,35 +462,35 @@ Wire Wire Line
 Wire Wire Line
 	1350 2000 750  2000
 Text Label 750  2000 0    50   ~ 0
-PD9
+OUT_6
 Wire Wire Line
 	1350 1900 750  1900
 Text Label 750  1900 0    50   ~ 0
-PD10
+OUT_5
 Wire Wire Line
 	1350 1800 750  1800
 Text Label 750  1800 0    50   ~ 0
-PD11
+OUT_4
 Wire Wire Line
 	1350 1700 750  1700
 Text Label 750  1700 0    50   ~ 0
-PD12
+OUT_3
 Wire Wire Line
 	1350 1600 750  1600
 Text Label 750  1600 0    50   ~ 0
-PD13
+OUT_2
 Wire Wire Line
 	1350 1500 750  1500
 Text Label 750  1500 0    50   ~ 0
-PD14
+OUT_1
 Wire Wire Line
 	1350 2100 750  2100
 Text Label 3250 1600 2    50   ~ 0
-PD15
+IN_CLK
 Wire Wire Line
 	2650 1500 3250 1500
 Text Label 3250 1500 2    50   ~ 0
-PD8
+IN_Read
 Wire Wire Line
 	6950 5900 7550 5900
 Text Label 7550 5900 2    50   ~ 0
@@ -524,11 +524,11 @@ MOSI
 Wire Wire Line
 	6950 1950 7550 1950
 Text Label 7550 1950 2    50   ~ 0
-PB6
+I2C1_SCL
 Wire Wire Line
 	6950 1850 7550 1850
 Text Label 7550 1850 2    50   ~ 0
-PB7
+I2C1_SDA
 Text Notes 7600 1850 0    50   ~ 0
 SDA
 Text Notes 7600 1950 0    50   ~ 0
@@ -540,17 +540,17 @@ Wire Wire Line
 Wire Wire Line
 	6950 4300 7550 4300
 Text Label 7550 4300 2    50   ~ 0
-PA8
+OUT_EN
 Text Label 7550 4400 2    50   ~ 0
-PC9
+IN_P-S
 Wire Wire Line
 	6950 1650 7550 1650
 Text Label 7550 1650 2    50   ~ 0
-PB8
+CAN1_RX
 Wire Wire Line
 	6950 1550 7550 1550
 Text Label 7550 1550 2    50   ~ 0
-PB9
+CAN1_TX
 Text Notes 7600 1550 0    50   ~ 0
 CAN_TX
 Text Notes 7600 1650 0    50   ~ 0
@@ -568,47 +568,47 @@ SW1
 Wire Wire Line
 	4550 3850 3950 3850
 Text Label 3950 3850 0    50   ~ 0
-PC4
+EXP_PIN1
 Wire Wire Line
 	4550 3950 3950 3950
 Text Label 3950 3950 0    50   ~ 0
-PC5
+EXP_PIN3
 Wire Wire Line
 	4550 4050 3950 4050
 Text Label 3950 4050 0    50   ~ 0
-PB0
+EXP_PIN5
 Wire Wire Line
 	4550 4150 3950 4150
 Text Label 3950 4150 0    50   ~ 0
-PB1
+EXP_PIN7
 Wire Wire Line
 	4550 4350 3950 4350
 Text Label 3950 4350 0    50   ~ 0
-PE7
+EXP_PIN9
 Wire Wire Line
 	4550 4450 3950 4450
 Text Label 3950 4450 0    50   ~ 0
-PE8
+EXP_PIN11
 Wire Wire Line
 	4550 4550 3950 4550
 Text Label 3950 4550 0    50   ~ 0
-PE9
+EXP_PIN10
 Wire Wire Line
 	4550 4650 3950 4650
 Text Label 3950 4650 0    50   ~ 0
-PE10
+EXP_PIN8
 Wire Wire Line
 	4550 4750 3950 4750
 Text Label 3950 4750 0    50   ~ 0
-PE11
+EXP_PIN6
 Wire Wire Line
 	4550 4850 3950 4850
 Text Label 3950 4850 0    50   ~ 0
-PE12
+EXP_PIN4
 Wire Wire Line
 	4550 4950 3950 4950
 Text Label 3950 4950 0    50   ~ 0
-PE13
+EXP_PIN2
 Wire Notes Line style solid
 	3900 4950 3750 4950
 Wire Notes Line style solid
@@ -647,87 +647,87 @@ $EndSheet
 Wire Wire Line
 	9150 1600 8550 1600
 Text Label 8550 1600 0    50   ~ 0
-PB6
+I2C1_SCL
 Wire Wire Line
 	9150 1500 8550 1500
 Text Label 8550 1500 0    50   ~ 0
-PB7
+I2C1_SDA
 Wire Wire Line
 	9150 2300 8550 2300
 Text Label 8550 2300 0    50   ~ 0
-PB8
+CAN1_RX
 Wire Wire Line
 	9150 2200 8550 2200
 Text Label 8550 2200 0    50   ~ 0
-PB9
+CAN1_TX
 Wire Wire Line
 	9150 2000 8550 2000
 Wire Wire Line
 	9150 1900 8550 1900
 Text Label 750  2100 0    50   ~ 0
-PA8
+OUT_EN
 Text Label 3250 1700 2    50   ~ 0
-PC9
+IN_P-S
 Wire Wire Line
 	9150 2550 8550 2550
 Text Label 8550 2550 0    50   ~ 0
-PA4
+SPI1_NSS
 Wire Wire Line
 	9150 2650 8550 2650
 Text Label 8550 2650 0    50   ~ 0
-PA5
+SPI1_CK
 Wire Wire Line
 	9150 2750 8550 2750
 Text Label 8550 2750 0    50   ~ 0
-PA6
+SPI1_MISO
 Wire Wire Line
 	9150 2850 8550 2850
 Text Label 8550 2850 0    50   ~ 0
-PA7
+SPI1_MOSI
 Wire Wire Line
 	10250 1500 10850 1500
 Text Label 10850 1500 2    50   ~ 0
-PC4
+EXP_PIN1
 Wire Wire Line
 	10250 1600 10850 1600
 Text Label 10850 1600 2    50   ~ 0
-PC5
+EXP_PIN3
 Wire Wire Line
 	10250 1700 10850 1700
 Text Label 10850 1700 2    50   ~ 0
-PB0
+EXP_PIN5
 Wire Wire Line
 	10250 1800 10850 1800
 Text Label 10850 1800 2    50   ~ 0
-PB1
+EXP_PIN7
 Wire Wire Line
 	10250 1900 10850 1900
 Text Label 10850 1900 2    50   ~ 0
-PE7
+EXP_PIN9
 Wire Wire Line
 	10250 2000 10850 2000
 Text Label 10850 2000 2    50   ~ 0
-PE8
+EXP_PIN11
 Wire Wire Line
 	10250 2500 10850 2500
 Text Label 10850 2500 2    50   ~ 0
-PE9
+EXP_PIN10
 Wire Wire Line
 	10250 2400 10850 2400
 Text Label 10850 2400 2    50   ~ 0
-PE10
+EXP_PIN8
 Wire Wire Line
 	10250 2300 10850 2300
 Text Label 10850 2300 2    50   ~ 0
-PE11
+EXP_PIN6
 Wire Wire Line
 	10250 2200 10850 2200
 Text Label 10850 2200 2    50   ~ 0
-PE12
+EXP_PIN4
 Wire Wire Line
 	10250 2100 10850 2100
 Text Label 10850 2100 2    50   ~ 0
-PE13
+EXP_PIN2
 Wire Wire Line
 	6950 3250 7550 3250
 Text Label 7550 3250 2    50   ~ 0
@@ -905,7 +905,7 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	7700 4250 7600 4250
 Text Label 8550 2000 0    50   ~ 0
-PC6
+USART6_TX
 Text Label 8550 1900 0    50   ~ 0
-PC7
+USART6_RX
 $EndSCHEMATC

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-11"
-Rev "V0.192"
+Date "2019-07-12"
+Rev "V0.193"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -70,11 +70,11 @@ F 3 "~" H 5350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 1100 5150 1100
+	4600 1100 5050 1100
 Text HLabel 4600 1100 0    50   Input ~ 0
 SDA_1
 Wire Wire Line
-	4600 1200 5150 1200
+	4600 1200 4750 1200
 Text HLabel 4600 1200 0    50   Input ~ 0
 SCL_1
 Wire Wire Line
@@ -244,4 +244,55 @@ Text Label 3100 950  2    50   ~ 0
 Text Label 3100 1300 2    50   ~ 0
 GND
 NoConn ~ 5700 4200
+$Comp
+L Device:R R?
+U 1 1 5D2A8D56
+P 4750 850
+AR Path="/5D2A8D56" Ref="R?"  Part="1" 
+AR Path="/5D079A08/5D2A8D56" Ref="R?"  Part="1" 
+AR Path="/5CD0198B/5D2A8D56" Ref="R?"  Part="1" 
+AR Path="/5D4DA011/5D2A8D56" Ref="R8"  Part="1" 
+F 0 "R8" V 4650 850 50  0000 L CNN
+F 1 "4K7" V 4850 850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 850 50  0001 C CNN
+F 3 "~" H 4750 850 50  0001 C CNN
+	1    4750 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D2AA0B0
+P 5050 850
+AR Path="/5D2AA0B0" Ref="R?"  Part="1" 
+AR Path="/5D079A08/5D2AA0B0" Ref="R?"  Part="1" 
+AR Path="/5CD0198B/5D2AA0B0" Ref="R?"  Part="1" 
+AR Path="/5D4DA011/5D2AA0B0" Ref="R11"  Part="1" 
+F 0 "R11" V 4950 850 50  0000 L CNN
+F 1 "4K7" V 5150 850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 850 50  0001 C CNN
+F 3 "~" H 5050 850 50  0001 C CNN
+	1    5050 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 1000 4750 1200
+Connection ~ 4750 1200
+Wire Wire Line
+	4750 1200 5150 1200
+Wire Wire Line
+	5050 1000 5050 1100
+Connection ~ 5050 1100
+Wire Wire Line
+	5050 1100 5150 1100
+Text Label 4300 650  0    50   ~ 0
+3v3
+Wire Wire Line
+	4750 650  4750 700 
+Wire Wire Line
+	4300 650  4750 650 
+Wire Wire Line
+	4750 650  5050 650 
+Wire Wire Line
+	5050 650  5050 700 
+Connection ~ 4750 650 
 $EndSCHEMATC

@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-11"
-Rev "V0.192"
+Date "2019-07-12"
+Rev "V0.193"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -982,19 +982,6 @@ F 3 "" H 10350 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Open JP?
-U 1 1 5D090E0D
-P 7400 2100
-AR Path="/5D090E0D" Ref="JP?"  Part="1" 
-AR Path="/5D079A08/5D090E0D" Ref="JP2"  Part="1" 
-F 0 "JP2" H 7400 2324 50  0000 C CNN
-F 1 "Jumper_3_Open" H 7400 2233 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7400 2100 50  0001 C CNN
-F 3 "~" H 7400 2100 50  0001 C CNN
-	1    7400 2100
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5D090E14
 P 7400 1200
@@ -1012,18 +999,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5D090E1C
-P 7250 2400
+P 7400 2350
 AR Path="/5D090E1C" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D090E1C" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 7250 2150 50  0001 C CNN
-F 1 "GND" H 7255 2227 50  0000 C CNN
-F 2 "" H 7250 2400 50  0001 C CNN
-F 3 "" H 7250 2400 50  0001 C CNN
-	1    7250 2400
+F 0 "#PWR09" H 7400 2100 50  0001 C CNN
+F 1 "GND" H 7405 2177 50  0000 C CNN
+F 2 "" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 2400 7250 2100
 $Comp
 L power:VDD #PWR?
 U 1 1 5D090E23
@@ -1062,19 +1047,6 @@ F 3 "~" H 6550 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Open JP?
-U 1 1 5D090E36
-P 6550 2100
-AR Path="/5D090E36" Ref="JP?"  Part="1" 
-AR Path="/5D079A08/5D090E36" Ref="JP1"  Part="1" 
-F 0 "JP1" H 6550 2324 50  0000 C CNN
-F 1 "Jumper_3_Open" H 6550 2233 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6550 2100 50  0001 C CNN
-F 3 "~" H 6550 2100 50  0001 C CNN
-	1    6550 2100
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5D090E3D
 P 6550 1200
@@ -1092,18 +1064,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5D090E45
-P 6400 2400
+P 6550 2350
 AR Path="/5D090E45" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D090E45" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 6400 2150 50  0001 C CNN
-F 1 "GND" H 6405 2227 50  0000 C CNN
-F 2 "" H 6400 2400 50  0001 C CNN
-F 3 "" H 6400 2400 50  0001 C CNN
-	1    6400 2400
+F 0 "#PWR08" H 6550 2100 50  0001 C CNN
+F 1 "GND" H 6555 2177 50  0000 C CNN
+F 2 "" H 6550 2350 50  0001 C CNN
+F 3 "" H 6550 2350 50  0001 C CNN
+	1    6550 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 2400 6400 2100
 $Comp
 L power:VDD #PWR?
 U 1 1 5D090E4C
@@ -1761,8 +1731,6 @@ Wire Wire Line
 	6050 7050 6050 7100
 NoConn ~ 4800 2650
 NoConn ~ 4800 3250
-NoConn ~ 7400 2350
-NoConn ~ 6550 2350
 NoConn ~ 1900 3050
 NoConn ~ 1900 3150
 NoConn ~ 1900 3250
@@ -1774,4 +1742,30 @@ NoConn ~ 1900 2950
 NoConn ~ 1900 5250
 NoConn ~ 1900 4650
 NoConn ~ 4800 3350
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5D2C3CB1
+P 6550 2050
+F 0 "JP1" H 6500 2300 50  0000 L CNN
+F 1 "Jumper_2_Open" H 6300 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6550 2050 50  0001 C CNN
+F 3 "~" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2250 6550 2350
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5D2E49FD
+P 7400 2050
+F 0 "JP2" H 7350 2300 50  0000 L CNN
+F 1 "Jumper_2_Open" H 7150 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7400 2050 50  0001 C CNN
+F 3 "~" H 7400 2050 50  0001 C CNN
+	1    7400 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 2250 7400 2350
 $EndSCHEMATC
