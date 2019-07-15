@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-12"
-Rev "V0.193"
+Date "2019-07-15"
+Rev "V0.194"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -34,7 +34,7 @@ AR Path="/5D079A08/5D68221E" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5D68221E" Ref="C25"  Part="1" 
 F 0 "C25" H 3250 3750 50  0000 L CNN
 F 1 "10uF" H 3250 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3288 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 3250 3650 50  0001 C CNN
 	1    3250 3650
 	1    0    0    -1  
@@ -48,7 +48,7 @@ AR Path="/5D079A08/5D682225" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5D682225" Ref="C24"  Part="1" 
 F 0 "C24" H 2950 3750 50  0000 L CNN
 F 1 "100nF" H 2950 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2988 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 2950 3650 50  0001 C CNN
 	1    2950 3650
 	1    0    0    -1  
@@ -62,7 +62,7 @@ AR Path="/5D079A08/5D68228D" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5D68228D" Ref="C26"  Part="1" 
 F 0 "C26" H 4150 3750 50  0000 L CNN
 F 1 "100nF" H 4150 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4150 3650 50  0001 C CNN
 	1    4150 3650
 	1    0    0    -1  
@@ -169,7 +169,7 @@ AR Path="/5D079A08/5CD2C87A" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD2C87A" Ref="C27"  Part="1" 
 F 0 "C27" H 4450 3750 50  0000 L CNN
 F 1 "10uF" H 4450 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4488 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4488 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 4450 3650 50  0001 C CNN
 	1    4450 3650
 	1    0    0    -1  
@@ -183,7 +183,7 @@ AR Path="/5D079A08/5CD2CFD8" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD2CFD8" Ref="C28"  Part="1" 
 F 0 "C28" H 4700 3750 50  0000 L CNN
 F 1 "10uF" H 4700 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 4700 3650 50  0001 C CNN
 	1    4700 3650
 	1    0    0    -1  
@@ -217,7 +217,7 @@ AR Path="/5D079A08/5CD30D84" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD30D84" Ref="C30"  Part="1" 
 F 0 "C30" H 6400 3750 50  0000 L CNN
 F 1 "10uF" H 6400 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 6400 3650 50  0001 C CNN
 	1    6400 3650
 	1    0    0    -1  
@@ -231,7 +231,7 @@ AR Path="/5D079A08/5CD30D8B" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD30D8B" Ref="C29"  Part="1" 
 F 0 "C29" H 6100 3750 50  0000 L CNN
 F 1 "100nF" H 6100 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6138 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6100 3650 50  0001 C CNN
 	1    6100 3650
 	1    0    0    -1  
@@ -245,7 +245,7 @@ AR Path="/5D079A08/5CD30D92" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD30D92" Ref="C31"  Part="1" 
 F 0 "C31" H 7300 3750 50  0000 L CNN
 F 1 "100nF" H 7300 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7338 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7300 3650 50  0001 C CNN
 	1    7300 3650
 	1    0    0    -1  
@@ -317,7 +317,7 @@ AR Path="/5D079A08/5CD30DC6" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD30DC6" Ref="C32"  Part="1" 
 F 0 "C32" H 7600 3750 50  0000 L CNN
 F 1 "10uF" H 7600 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7638 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 7600 3650 50  0001 C CNN
 	1    7600 3650
 	1    0    0    -1  
@@ -331,7 +331,7 @@ AR Path="/5D079A08/5CD30DCD" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD30DCD" Ref="C33"  Part="1" 
 F 0 "C33" H 7850 3750 50  0000 L CNN
 F 1 "10uF" H 7850 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7888 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7888 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 7850 3650 50  0001 C CNN
 	1    7850 3650
 	1    0    0    -1  
@@ -355,7 +355,7 @@ U 1 1 5CD697A5
 P 4050 5000
 F 0 "D4" H 4050 5216 50  0000 C CNN
 F 1 "B340" H 4050 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC_Handsoldering" H 4050 4825 50  0001 C CNN
+F 2 "Diode_SMD:D_SMC" H 4050 4825 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 5000 50  0001 C CNN
 	1    4050 5000
 	-1   0    0    1   
@@ -366,7 +366,7 @@ U 1 1 5CD6A0A3
 P 3600 5000
 F 0 "D3" H 3600 5216 50  0000 C CNN
 F 1 "S5JB-R5G" H 3600 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" H 3600 4825 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB" H 3600 4825 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/S5JB-R5G/S5JBR5GCT-ND/7358545" H 3600 5000 50  0001 C CNN
 	1    3600 5000
 	-1   0    0    1   
@@ -393,7 +393,7 @@ AR Path="/5D079A08/5CD6E830" Ref="C?"  Part="1"
 AR Path="/5D681DDF/5CD6E830" Ref="C37"  Part="1" 
 F 0 "C37" H 5050 5350 50  0000 L CNN
 F 1 "10uF" H 5050 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5088 5100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 5050 5250 50  0001 C CNN
 	1    5050 5250
 	1    0    0    -1  
@@ -404,7 +404,7 @@ U 1 1 5CD6FE63
 P 4700 5250
 F 0 "C36" H 4815 5296 50  0000 L CNN
 F 1 "33p" H 4815 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 5100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/avx-corporation/06033A330JAT2A/478-10278-1-ND/6797495" H 4700 5250 50  0001 C CNN
 	1    4700 5250
 	1    0    0    -1  
@@ -415,7 +415,7 @@ U 1 1 5CD70183
 P 4350 5250
 F 0 "C35" H 4465 5296 50  0000 L CNN
 F 1 "10p" H 4465 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4388 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 5100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012006017/732-7760-1-ND/5454387" H 4350 5250 50  0001 C CNN
 	1    4350 5250
 	1    0    0    -1  
@@ -539,7 +539,7 @@ U 1 1 5CD96546
 P 6100 3250
 F 0 "FB1" H 5850 3200 50  0000 L CNN
 F 1 "Ferrite_Bead" H 5600 3100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6030 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 3250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/MPZ1608S601ATA00/445-2205-1-ND/765103" H 6100 3250 50  0001 C CNN
 	1    6100 3250
 	1    0    0    -1  
@@ -565,7 +565,7 @@ U 1 1 5CF0B955
 P 3700 2000
 F 0 "D1" H 3700 1900 50  0000 C CNN
 F 1 "S5JB-R5G" H 3700 2100 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" H 3700 1825 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB" H 3700 1825 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/S5JB-R5G/S5JBR5GCT-ND/7358545" H 3700 2000 50  0001 C CNN
 	1    3700 2000
 	-1   0    0    1   
@@ -638,7 +638,7 @@ AR Path="/5D681DDF/5CDE1544" Ref="C38"  Part="1"
 AR Path="/5CF2977A/5CDE1544" Ref="C?"  Part="1" 
 F 0 "C38" H 8200 5550 50  0000 L CNN
 F 1 "100nF" H 8200 5350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8238 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 5300 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 8200 5450 50  0001 C CNN
 	1    8200 5450
 	1    0    0    -1  
@@ -653,7 +653,7 @@ AR Path="/5D681DDF/5CDE154B" Ref="C39"  Part="1"
 AR Path="/5CF2977A/5CDE154B" Ref="C?"  Part="1" 
 F 0 "C39" H 8500 5550 50  0000 L CNN
 F 1 "10uF" H 8500 5350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 5300 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BC81C106KE15L/490-10498-1-ND/5026423" H 8500 5450 50  0001 C CNN
 	1    8500 5450
 	1    0    0    -1  
@@ -769,7 +769,7 @@ AR Path="/5CF2977A/5D0349B8" Ref="R?"  Part="1"
 AR Path="/5D681DDF/5D0349B8" Ref="R13"  Part="1" 
 F 0 "R13" V 6000 1925 50  0000 L CNN
 F 1 "1k" V 5900 1950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 2000 50  0001 C CNN
 F 3 "~" H 5900 2000 50  0001 C CNN
 	1    5900 2000
 	0    -1   -1   0   
@@ -793,7 +793,7 @@ AR Path="/5CF2977A/5D05565C" Ref="D?"  Part="1"
 AR Path="/5D681DDF/5D05565C" Ref="D6"  Part="1" 
 F 0 "D6" H 10191 5716 50  0000 C CNN
 F 1 "LED" H 10191 5625 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10200 5500 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10200 5500 50  0001 C CNN
 F 3 "~" H 10200 5500 50  0001 C CNN
 	1    10200 5500
 	0    -1   -1   0   
@@ -809,7 +809,7 @@ AR Path="/5CF2977A/5D055663" Ref="R?"  Part="1"
 AR Path="/5D681DDF/5D055663" Ref="R14"  Part="1" 
 F 0 "R14" V 10300 5775 50  0000 L CNN
 F 1 "1k" V 10200 5800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10130 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 5850 50  0001 C CNN
 F 3 "~" H 10200 5850 50  0001 C CNN
 	1    10200 5850
 	-1   0    0    1   
@@ -872,7 +872,7 @@ AR Path="/5CD541CC/5CFC8DB6" Ref="R?"  Part="1"
 AR Path="/5D681DDF/5CFC8DB6" Ref="R7"  Part="1" 
 F 0 "R7" V 8900 3550 50  0000 L CNN
 F 1 "0" V 9000 3575 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8930 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 3600 50  0001 C CNN
 F 3 "~" H 9000 3600 50  0001 C CNN
 	1    9000 3600
 	0    1    1    0   
@@ -903,7 +903,7 @@ AR Path="/5CF2977A/5D0349B1" Ref="D?"  Part="1"
 AR Path="/5D681DDF/5D0349B1" Ref="D2"  Part="1" 
 F 0 "D2" H 5550 1800 50  0000 C CNN
 F 1 "LED" H 5550 1900 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 2000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5550 2000 50  0001 C CNN
 F 3 "~" H 5550 2000 50  0001 C CNN
 	1    5550 2000
 	-1   0    0    1   

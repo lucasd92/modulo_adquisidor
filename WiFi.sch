@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-12"
-Rev "V0.193"
+Date "2019-07-15"
+Rev "V0.194"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -160,7 +160,7 @@ AR Path="/5D079A08/5CD4F3BE" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CD4F3BE" Ref="R24"  Part="1" 
 F 0 "R24" V 6650 4900 50  0000 L CNN
 F 1 "1K" V 6850 4900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 4900 50  0001 C CNN
 F 3 "~" H 6750 4900 50  0001 C CNN
 	1    6750 4900
 	0    -1   1    0   
@@ -174,7 +174,7 @@ AR Path="/5D079A08/5CD52A53" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CD52A53" Ref="R25"  Part="1" 
 F 0 "R25" V 6650 5200 50  0000 L CNN
 F 1 "1K" V 6850 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 5200 50  0001 C CNN
 F 3 "~" H 6750 5200 50  0001 C CNN
 	1    6750 5200
 	0    -1   1    0   
@@ -188,7 +188,7 @@ AR Path="/5D079A08/5CD53F56" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CD53F56" Ref="R30"  Part="1" 
 F 0 "R30" H 6850 5950 50  0000 L CNN
 F 1 "5K6" H 6800 5850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 5850 50  0001 C CNN
 F 3 "~" H 7000 5850 50  0001 C CNN
 	1    7000 5850
 	1    0    0    1   
@@ -246,7 +246,7 @@ U 1 1 5CF2F609
 P 9450 1450
 F 0 "Q1" H 9641 1496 50  0000 L CNN
 F 1 "MMBT3904" H 9641 1405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9650 1375 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 1375 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9450 1450 50  0001 L CNN
 	1    9450 1450
 	1    0    0    -1  
@@ -260,7 +260,7 @@ AR Path="/5D079A08/5CF34503" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF34503" Ref="R15"  Part="1" 
 F 0 "R15" V 8800 1450 50  0000 L CNN
 F 1 "1K" V 9000 1450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8830 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 1450 50  0001 C CNN
 F 3 "~" H 8900 1450 50  0001 C CNN
 	1    8900 1450
 	0    1    1    0   
@@ -297,7 +297,7 @@ U 1 1 5CF3E51B
 P 9450 2600
 F 0 "Q2" H 9641 2646 50  0000 L CNN
 F 1 "MMBT3904" H 9641 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9650 2525 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9450 2600 50  0001 L CNN
 	1    9450 2600
 	1    0    0    -1  
@@ -311,7 +311,7 @@ AR Path="/5D079A08/5CF3E522" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF3E522" Ref="R20"  Part="1" 
 F 0 "R20" V 8800 2600 50  0000 L CNN
 F 1 "1K" V 9000 2600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8830 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 2600 50  0001 C CNN
 F 3 "~" H 8900 2600 50  0001 C CNN
 	1    8900 2600
 	0    1    1    0   
@@ -389,7 +389,7 @@ AR Path="/5CF2977A/5CE3EB16" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5CE3EB16" Ref="C43"  Part="1" 
 F 0 "C43" H 4200 2900 50  0000 L CNN
 F 1 "100nF" H 4200 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4200 2800 50  0001 C CNN
 	1    4200 2800
 	1    0    0    -1  
@@ -412,7 +412,7 @@ AR Path="/5CF2977A/5CE3C87B" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5CE3C87B" Ref="C41"  Part="1" 
 F 0 "C41" H 3700 2900 50  0000 L CNN
 F 1 "100nF" H 3700 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3738 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 3700 2800 50  0001 C CNN
 	1    3700 2800
 	1    0    0    -1  
@@ -542,7 +542,7 @@ U 1 1 5CEF32B1
 P 3000 1500
 F 0 "F1" V 2940 1350 50  0000 C CNN
 F 1 "USMF020" V 2950 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 2930 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 2930 1500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/bourns-inc/MF-USMF020-2/MF-USMF020-2CT-ND/1014928" H 3000 1500 50  0001 C CNN
 	1    3000 1500
 	0    1    1    0   
@@ -572,7 +572,7 @@ AR Path="/5D079A08/5CF3773A" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF3773A" Ref="R18"  Part="1" 
 F 0 "R18" V 1000 2600 50  0000 L CNN
 F 1 "120" V 800 2550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 830 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 830 2600 50  0001 C CNN
 F 3 "~" H 900 2600 50  0001 C CNN
 	1    900  2600
 	0    1    1    0   
@@ -600,7 +600,7 @@ U 1 1 5CF999BA
 P 700 2850
 F 0 "D7" V 550 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 950 2750 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 700 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 700 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 700 2850 50  0001 C CNN
 	1    700  2850
 	0    1    1    0   
@@ -611,7 +611,7 @@ U 1 1 5CF9DE67
 P 1750 2850
 F 0 "D8" V 1600 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 2000 2450 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 1750 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 1750 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 1750 2850 50  0001 C CNN
 	1    1750 2850
 	0    1    1    0   
@@ -627,7 +627,7 @@ AR Path="/5D079A08/5CFFAA3C" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5CFFAA3C" Ref="C40"  Part="1" 
 F 0 "C40" H 3450 2900 50  0000 L CNN
 F 1 "1Uf" H 3450 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3488 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KO8NNNC/1276-1019-1-ND/3889105" H 3450 2800 50  0001 C CNN
 	1    3450 2800
 	1    0    0    -1  
@@ -655,7 +655,7 @@ AR Path="/5D079A08/5D00BDBE" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5D00BDBE" Ref="C42"  Part="1" 
 F 0 "C42" H 4000 2900 50  0000 L CNN
 F 1 "1Uf" H 4000 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4038 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KO8NNNC/1276-1019-1-ND/3889105" H 4000 2800 50  0001 C CNN
 	1    4000 2800
 	1    0    0    -1  
@@ -677,7 +677,7 @@ AR Path="/5D079A08/5D02688C" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D02688C" Ref="R16"  Part="1" 
 F 0 "R16" H 1350 1950 50  0000 L CNN
 F 1 "5K6" H 1300 1850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1430 1850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 1850 50  0001 C CNN
 F 3 "~" H 1500 1850 50  0001 C CNN
 	1    1500 1850
 	-1   0    0    1   
@@ -699,7 +699,7 @@ AR Path="/5D079A08/5D035213" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D035213" Ref="R17"  Part="1" 
 F 0 "R17" V 3350 1950 50  0000 L CNN
 F 1 "100 1/2W" V 3150 1950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 2000 50  0001 C CNN
 F 3 "~" H 3250 2000 50  0001 C CNN
 	1    3250 2000
 	0    -1   -1   0   
@@ -759,7 +759,7 @@ AR Path="/5D079A08/5D1A5E7F" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D1A5E7F" Ref="R19"  Part="1" 
 F 0 "R19" V 2350 2600 50  0000 L CNN
 F 1 "120" V 2150 2550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2180 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 2600 50  0001 C CNN
 F 3 "~" H 2250 2600 50  0001 C CNN
 	1    2250 2600
 	0    1    1    0   
@@ -785,7 +785,7 @@ U 1 1 5D1A5E8F
 P 2050 2850
 F 0 "D9" V 1900 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 2300 2750 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 2050 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 2050 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 2050 2850 50  0001 C CNN
 	1    2050 2850
 	0    1    1    0   
@@ -796,7 +796,7 @@ U 1 1 5D1A5E96
 P 3100 2850
 F 0 "D10" V 2950 2900 50  0000 L CNN
 F 1 "SMAJ12CA-TR" V 3350 2450 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3100 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 3100 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/SMAJ12CA-TR/497-2996-1-ND/634854" H 3100 2850 50  0001 C CNN
 	1    3100 2850
 	0    1    1    0   
@@ -871,7 +871,7 @@ AR Path="/5D079A08/5CE9CA95" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CE9CA95" Ref="R33"  Part="1" 
 F 0 "R33" H 2000 6050 50  0000 L CNN
 F 1 "0" H 2000 5950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1880 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 6000 50  0001 C CNN
 F 3 "~" H 1950 6000 50  0001 C CNN
 	1    1950 6000
 	1    0    0    -1  
@@ -904,7 +904,7 @@ U 1 1 5CECE4FA
 P 1850 5450
 F 0 "Q5" V 2193 5450 50  0000 C CNN
 F 1 "AO3401" V 2102 5450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2050 5375 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2050 5375 50  0001 L CIN
 F 3 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 1850 5450 50  0001 L CNN
 	1    1850 5450
 	1    0    0    1   
@@ -920,7 +920,7 @@ AR Path="/5D079A08/5CF4B2DB" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF4B2DB" Ref="R26"  Part="1" 
 F 0 "R26" H 1500 5300 50  0000 L CNN
 F 1 "150k" H 1500 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 5250 50  0001 C CNN
 F 3 "" H 1450 5250 50  0001 C CNN
 	1    1450 5250
 	1    0    0    -1  
@@ -945,7 +945,7 @@ U 1 1 5CF8718B
 P 9300 4900
 F 0 "Q4" V 9643 4900 50  0000 C CNN
 F 1 "AO3401" V 9552 4900 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9500 4825 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 4825 50  0001 L CIN
 F 3 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 9300 4900 50  0001 L CNN
 	1    9300 4900
 	1    0    0    1   
@@ -961,7 +961,7 @@ AR Path="/5D079A08/5CF87193" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF87193" Ref="R23"  Part="1" 
 F 0 "R23" H 9100 4750 50  0000 L CNN
 F 1 "150k" H 9100 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8980 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8980 4700 50  0001 C CNN
 F 3 "" H 9050 4700 50  0001 C CNN
 	1    9050 4700
 	0    -1   -1   0   
@@ -1003,7 +1003,7 @@ AR Path="/5D079A08/5D19AADA" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D19AADA" Ref="R36"  Part="1" 
 F 0 "R36" H 1580 6704 50  0000 R CNN
 F 1 "0" H 1580 6795 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1580 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 6750 50  0001 C CNN
 F 3 "~" H 1650 6750 50  0001 C CNN
 	1    1650 6750
 	-1   0    0    1   
@@ -1017,7 +1017,7 @@ AR Path="/5D079A08/5D19AAE1" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D19AAE1" Ref="R37"  Part="1" 
 F 0 "R37" H 1580 7104 50  0000 R CNN
 F 1 "0" H 1580 7195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1580 7150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 7150 50  0001 C CNN
 F 3 "~" H 1650 7150 50  0001 C CNN
 	1    1650 7150
 	-1   0    0    1   
@@ -1073,7 +1073,7 @@ AR Path="/5D079A08/5D1C7C5F" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D1C7C5F" Ref="R28"  Part="1" 
 F 0 "R28" H 8230 5454 50  0000 R CNN
 F 1 "0" H 8230 5545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 5500 50  0001 C CNN
 F 3 "~" H 8300 5500 50  0001 C CNN
 	1    8300 5500
 	-1   0    0    1   
@@ -1087,7 +1087,7 @@ AR Path="/5D079A08/5D1C7C66" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D1C7C66" Ref="R32"  Part="1" 
 F 0 "R32" H 8230 5854 50  0000 R CNN
 F 1 "0" H 8230 5945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 5900 50  0001 C CNN
 F 3 "~" H 8300 5900 50  0001 C CNN
 	1    8300 5900
 	-1   0    0    1   
@@ -1132,7 +1132,7 @@ AR Path="/5D681DDF/5D5D97CE" Ref="D?"  Part="1"
 AR Path="/5CD0198B/5D5D97CE" Ref="D12"  Part="1" 
 F 0 "D12" H 2700 5200 50  0000 C CNN
 F 1 "LED" H 2691 5425 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2700 5300 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2700 5300 50  0001 C CNN
 F 3 "~" H 2700 5300 50  0001 C CNN
 	1    2700 5300
 	-1   0    0    1   
@@ -1148,7 +1148,7 @@ AR Path="/5CF2977A/5D5D97D5" Ref="R?"  Part="1"
 AR Path="/5D681DDF/5D5D97D5" Ref="R?"  Part="1" 
 F 0 "R27" V 2950 5250 50  0000 L CNN
 F 1 "1k" V 3150 5250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 5300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 5300 50  0001 C CNN
 F 3 "~" H 3050 5300 50  0001 C CNN
 	1    3050 5300
 	0    1    1    0   
@@ -1189,7 +1189,7 @@ AR Path="/5D681DDF/5D61C477" Ref="D?"  Part="1"
 AR Path="/5CD0198B/5D61C477" Ref="D11"  Part="1" 
 F 0 "D11" H 10150 4500 50  0000 C CNN
 F 1 "LED" H 10141 4725 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4600 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10150 4600 50  0001 C CNN
 F 3 "~" H 10150 4600 50  0001 C CNN
 	1    10150 4600
 	-1   0    0    1   
@@ -1205,7 +1205,7 @@ AR Path="/5CF2977A/5D61C47E" Ref="R?"  Part="1"
 AR Path="/5D681DDF/5D61C47E" Ref="R?"  Part="1" 
 F 0 "R22" V 10400 4550 50  0000 L CNN
 F 1 "1k" V 10600 4550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10430 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10430 4600 50  0001 C CNN
 F 3 "~" H 10500 4600 50  0001 C CNN
 	1    10500 4600
 	0    1    1    0   
@@ -1252,7 +1252,7 @@ U 1 1 5D7FD8E6
 P 3000 1600
 F 0 "F2" V 2940 1450 50  0000 C CNN
 F 1 "USMF020" V 2950 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 2930 1600 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 2930 1600 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/bourns-inc/MF-USMF020-2/MF-USMF020-2CT-ND/1014928" H 3000 1600 50  0001 C CNN
 	1    3000 1600
 	0    1    1    0   
@@ -1263,7 +1263,7 @@ U 1 1 5D805483
 P 3000 1700
 F 0 "F3" V 2940 1550 50  0000 C CNN
 F 1 "USMF020" V 2950 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 2930 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 2930 1700 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/bourns-inc/MF-USMF020-2/MF-USMF020-2CT-ND/1014928" H 3000 1700 50  0001 C CNN
 	1    3000 1700
 	0    1    1    0   
@@ -1274,7 +1274,7 @@ U 1 1 5D80D021
 P 3000 1800
 F 0 "F4" V 2940 1650 50  0000 C CNN
 F 1 "USMF020" V 2950 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 2930 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 2930 1800 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/es/bourns-inc/MF-USMF020-2/MF-USMF020-2CT-ND/1014928" H 3000 1800 50  0001 C CNN
 	1    3000 1800
 	0    1    1    0   
@@ -1293,7 +1293,7 @@ AR Path="/5CF2977A/5CF34FA0" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5CF34FA0" Ref="C44"  Part="1" 
 F 0 "C44" H 8600 6000 50  0000 L CNN
 F 1 "100nF" H 8600 5800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8638 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 5750 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 8600 5900 50  0001 C CNN
 	1    8600 5900
 	1    0    0    -1  
@@ -1323,7 +1323,7 @@ AR Path="/5CF2977A/5CF64EE7" Ref="C?"  Part="1"
 AR Path="/5CD0198B/5CF64EE7" Ref="C45"  Part="1" 
 F 0 "C45" H 1950 7250 50  0000 L CNN
 F 1 "100nF" H 1950 7050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 7000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 7000 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 1950 7150 50  0001 C CNN
 	1    1950 7150
 	1    0    0    -1  
@@ -1353,7 +1353,7 @@ AR Path="/5D079A08/5CF8301A" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF8301A" Ref="R31"  Part="1" 
 F 0 "R31" H 7150 5950 50  0000 L CNN
 F 1 "5K6" H 7100 5850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 5850 50  0001 C CNN
 F 3 "~" H 7300 5850 50  0001 C CNN
 	1    7300 5850
 	1    0    0    1   
@@ -1374,7 +1374,7 @@ AR Path="/5D079A08/5CF916DC" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CF916DC" Ref="R29"  Part="1" 
 F 0 "R29" V 6650 5550 50  0000 L CNN
 F 1 "1K" V 6850 5550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 5550 50  0001 C CNN
 F 3 "~" H 6750 5550 50  0001 C CNN
 	1    6750 5550
 	0    -1   1    0   
@@ -1401,7 +1401,7 @@ AR Path="/5D079A08/5CFC969B" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CFC969B" Ref="R34"  Part="1" 
 F 0 "R34" H 1080 6004 50  0000 R CNN
 F 1 "0" H 1080 6095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1080 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1080 6050 50  0001 C CNN
 F 3 "~" H 1150 6050 50  0001 C CNN
 	1    1150 6050
 	-1   0    0    1   
@@ -1415,7 +1415,7 @@ AR Path="/5D079A08/5CFC96A2" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5CFC96A2" Ref="R35"  Part="1" 
 F 0 "R35" H 1080 6404 50  0000 R CNN
 F 1 "0" H 1080 6495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1080 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1080 6450 50  0001 C CNN
 F 3 "~" H 1150 6450 50  0001 C CNN
 	1    1150 6450
 	-1   0    0    1   
@@ -1499,7 +1499,7 @@ U 1 1 5D0E5DC3
 P 5350 3050
 F 0 "Q3" H 5541 3096 50  0000 L CNN
 F 1 "MMBT3904" H 5541 3005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5550 2975 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 2975 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5350 3050 50  0001 L CNN
 	1    5350 3050
 	1    0    0    -1  
@@ -1513,7 +1513,7 @@ AR Path="/5D079A08/5D0E5DCA" Ref="R?"  Part="1"
 AR Path="/5CD0198B/5D0E5DCA" Ref="R21"  Part="1" 
 F 0 "R21" V 5050 3250 50  0000 L CNN
 F 1 "1K" V 5250 3250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5080 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 3250 50  0001 C CNN
 F 3 "~" H 5150 3250 50  0001 C CNN
 	1    5150 3250
 	-1   0    0    1   

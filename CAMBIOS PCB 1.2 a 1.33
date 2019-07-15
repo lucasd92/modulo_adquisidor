@@ -1,3 +1,16 @@
+Lucas Dórdolo 15/07/2019 - V1.33
+Que se modifico:
+	1) Se cambiaron las conexiones para que queden perpendiculares a los componentes.
+	2) Reemplazo de I2C3 por UART6 y agregado de Pull-ups en I2C1
+	3) Reemplazo y reacomodamiento de footprints de hand solder a convencionales.
+
+Que falta:	
+	A- Al reducirse los footprints y hacerse soldadura por horno, pueden juntarse los componentes y reducirse el tamaño de la placa.
+	B- CAN1. Sugeriria agregar transceiver.
+    C- Revision del esquematico.
+    D- Revisar el diseño actual, en particular el ruteo de la parte analogica.
+	E- Para hacer un PCB de menores dimensiones, puede reemplazarse el nodemcu por esp8266e/f
+	
 Santiago Germino, 9/7/2019:
 
 Que se modifico:

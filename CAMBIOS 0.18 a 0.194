@@ -1,3 +1,15 @@
+Lucas Dórdolo - 15/7/2019 V0.194:
+		1) Se reemplazó I2C3 por UART6 para debug (con la actualización del CubeMX correspondiente)
+		2) Se cambiaron todos los footprints de handsolder a convencionales
+		3) Se asignó el nombre a los labels.
+		4) Se agregaron resistencias de pull-up en I2C1
+		5) Se quitaron los pines que no se usaban de BOOT0 y 1
+		
+		Por hacer: 
+			- Reemplazar diodo D5 por  uno SMD
+			- Corroborar circuitos del esquematico. No revise OTA ni correcto mapeo y ruteo de pines.
+			- Ver factibilidad de reemplazar nodemcu por esp8266e/f para ahorrar espacio.
+
 Santiago Germino - 4/7/2019:
 
     En el esquematico:

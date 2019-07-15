@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-12"
-Rev "V0.193"
+Date "2019-07-15"
+Rev "V0.194"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -254,7 +254,7 @@ AR Path="/5CD0198B/5D2A8D56" Ref="R?"  Part="1"
 AR Path="/5D4DA011/5D2A8D56" Ref="R8"  Part="1" 
 F 0 "R8" V 4650 850 50  0000 L CNN
 F 1 "4K7" V 4850 850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 850 50  0001 C CNN
 F 3 "~" H 4750 850 50  0001 C CNN
 	1    4750 850 
 	-1   0    0    1   
@@ -269,7 +269,7 @@ AR Path="/5CD0198B/5D2AA0B0" Ref="R?"  Part="1"
 AR Path="/5D4DA011/5D2AA0B0" Ref="R11"  Part="1" 
 F 0 "R11" V 4950 850 50  0000 L CNN
 F 1 "4K7" V 5150 850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 850 50  0001 C CNN
 F 3 "~" H 5050 850 50  0001 C CNN
 	1    5050 850 
 	-1   0    0    1   
