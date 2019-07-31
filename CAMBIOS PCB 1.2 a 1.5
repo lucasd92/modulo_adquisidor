@@ -1,3 +1,34 @@
+Santiago Germino, 30/7/2019 (v1.5):
+
+Que se modifico (en branch ReducciónPCB):
+    1) Overlap entre resistencias y pin headers JP3/JP4 en area de RS485.
+    2) Proximidad entre via y trace en area analógica.
+    3) Pistas GNDA sin conexion en area analógica.
+    4) Puentes de soldadura entre pines de U10.
+    5) Capacitores de desacople de U10 muy lejos y entre vias del pin VDDA.
+    6) Conexiones a capacitores y resistencias siguiendo premisa del punto 1)
+        del 9/7/2019.
+    7) Re-ruteo de VDDA en area analógica. Lo ideal seria rutear nuevamente todo
+       este sector; si justifica podria encararse en un siguiente prototipo.
+    8) Ajustes esteticos en los copper zones.
+    9) Se quito espacio innecesario en el borde derecho, achicando la placa
+       un poco mas y respetando espacio entre bornera, leyenda y borde. Nueva 
+       dimension: 172x100 mm. Distancia entre agujeros de montaje: 163x91 mm.
+    10) Ruteo de AIn1 (muestra de entrada de DC) para que no pase por debajo de
+        cuatro diodos de otras señales con AC.
+    11) Indicacion de polarizacion en la bornera J3 (entrada de DC).
+    12) Arreglo estetico y funcional de todas las impresiones de componentes.
+    13) Se agrego version de la placa en silkscreen. Esto es util para saber
+        exactamente que modelo se fabricó.
+    14) Se amplio el espaciado de los leds indicadores y se agrego un fondo
+        en blanco para rotular el uso de cada uno (quitar del diseño si no se 
+        utilizara).
+
+Que falta:
+	A- CAN1. Sugeriria agregar transceiver (probablemente en proximo prototipo)
+    B- Revision del esquematico.
+
+
 Lucas Dórdolo 17/07/2019 - V1.4
 Que se modifico:
 	1) Se reemplazó nodemcu por wemos mini.
@@ -22,7 +53,7 @@ Que falta:
     D- Revisar el diseño actual, en particular el ruteo de la parte analogica.
 	E- Para hacer un PCB de menores dimensiones, puede reemplazarse el nodemcu por esp8266e/f
 	
-Santiago Germino, 9/7/2019:
+Santiago Germino, 9/7/2019 (v1.2):
 
 Que se modifico:
 
