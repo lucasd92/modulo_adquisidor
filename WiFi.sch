@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-17"
-Rev "V0.2"
+Date "2019-08-02"
+Rev "V0.21"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -854,7 +853,7 @@ U 1 1 5CF651E7
 P 3650 1700
 F 0 "J4" H 3729 1742 50  0000 L CNN
 F 1 "RS-485" H 3729 1651 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal" H 3650 1700 50  0001 C CNN
+F 2 "Propios:TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal_con_modelo3d" H 3650 1700 50  0001 C CNN
 F 3 "~" H 3650 1700 50  0001 C CNN
 	1    3650 1700
 	1    0    0    -1  
