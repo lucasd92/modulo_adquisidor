@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-15"
-Rev "V0.194"
+Date "2019-08-02"
+Rev "V0.21"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -259,7 +258,7 @@ U 1 1 5D45F37E
 P 1950 1850
 F 0 "J5" H 1870 1525 50  0000 C CNN
 F 1 "TV_6V" H 1870 1616 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1950 1850 50  0001 C CNN
+F 2 "Propios:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal_con_modelo3d" H 1950 1850 50  0001 C CNN
 F 3 "~" H 1950 1850 50  0001 C CNN
 	1    1950 1850
 	-1   0    0    1   
@@ -640,7 +639,7 @@ U 1 1 5D680BD2
 P 1850 4500
 F 0 "J6" H 1770 4175 50  0000 C CNN
 F 1 "AN1" H 1770 4266 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1850 4500 50  0001 C CNN
+F 2 "Propios:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal_con_modelo3d" H 1850 4500 50  0001 C CNN
 F 3 "~" H 1850 4500 50  0001 C CNN
 	1    1850 4500
 	-1   0    0    1   
@@ -1032,7 +1031,7 @@ U 1 1 5D781D09
 P 1850 6350
 F 0 "J7" H 1770 6025 50  0000 C CNN
 F 1 "AN2" H 1770 6116 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1850 6350 50  0001 C CNN
+F 2 "Propios:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal_con_modelo3d" H 1850 6350 50  0001 C CNN
 F 3 "~" H 1850 6350 50  0001 C CNN
 	1    1850 6350
 	-1   0    0    1   

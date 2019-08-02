@@ -1,32 +1,18 @@
 EESchema Schematic File Version 4
-LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-15"
-Rev "V0.194"
+Date "2019-08-02"
+Rev "V0.21"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ESP8266:NodeMCU_1.0_(ESP-12E) U?
-U 1 1 5CD022F9
-P 6750 2050
-AR Path="/5CD022F9" Ref="U?"  Part="1" 
-AR Path="/5CD0198B/5CD022F9" Ref="U7"  Part="1" 
-F 0 "U7" H 6750 3137 60  0000 C CNN
-F 1 "NodeMCU_1.0_(ESP-12E)" H 6750 3031 60  0000 C CNN
-F 2 "Propios:NodeMCU1.0(12-E)" H 6150 1200 60  0001 C CNN
-F 3 "" H 6150 1200 60  0000 C CNN
-	1    6750 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CD137AA
@@ -56,31 +42,17 @@ F 3 "" H 3950 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 1950 7950 1950
+	7300 2300 7700 2300
 Wire Wire Line
-	7550 2450 7950 2450
+	7300 2400 7700 2400
 Wire Wire Line
-	7550 2550 7950 2550
+	7300 1700 7700 1700
 Wire Wire Line
-	7550 2650 7950 2650
-Wire Wire Line
-	5950 2750 5550 2750
-Wire Wire Line
-	5550 2250 5950 2250
-Wire Wire Line
-	5550 2650 5950 2650
-Text Label 5550 2250 0    50   ~ 0
+	7700 1800 7300 1800
+Text Label 7700 1800 2    50   ~ 0
 GND
-Text Label 7950 1950 2    50   ~ 0
-GND
-Text Label 7950 2650 2    50   ~ 0
-GND
-Text Label 5550 2750 0    50   ~ 0
+Text Label 7700 1700 2    50   ~ 0
 5V
-Text Label 5550 2650 0    50   ~ 0
-GND
-NoConn ~ 5950 1550
-NoConn ~ 5950 1450
 Wire Wire Line
 	4650 1300 4650 1200
 Wire Wire Line
@@ -220,134 +192,126 @@ Text Label 7600 5200 2    50   ~ 0
 TX_SIM800
 Text Notes 5950 4700 0    50   ~ 0
 Divisor resistivo recomendado como interfaz con micros de 3v3
-Text HLabel 10100 1150 2    50   Output ~ 0
-D1_ESP
-Text HLabel 7950 2450 2    50   Input ~ 0
+Text HLabel 9600 1150 2    50   Output ~ 0
+D2_ESP
+Text HLabel 7700 2300 2    50   Input ~ 0
 RX_ESP
-Text HLabel 7950 2550 2    50   Output ~ 0
+Text HLabel 7700 2400 2    50   Output ~ 0
 TX_ESP
-Text HLabel 5050 3450 0    50   Input ~ 0
+Text HLabel 5400 3300 0    50   Input ~ 0
 RST_ESP
 Text HLabel 6400 4900 0    50   Input ~ 0
 RX_S800
 Text HLabel 6400 5200 0    50   Output ~ 0
 TX_S800
-Text Notes 6150 3050 0    50   ~ 0
+Text Notes 6400 3150 0    50   ~ 0
 GPIO4/5 (scl/sda) arrancan en bajo y no tienen otro uso
-Text Notes 6150 3150 0    50   ~ 0
+Text Notes 6400 3250 0    50   ~ 0
 GPIO2 led integrado (pull up)
-Text Notes 6150 3400 0    50   ~ 0
+Text Notes 6400 3500 0    50   ~ 0
 GPIO15 tiene pull down
-Text Notes 6150 3300 0    50   ~ 0
+Text Notes 6400 3400 0    50   ~ 0
 GPIO12/13/14  tienen un pulso en alto al encendido y después pueden usarse.
 $Comp
-L Transistor_BJT:MMBT3904 Q1
+L Transistor_BJT:MMBT3904 Q2
 U 1 1 5CF2F609
-P 9450 1450
-F 0 "Q1" H 9641 1496 50  0000 L CNN
-F 1 "MMBT3904" H 9641 1405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 1375 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9450 1450 50  0001 L CNN
-	1    9450 1450
+P 8950 1450
+F 0 "Q2" H 9141 1496 50  0000 L CNN
+F 1 "MMBT3904" H 9141 1405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 1375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8950 1450 50  0001 L CNN
+	1    8950 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5CF34503
-P 8900 1450
+P 8400 1450
 AR Path="/5CF34503" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5CF34503" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5CF34503" Ref="R15"  Part="1" 
-F 0 "R15" V 8800 1450 50  0000 L CNN
-F 1 "1K" V 9000 1450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 1450 50  0001 C CNN
-F 3 "~" H 8900 1450 50  0001 C CNN
-	1    8900 1450
+AR Path="/5CD0198B/5CF34503" Ref="R20"  Part="1" 
+F 0 "R20" V 8300 1450 50  0000 L CNN
+F 1 "1K" V 8500 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8330 1450 50  0001 C CNN
+F 3 "~" H 8400 1450 50  0001 C CNN
+	1    8400 1450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9250 1450 9050 1450
+	8750 1450 8550 1450
 $Comp
 L power:GND #PWR?
 U 1 1 5CF37FEB
-P 9550 1750
+P 9050 1750
 AR Path="/5CF37FEB" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5CF37FEB" Ref="#PWR?"  Part="1" 
 AR Path="/5CD0198B/5CF37FEB" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 9550 1500 50  0001 C CNN
-F 1 "GND" H 9555 1577 50  0000 C CNN
-F 2 "" H 9550 1750 50  0001 C CNN
-F 3 "" H 9550 1750 50  0001 C CNN
-	1    9550 1750
+F 0 "#PWR044" H 9050 1500 50  0001 C CNN
+F 1 "GND" H 9055 1577 50  0000 C CNN
+F 2 "" H 9050 1750 50  0001 C CNN
+F 3 "" H 9050 1750 50  0001 C CNN
+	1    9050 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 1650 9550 1750
+	9050 1650 9050 1750
 Wire Wire Line
-	10100 1150 9550 1150
+	9600 1150 9050 1150
 Wire Wire Line
-	9550 1150 9550 1250
-Text Notes 9550 1050 0    50   ~ 0
+	9050 1150 9050 1250
+Text Notes 9050 1050 0    50   ~ 0
 Invierto lógica para que no me\n reinicie el STM32 al iniciarse en bajo.
-Text HLabel 10100 2300 2    50   Output ~ 0
-D2_ESP
+Text HLabel 9700 2300 2    50   Output ~ 0
+D1_ESP
 $Comp
-L Transistor_BJT:MMBT3904 Q2
+L Transistor_BJT:MMBT3904 Q1
 U 1 1 5CF3E51B
-P 9450 2600
-F 0 "Q2" H 9641 2646 50  0000 L CNN
-F 1 "MMBT3904" H 9641 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 2525 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9450 2600 50  0001 L CNN
-	1    9450 2600
+P 9050 2600
+F 0 "Q1" H 9241 2646 50  0000 L CNN
+F 1 "MMBT3904" H 9241 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9250 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9050 2600 50  0001 L CNN
+	1    9050 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5CF3E522
-P 8900 2600
+P 8500 2600
 AR Path="/5CF3E522" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5CF3E522" Ref="R?"  Part="1" 
-AR Path="/5CD0198B/5CF3E522" Ref="R20"  Part="1" 
-F 0 "R20" V 8800 2600 50  0000 L CNN
-F 1 "1K" V 9000 2600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 2600 50  0001 C CNN
-F 3 "~" H 8900 2600 50  0001 C CNN
-	1    8900 2600
+AR Path="/5CD0198B/5CF3E522" Ref="R15"  Part="1" 
+F 0 "R15" V 8400 2600 50  0000 L CNN
+F 1 "1K" V 8600 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 2600 50  0001 C CNN
+F 3 "~" H 8500 2600 50  0001 C CNN
+	1    8500 2600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9250 2600 9050 2600
+	8850 2600 8650 2600
 $Comp
 L power:GND #PWR?
 U 1 1 5CF3E52A
-P 9550 2900
+P 9150 2900
 AR Path="/5CF3E52A" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5CF3E52A" Ref="#PWR?"  Part="1" 
 AR Path="/5CD0198B/5CF3E52A" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 9550 2650 50  0001 C CNN
-F 1 "GND" H 9555 2727 50  0000 C CNN
-F 2 "" H 9550 2900 50  0001 C CNN
-F 3 "" H 9550 2900 50  0001 C CNN
-	1    9550 2900
+F 0 "#PWR047" H 9150 2650 50  0001 C CNN
+F 1 "GND" H 9155 2727 50  0000 C CNN
+F 2 "" H 9150 2900 50  0001 C CNN
+F 3 "" H 9150 2900 50  0001 C CNN
+	1    9150 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 2800 9550 2900
+	9150 2800 9150 2900
 Wire Wire Line
-	10100 2300 9550 2300
+	9700 2300 9150 2300
 Wire Wire Line
-	9550 2300 9550 2400
-Text Notes 9550 2200 0    50   ~ 0
+	9150 2300 9150 2400
+Text Notes 9150 2200 0    50   ~ 0
 Invierto lógica para que no me\n reinicie el STM32 al iniciarse en bajo.
-Wire Wire Line
-	7550 1450 8750 1450
-Wire Wire Line
-	8600 1550 8600 2600
-Wire Wire Line
-	8600 2600 8750 2600
-Wire Wire Line
-	7550 1550 8600 1550
 Text Notes 5650 750  0    79   ~ 0
 Módulo Wi-Fi para comunicación y programación OTA
 Text Notes 5650 4350 0    79   ~ 0
@@ -889,7 +853,7 @@ U 1 1 5CF651E7
 P 3650 1700
 F 0 "J4" H 3729 1742 50  0000 L CNN
 F 1 "RS-485" H 3729 1651 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal" H 3650 1700 50  0001 C CNN
+F 2 "Propios:TerminalBlock_Phoenix_PT-1,5-5-5.0-H_1x05_P5.00mm_Horizontal_con_modelo3d" H 3650 1700 50  0001 C CNN
 F 3 "~" H 3650 1700 50  0001 C CNN
 	1    3650 1700
 	1    0    0    -1  
@@ -980,20 +944,6 @@ Wire Wire Line
 	9400 5100 9400 5150
 Text HLabel 8700 4900 0    50   Input ~ 0
 PW_ON_S800
-NoConn ~ 5950 2150
-NoConn ~ 5950 2050
-NoConn ~ 5950 1950
-NoConn ~ 5950 1850
-NoConn ~ 5950 1750
-NoConn ~ 5950 1650
-NoConn ~ 5950 1350
-NoConn ~ 7550 2050
-NoConn ~ 7550 2150
-NoConn ~ 7550 2250
-NoConn ~ 7550 2350
-NoConn ~ 7550 1350
-NoConn ~ 7550 1650
-NoConn ~ 7550 1750
 $Comp
 L Device:R R?
 U 1 1 5D19AADA
@@ -1281,7 +1231,6 @@ F 3 "https://www.digikey.com/product-detail/es/bourns-inc/MF-USMF020-2/MF-USMF02
 $EndComp
 Wire Notes Line
 	8150 6100 8150 5350
-NoConn ~ 5950 2450
 $Comp
 L Device:C C?
 U 1 1 5CF34FA0
@@ -1490,58 +1439,55 @@ F 3 "" H 4650 800 50  0001 C CNN
 	1    4650 800 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7550 1850
-NoConn ~ 5950 2350
-NoConn ~ 7550 2750
 $Comp
 L Transistor_BJT:MMBT3904 Q3
 U 1 1 5D0E5DC3
-P 5350 3050
-F 0 "Q3" H 5541 3096 50  0000 L CNN
-F 1 "MMBT3904" H 5541 3005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5550 2975 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5350 3050 50  0001 L CNN
-	1    5350 3050
+P 5700 2900
+F 0 "Q3" H 5891 2946 50  0000 L CNN
+F 1 "MMBT3904" H 5891 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 2825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5700 2900 50  0001 L CNN
+	1    5700 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5D0E5DCA
-P 5150 3250
+P 5500 3100
 AR Path="/5D0E5DCA" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5D0E5DCA" Ref="R?"  Part="1" 
 AR Path="/5CD0198B/5D0E5DCA" Ref="R21"  Part="1" 
-F 0 "R21" V 5050 3250 50  0000 L CNN
-F 1 "1K" V 5250 3250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 3250 50  0001 C CNN
-F 3 "~" H 5150 3250 50  0001 C CNN
-	1    5150 3250
+F 0 "R21" V 5400 3100 50  0000 L CNN
+F 1 "1K" V 5600 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 3100 50  0001 C CNN
+F 3 "~" H 5500 3100 50  0001 C CNN
+	1    5500 3100
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D0E5DD2
-P 5450 3300
+P 5800 3150
 AR Path="/5D0E5DD2" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D0E5DD2" Ref="#PWR?"  Part="1" 
 AR Path="/5CD0198B/5D0E5DD2" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 5450 3050 50  0001 C CNN
-F 1 "GND" H 5455 3127 50  0000 C CNN
-F 2 "" H 5450 3300 50  0001 C CNN
-F 3 "" H 5450 3300 50  0001 C CNN
-	1    5450 3300
+F 0 "#PWR052" H 5800 2900 50  0001 C CNN
+F 1 "GND" H 5805 2977 50  0000 C CNN
+F 2 "" H 5800 3150 50  0001 C CNN
+F 3 "" H 5800 3150 50  0001 C CNN
+	1    5800 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 2550 5450 2850
+	5800 2400 5800 2700
 Wire Wire Line
-	5450 2550 5950 2550
+	5800 2400 6300 2400
 Wire Wire Line
-	5050 3450 5150 3450
+	5400 3300 5500 3300
 Wire Wire Line
-	5150 3450 5150 3400
+	5500 3300 5500 3250
 Wire Wire Line
-	5150 3100 5150 3050
+	5500 2950 5500 2900
 Wire Wire Line
 	6600 4900 6400 4900
 Wire Wire Line
@@ -1555,10 +1501,33 @@ Wire Wire Line
 Wire Wire Line
 	7300 5550 7600 5550
 Wire Wire Line
-	5450 3250 5450 3300
+	5800 3100 5800 3150
 Wire Wire Line
 	9400 5150 8300 5150
 Wire Wire Line
 	8300 5150 8300 5350
 Connection ~ 9400 5150
+$Comp
+L wemos_mini:WeMos_mini U7
+U 1 1 5D2FC003
+P 6800 2050
+F 0 "U7" H 6800 2687 60  0000 C CNN
+F 1 "WeMos_mini" H 6800 2581 60  0000 C CNN
+F 2 "wemos:wemos-d1-mini-with-pin-header-and-connector" H 6800 2581 60  0001 C CNN
+F 3 "http://www.wemos.cc/Products/d1_mini.html" H 6800 2581 60  0001 C CNN
+	1    6800 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2100 8100 2100
+Wire Wire Line
+	8100 2100 8100 1450
+Wire Wire Line
+	8100 1450 8250 1450
+Wire Wire Line
+	8100 2200 8100 2600
+Wire Wire Line
+	8100 2600 8350 2600
+Wire Wire Line
+	7300 2200 8100 2200
 $EndSCHEMATC

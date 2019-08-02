@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-07-15"
-Rev "V0.194"
+Date "2019-08-02"
+Rev "V0.21"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -908,4 +907,59 @@ Text Label 8550 2000 0    50   ~ 0
 USART6_TX
 Text Label 8550 1900 0    50   ~ 0
 USART6_RX
+$Comp
+L Mechanical:MountingHole FD1
+U 1 1 5D566CA1
+P 1800 7450
+F 0 "FD1" H 1900 7496 50  0000 L CNN
+F 1 "Fiducial" H 1900 7405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 1800 7450 50  0001 C CNN
+F 3 "~" H 1800 7450 50  0001 C CNN
+	1    1800 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FD2
+U 1 1 5D58CA63
+P 2950 7450
+F 0 "FD2" H 3050 7496 50  0000 L CNN
+F 1 "Fiducial" H 3050 7405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 2950 7450 50  0001 C CNN
+F 3 "~" H 2950 7450 50  0001 C CNN
+	1    2950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FD3
+U 1 1 5D596100
+P 4100 7450
+F 0 "FD3" H 4200 7496 50  0000 L CNN
+F 1 "Fiducial" H 4200 7405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 4100 7450 50  0001 C CNN
+F 3 "~" H 4100 7450 50  0001 C CNN
+	1    4100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FD4
+U 1 1 5D59F79C
+P 5200 7450
+F 0 "FD4" H 5300 7496 50  0000 L CNN
+F 1 "Fiducial" H 5300 7405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5200 7450 50  0001 C CNN
+F 3 "~" H 5200 7450 50  0001 C CNN
+	1    5200 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FD5
+U 1 1 5D5A8E35
+P 6100 7450
+F 0 "FD5" H 6200 7496 50  0000 L CNN
+F 1 "Fiducial" H 6200 7405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 6100 7450 50  0001 C CNN
+F 3 "~" H 6100 7450 50  0001 C CNN
+	1    6100 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

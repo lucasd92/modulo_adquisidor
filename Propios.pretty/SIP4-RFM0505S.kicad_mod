@@ -1,4 +1,4 @@
-(module SIP4-RFM0505S (layer F.Cu) (tedit 5CF68838)
+(module SIP4-RFM0505S (layer F.Cu) (tedit 5D44318A)
   (fp_text reference U** (at 8.89 -5.842) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -32,4 +32,9 @@
   (pad 2 thru_hole circle (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7.62 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3dshapes/modulos.3dshapes/RECOM RM-0505S.STEP"
+    (offset (xyz -2 -1.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
