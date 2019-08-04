@@ -1,3 +1,12 @@
+Santiago Germino, 4/8/2019 (v1.61):
+Revisión final antes de fabricación.
+Que se modifico:
+    1) Impresion de componentes en area RS 485 (capacitores).
+    2) IMPORTANTE: se agrego leyenda en silk con nombre de placa y versión.
+
+    Se agregaron renders de la placa para usar en publicaciónes en
+    "Capturas/{Frontal/Perspectiva} v1-61 print.png"
+
 Santiago Germino, 2/8/2019 (v1.6):
 Que se modifico (nuevamente en master):
     1) Overlap de muchas impresiones de componentes (quiza la ubicacion se 
