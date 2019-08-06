@@ -10143,7 +10143,7 @@
       (xy -0.318963 -2.21964)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_text "ADQUISIDOR GENÉRICO\nv1.61" (at 101.5 108) (layer F.SilkS)
+  (gr_text "MODULO DE PROCESAMIENTO\nv1.62" (at 101.5 108) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 114.5 58.75) (end 113.25 58.75) (layer F.SilkS) (width 0.2))
