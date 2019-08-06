@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2+dfsg1-1~bpo9+1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
 
   (general
     (thickness 1.6)
@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title "Adquisidor genérico - Placa Base")
-    (date 2019-08-04)
-    (rev V1.61)
+    (date 2019-08-06)
+    (rev V1.62)
     (company "Trenes Argentinos Operaciones")
     (comment 1 "Colaboradores: Santiago Germino")
     (comment 2 "Autor: Lucas Dórdolo")
@@ -10416,7 +10416,7 @@
   (gr_text 3V3 (at 80.75 118.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "GND\nsIN\nsOut\nP/S\nCLK\n5V" (at 80.75 95) (layer F.SilkS) (tstamp 5D477D5B)
+  (gr_text "GND\nNC\nsIN\nP/S\nCLK\n5V" (at 80.75 95) (layer F.SilkS) (tstamp 5D477D5B)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "5V\nGND\nOut6\nOut5\nOut4\nOut3\nOut2\nOut1" (at 80.75 109) (layer F.SilkS) (tstamp 5D278247)

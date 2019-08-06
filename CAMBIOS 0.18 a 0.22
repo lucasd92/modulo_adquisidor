@@ -1,3 +1,11 @@
+Lucas Dórdolo - 6/8/2019 V0.22:
+		Se hizo:
+		1) Se borró del esquemático el comentario de cosas por hacer. 
+		2) Se reemplazó D5 por SMD
+
+		Por hacer: 
+			- Corroborar circuitos del esquematico. No revise OTA ni correcto mapeo y ruteo de pines.
+
 Lucas Dórdolo - 17/7/2019 V0.2:
 		Se hizo:
 		1) Cambio de nodemcu por wemos mini 

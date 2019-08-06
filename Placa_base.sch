@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-02"
-Rev "V0.21"
+Date "2019-08-06"
+Rev "V0.22"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -253,10 +254,6 @@ Text Label 3050 5300 2    50   ~ 0
 An_In4
 Text Notes 8350 3850 0    50   ~ 0
 Pines para  programación OTA
-Text Notes 7950 750  0    79   ~ 0
-Puntos a definir/ revisar
-Wire Notes Line
-	10250 550  7600 550 
 Wire Wire Line
 	9050 4500 8450 4500
 Text Label 8450 4500 0    50   ~ 0
@@ -306,14 +303,6 @@ Wire Wire Line
 	1300 4350 1300 4850
 Wire Wire Line
 	1300 4850 1500 4850
-Text Notes 8000 1050 0    50   ~ 0
-A definir:\n-Conexión OTA correcta.\n-Conexiones vacantes
-Wire Notes Line
-	7600 550  7600 1100
-Wire Notes Line
-	7600 1100 10250 1100
-Wire Notes Line
-	10250 1100 10250 550 
 Wire Wire Line
 	4550 5250 3950 5250
 Text Label 3950 5250 0    50   ~ 0
