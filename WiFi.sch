@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-02"
-Rev "V0.21"
+Date "2019-08-30"
+Rev "V0.30"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -1530,4 +1531,13 @@ Wire Wire Line
 	8100 2600 8350 2600
 Wire Wire Line
 	7300 2200 8100 2200
+NoConn ~ 6300 1700
+NoConn ~ 6300 1800
+NoConn ~ 6300 1900
+NoConn ~ 6300 2000
+NoConn ~ 6300 2100
+NoConn ~ 6300 2200
+NoConn ~ 6300 2300
+NoConn ~ 7300 2000
+NoConn ~ 7300 1900
 $EndSCHEMATC

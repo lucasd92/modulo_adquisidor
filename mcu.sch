@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-02"
-Rev "V0.21"
+Date "2019-08-30"
+Rev "V0.30"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -21,7 +22,7 @@ AR Path="/5D0882C8" Ref="U?"  Part="1"
 AR Path="/5D079A08/5D0882C8" Ref="U1"  Part="1" 
 F 0 "U1" H 3900 6100 50  0000 C CNN
 F 1 "STM32F407VGTx" H 3950 850 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 2650 950 50  0001 R CNN
+F 2 "Propios:LQFP-100" H 2650 950 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 3350 3550 50  0001 C CNN
 	1    3350 3550
 	1    0    0    -1  
@@ -546,27 +547,27 @@ $EndComp
 $Comp
 L Device:Crystal Y?
 U 1 1 5D090CF6
-P 4800 7100
+P 6300 7100
 AR Path="/5D090CF6" Ref="Y?"  Part="1" 
 AR Path="/5D079A08/5D090CF6" Ref="Y2"  Part="1" 
-F 0 "Y2" H 4950 7150 50  0000 C CNN
-F 1 "8MHz" H 4800 6950 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 4800 7100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/txc-corporation/9B-8.000MEEJ-B/887-1233-ND/2207653" H 4800 7100 50  0001 C CNN
-	1    4800 7100
+F 0 "Y2" H 6450 7150 50  0000 C CNN
+F 1 "8MHz" H 6300 6950 50  0000 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 6300 7100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/txc-corporation/9B-8.000MEEJ-B/887-1233-ND/2207653" H 6300 7100 50  0001 C CNN
+	1    6300 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5D090CFD
-P 5100 7350
+P 6600 7350
 AR Path="/5D090CFD" Ref="C?"  Part="1" 
 AR Path="/5D079A08/5D090CFD" Ref="C23"  Part="1" 
-F 0 "C23" H 5100 7450 50  0000 L CNN
-F 1 "20pF" H 5100 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 7200 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/CC0603GRNPO9BN200/311-3924-1-ND/8025013" H 5100 7350 50  0001 C CNN
-	1    5100 7350
+F 0 "C23" H 6600 7450 50  0000 L CNN
+F 1 "20pF" H 6600 7250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 7200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/CC0603GRNPO9BN200/311-3924-1-ND/8025013" H 6600 7350 50  0001 C CNN
+	1    6600 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -849,65 +850,65 @@ Connection ~ 6250 4250
 $Comp
 L Device:C C?
 U 1 1 5D090DAD
-P 4500 7350
+P 6000 7350
 AR Path="/5D090DAD" Ref="C?"  Part="1" 
 AR Path="/5D079A08/5D090DAD" Ref="C22"  Part="1" 
-F 0 "C22" H 4500 7450 50  0000 L CNN
-F 1 "20pF" H 4500 7250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 7200 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/CC0603GRNPO9BN200/311-3924-1-ND/8025013" H 4500 7350 50  0001 C CNN
-	1    4500 7350
+F 0 "C22" H 6000 7450 50  0000 L CNN
+F 1 "20pF" H 6000 7250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 7200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/CC0603GRNPO9BN200/311-3924-1-ND/8025013" H 6000 7350 50  0001 C CNN
+	1    6000 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 7200 4500 7100
+	6000 7200 6000 7100
 Wire Wire Line
-	4500 7100 4650 7100
+	6000 7100 6150 7100
 Wire Wire Line
-	5100 7100 5100 7200
+	6600 7100 6600 7200
 Wire Wire Line
-	4950 7100 5100 7100
+	6450 7100 6600 7100
 Wire Wire Line
-	4500 7500 4800 7500
+	6000 7500 6300 7500
 $Comp
 L power:GND #PWR?
 U 1 1 5D090DB9
-P 4800 7500
+P 6300 7500
 AR Path="/5D090DB9" Ref="#PWR?"  Part="1" 
 AR Path="/5D079A08/5D090DB9" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 4800 7250 50  0001 C CNN
-F 1 "GND" H 4805 7327 50  0000 C CNN
-F 2 "" H 4800 7500 50  0001 C CNN
-F 3 "" H 4800 7500 50  0001 C CNN
-	1    4800 7500
+F 0 "#PWR022" H 6300 7250 50  0001 C CNN
+F 1 "GND" H 6305 7327 50  0000 C CNN
+F 2 "" H 6300 7500 50  0001 C CNN
+F 3 "" H 6300 7500 50  0001 C CNN
+	1    6300 7500
 	1    0    0    -1  
 $EndComp
-Connection ~ 4800 7500
+Connection ~ 6300 7500
 Wire Wire Line
-	4800 7500 5100 7500
+	6300 7500 6600 7500
 $Comp
 L Device:R R?
 U 1 1 5D090DC8
-P 4500 6950
+P 6000 6950
 AR Path="/5D090DC8" Ref="R?"  Part="1" 
 AR Path="/5D079A08/5D090DC8" Ref="R10"  Part="1" 
-F 0 "R10" H 4550 7100 50  0000 L CNN
-F 1 "CALCULAR" H 4550 7000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 6950 50  0001 C CNN
-F 3 "~" H 4500 6950 50  0001 C CNN
-	1    4500 6950
+F 0 "R10" H 6050 7100 50  0000 L CNN
+F 1 "CALCULAR" H 6050 7000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 6950 50  0001 C CNN
+F 3 "~" H 6000 6950 50  0001 C CNN
+	1    6000 6950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 7100
+Connection ~ 6000 7100
 Wire Wire Line
-	5100 6600 4100 6600
+	6600 6600 5600 6600
 Wire Wire Line
-	4500 6800 4500 6750
+	6000 6800 6000 6750
 Wire Wire Line
-	4500 6750 4100 6750
-Text Label 4100 6600 0    50   ~ 0
+	6000 6750 5600 6750
+Text Label 5600 6600 0    50   ~ 0
 PH0
-Text Label 4100 6750 0    50   ~ 0
+Text Label 5600 6750 0    50   ~ 0
 PH1
 $Comp
 L Device:R R?
@@ -1229,71 +1230,6 @@ Text Label 10600 1700 2    50   ~ 0
 TDO-SWO
 Text Label 10600 1600 2    50   ~ 0
 NRST
-$Comp
-L Device:R R?
-U 1 1 5D356EC5
-P 6700 6900
-AR Path="/5D356EC5" Ref="R?"  Part="1" 
-AR Path="/5D079A08/5D356EC5" Ref="R9"  Part="1" 
-F 0 "R9" H 6630 6854 50  0000 R CNN
-F 1 "0" H 6630 6945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 6900 50  0001 C CNN
-F 3 "~" H 6700 6900 50  0001 C CNN
-	1    6700 6900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D3678D5
-P 6700 7300
-AR Path="/5D3678D5" Ref="R?"  Part="1" 
-AR Path="/5D079A08/5D3678D5" Ref="R12"  Part="1" 
-F 0 "R12" H 6630 7254 50  0000 R CNN
-F 1 "0" H 6630 7345 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 7300 50  0001 C CNN
-F 3 "~" H 6700 7300 50  0001 C CNN
-	1    6700 7300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D3890A2
-P 6700 7500
-AR Path="/5D3890A2" Ref="#PWR?"  Part="1" 
-AR Path="/5D079A08/5D3890A2" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 6700 7250 50  0001 C CNN
-F 1 "GND" H 6705 7327 50  0000 C CNN
-F 2 "" H 6700 7500 50  0001 C CNN
-F 3 "" H 6700 7500 50  0001 C CNN
-	1    6700 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 5D399D98
-P 6700 6700
-AR Path="/5D399D98" Ref="#PWR?"  Part="1" 
-AR Path="/5D079A08/5D399D98" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 6700 6550 50  0001 C CNN
-F 1 "VDD" H 6717 6873 50  0000 C CNN
-F 2 "" H 6700 6700 50  0001 C CNN
-F 3 "" H 6700 6700 50  0001 C CNN
-	1    6700 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 6700 6700 6750
-Wire Wire Line
-	6700 7050 6700 7100
-Wire Wire Line
-	6700 7450 6700 7500
-Text Notes 5550 6700 0    50   ~ 0
-NO SOLDAR!!\nse usa para producir reset\n si la tensión baja de 1,74V\n
-Wire Wire Line
-	6700 7100 6050 7100
-Connection ~ 6700 7100
-Wire Wire Line
-	6700 7100 6700 7150
 Wire Wire Line
 	3150 6350 3150 6450
 Wire Wire Line
@@ -1307,13 +1243,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 6350 3350 6450
 Wire Wire Line
-	3450 6350 3450 6400
-Wire Wire Line
-	3450 6400 1900 6400
-Text Label 1900 6400 0    50   ~ 0
-PDR_ON
-Text Label 6150 7100 0    50   ~ 0
-PDR_ON
+	3450 6350 3450 6450
 Wire Wire Line
 	10350 4000 10350 4100
 Wire Wire Line
@@ -1595,14 +1525,6 @@ Connection ~ 7800 5650
 Text Notes 6250 6000 0    50   ~ 0
 Poner el cap de 10n cerca del micro
 Wire Notes Line
-	6100 6750 6600 6900
-Wire Notes Line
-	6600 6900 6550 6850
-Wire Notes Line
-	6550 6850 6500 6900
-Wire Notes Line
-	6500 6900 6600 6900
-Wire Notes Line
 	6850 1450 6850 2750
 Wire Notes Line
 	6850 2750 7950 2750
@@ -1614,7 +1536,7 @@ Text Notes 8950 3400 0    79   ~ 0
 RTC (Puede no ser necesario)
 Text Notes 1100 6700 0    79   ~ 0
 Reset
-Text Notes 4350 6500 0    79   ~ 0
+Text Notes 5850 6500 0    79   ~ 0
 Circuito reloj
 Text Notes 6500 650  0    79   ~ 0
 Circuito de booteo
@@ -1633,8 +1555,8 @@ Wire Wire Line
 	9850 5100 9850 5450
 Connection ~ 9850 5450
 Wire Wire Line
-	5100 6600 5100 7100
-Connection ~ 5100 7100
+	6600 6600 6600 7100
+Connection ~ 6600 7100
 $Comp
 L Connector:Conn_01x06_Male J1
 U 1 1 5CF843F1
@@ -1715,19 +1637,6 @@ F 3 "~" H 9550 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9550 4000 9550 4100
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5D3E21B9
-P 6050 7050
-F 0 "#FLG0102" H 6050 7125 50  0001 C CNN
-F 1 "PWR_FLAG" H 6050 7224 50  0000 C CNN
-F 2 "" H 6050 7050 50  0001 C CNN
-F 3 "~" H 6050 7050 50  0001 C CNN
-	1    6050 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 7050 6050 7100
 NoConn ~ 4800 2650
 NoConn ~ 4800 3250
 NoConn ~ 1900 3050
@@ -1767,4 +1676,6 @@ F 3 "~" H 7400 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 2250 7400 2350
+Wire Wire Line
+	3350 6450 3450 6450
 $EndSCHEMATC

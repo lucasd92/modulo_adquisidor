@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:Placa_base-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-02"
-Rev "V0.21"
+Date "2019-08-30"
+Rev "V0.30"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
