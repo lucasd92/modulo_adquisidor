@@ -50,13 +50,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J15
 U 1 1 5D4DA694
-P 5500 4300
-F 0 "J15" H 5550 4817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 5550 4726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5500 4300 50  0001 C CNN
-F 3 "~" H 5500 4300 50  0001 C CNN
-	1    5500 4300
-	-1   0    0    -1  
+P 5350 4275
+F 0 "J15" H 5400 4792 50  0000 C CNN
+F 1 "EXP" H 5400 4701 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5350 4275 50  0001 C CNN
+F 3 "~" H 5350 4275 50  0001 C CNN
+	1    5350 4275
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J11
@@ -110,48 +110,48 @@ Wire Wire Line
 Text HLabel 6200 3200 2    50   Input ~ 0
 SPI1_MOSI
 Wire Wire Line
-	4650 4200 5200 4200
-Text HLabel 4650 4200 0    50   Input ~ 0
+	6200 4175 5650 4175
+Text HLabel 6200 4175 2    50   Input ~ 0
 PIN1
 Wire Wire Line
-	4650 4300 5200 4300
-Text HLabel 4650 4300 0    50   Input ~ 0
+	6200 4275 5650 4275
+Text HLabel 6200 4275 2    50   Input ~ 0
 PIN3
 Wire Wire Line
-	4650 4400 5200 4400
-Text HLabel 4650 4400 0    50   Input ~ 0
+	6200 4375 5650 4375
+Text HLabel 6200 4375 2    50   Input ~ 0
 PIN5
 Wire Wire Line
-	4650 4500 5200 4500
-Text HLabel 4650 4500 0    50   Input ~ 0
+	6200 4475 5650 4475
+Text HLabel 6200 4475 2    50   Input ~ 0
 PIN7
 Wire Wire Line
-	4650 4600 5200 4600
-Text HLabel 4650 4600 0    50   Input ~ 0
+	6200 4575 5650 4575
+Text HLabel 6200 4575 2    50   Input ~ 0
 PIN9
 Wire Wire Line
-	4650 4700 5200 4700
-Text HLabel 4650 4700 0    50   Input ~ 0
+	6200 4675 5650 4675
+Text HLabel 6200 4675 2    50   Input ~ 0
 PIN11
 Wire Wire Line
-	6250 4300 5700 4300
-Text HLabel 6250 4300 2    50   Input ~ 0
+	4600 4275 5150 4275
+Text HLabel 4600 4275 0    50   Input ~ 0
 PIN2
 Wire Wire Line
-	6250 4400 5700 4400
-Text HLabel 6250 4400 2    50   Input ~ 0
+	4600 4375 5150 4375
+Text HLabel 4600 4375 0    50   Input ~ 0
 PIN4
 Wire Wire Line
-	6250 4500 5700 4500
-Text HLabel 6250 4500 2    50   Input ~ 0
+	4600 4475 5150 4475
+Text HLabel 4600 4475 0    50   Input ~ 0
 PIN6
 Wire Wire Line
-	6250 4600 5700 4600
-Text HLabel 6250 4600 2    50   Input ~ 0
+	4600 4575 5150 4575
+Text HLabel 4600 4575 0    50   Input ~ 0
 PIN8
 Wire Wire Line
-	6250 4700 5700 4700
-Text HLabel 6250 4700 2    50   Input ~ 0
+	4600 4675 5150 4675
+Text HLabel 4600 4675 0    50   Input ~ 0
 PIN10
 Wire Wire Line
 	5650 1100 6200 1100
@@ -174,24 +174,24 @@ Text Label 6200 1750 2    50   ~ 0
 Text Label 6200 1850 2    50   ~ 0
 GND
 Wire Wire Line
-	5700 4000 6250 4000
+	5150 3975 4600 3975
 Wire Wire Line
-	5700 4100 6250 4100
-Text Label 6250 4000 2    50   ~ 0
+	5150 4075 4600 4075
+Text Label 4600 3975 0    50   ~ 0
 3v3
-Text Label 6250 4100 2    50   ~ 0
+Text Label 4600 4075 0    50   ~ 0
 GND
 Text Label 6200 3300 2    50   ~ 0
 3v3
 Text Label 4600 3300 0    50   ~ 0
 GND
 Wire Wire Line
-	5200 4000 4650 4000
+	5650 3975 6200 3975
 Wire Wire Line
-	5200 4100 4650 4100
-Text Label 4650 4000 0    50   ~ 0
+	5650 4075 6200 4075
+Text Label 6200 3975 2    50   ~ 0
 3v3
-Text Label 4650 4100 0    50   ~ 0
+Text Label 6200 4075 2    50   ~ 0
 GND
 Wire Wire Line
 	5650 2400 6200 2400
@@ -243,7 +243,7 @@ Text Label 3100 950  2    50   ~ 0
 3v3
 Text Label 3100 1300 2    50   ~ 0
 GND
-NoConn ~ 5700 4200
+NoConn ~ 5150 4175
 $Comp
 L Device:R R?
 U 1 1 5D2A8D56
