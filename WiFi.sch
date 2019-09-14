@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-30"
-Rev "V0.30"
+Date "2019-09-11"
+Rev "V0.31"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -1509,12 +1509,12 @@ Wire Wire Line
 	8300 5150 8300 5350
 Connection ~ 9400 5150
 $Comp
-L wemos_mini:WeMos_mini U7
+L Propios:WeMos_mini U7
 U 1 1 5D2FC003
 P 6800 2050
 F 0 "U7" H 6800 2687 60  0000 C CNN
 F 1 "WeMos_mini" H 6800 2581 60  0000 C CNN
-F 2 "wemos:wemos-d1-mini-with-pin-header-and-connector" H 6800 2581 60  0001 C CNN
+F 2 "Propios:wemos-d1-mini-with-pin-header-and-connector" H 6800 2581 60  0001 C CNN
 F 3 "http://www.wemos.cc/Products/d1_mini.html" H 6800 2581 60  0001 C CNN
 	1    6800 2050
 	-1   0    0    -1  
