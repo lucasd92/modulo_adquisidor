@@ -1,3 +1,12 @@
+Santiago Germino, 10/9/2019 (v1.71):
+	1) Se modificaron mas conexiones entre pista y pad de resistencias y 
+	   capacitores segun punto 1 en v1.2 (R32, R22, etc).
+	2) Se alejaron vias de los pads del microcontrolador U1.
+	3) Las resistencias opcionales (DNP) se indican con estilo de letra Italic.
+	4) Se consolidaron todos los footprints usados en Propios.pretty.
+	5) Vista 3D: Se coloco el 3dshape del cristal del RTC (Y1).
+	6) Vista 3D: Se agregaron headers en PCB para conectar modulo A6-mini (U9).
+
 Santiago Germino, 30/8/2019 (v1.70):
 	1) Se corrigio R1 y R2 en silk.
 	2) Se eliminaron dos resistencias del circuito PDR_ON (segun esquematico 

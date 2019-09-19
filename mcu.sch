@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Adquisidor genérico - Placa Base"
-Date "2019-08-30"
-Rev "V0.30"
+Date "2019-09-11"
+Rev "V0.31"
 Comp "Trenes Argentinos Operaciones"
 Comment1 "Colaboradores: Santiago Germino"
 Comment2 "Autor: Lucas Dórdolo"
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32f407vetx:STM32F407VGTx U?
+L Propios:STM32F407VGTx U?
 U 1 1 5D0882C8
 P 3350 3550
 AR Path="/5D0882C8" Ref="U?"  Part="1" 
